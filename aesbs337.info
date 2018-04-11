@@ -31,4 +31,6 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/aes-style.css
+stylesheets[all][] = css/theme-style.css
+stylesheets[all][] = css/block-style.css
+stylesheets[all][] = css/site-style.css

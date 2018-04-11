@@ -1,0 +1,412 @@
+.form-control{
+	font-size:inherit;
+}
+
+.form-item-keys-1{
+	display:inline-block;
+}
+
+
+.cust-portal{
+	float:right;
+	margin-right:0.4em;
+	padding-top:0.4em;
+	height:100%;
+}
+
+.cust-portal a{
+	border-bottom:none;
+	color:#ffffff;
+}
+
+.cust-portal a:hover{
+	border-bottom:1px solid #ffffff;
+}
+
+.portal {
+	height:2.5em;
+	width:2.5em!important;
+	border-bottom:none;
+}
+
+.lang-switch{
+	color:#ffffff;
+	float:left;
+	padding-top:0.7em;
+	height:100%
+}
+
+a.language-link.active {
+	color:#ffffff;
+	border-bottom:none;
+}
+
+.lang-switch a{
+	color:#e7e7e7;
+	border-bottom:none;
+}
+
+.lang-switch a:hover{
+	border-bottom:1px solid #ffffff;
+}
+
+.lang-switch li{
+	display:inline;
+	padding-left:1em;
+}
+
+.social-id{
+	position:absolute;
+	top:-3.8em;
+	left:-10em;
+	z-index:2;
+}
+
+.fade_text{
+	display:none;
+	color:#ffffff;
+}
+
+.action-menu{
+	background: rgba(0,0,0,0.5);
+	color:#ffffff;
+	height:3em;
+	width:100%;
+}
+
+.block-menu.action-menu{
+	width:10%;
+	background:none;
+	margin-left:1.25em;
+	padding:0;
+	float:left;
+}/*contact us form link*/
+
+.block-menu.action-menu a{
+	border-bottom:none;
+	color:#ffffff;
+	padding:0.7em 0 0 0;
+}
+
+.block-menu.action-menu a:hover{
+	border-bottom:1px solid #ffffff;
+	background:none;
+	color:#ffffff;
+}/*contact us form link*/
+
+.block-margin{
+	margin-top:20px;
+}/*margin for blocks
+
+/*blockquote styling to add quotation mark images*/
+.blockquote{
+	margin:0 5em 0 5em;
+	color:#002A5B;
+	background-image:url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
+	background-position:-0.5% 0%,98.7% 100% ;
+	background-repeat:no-repeat;
+	padding:1.7em
+}
+
+/*Block stylings*/
+ .red-radial{
+	width:100%;
+	color:#ffffff;
+	background-color:#dd1e25;
+	background-image:radial-gradient(circle, #dd1e25,#cd1721,#b6151c);
+} /* radial gradient colour for the suffix header*/
+
+.red-radial h2{
+	color:#ffffff
+}/*red radial text within background*/
+
+
+.blue-background {
+    background: #002A5B;
+    color: #FFFFFF;
+    padding: 10px 5px 10px 5px;
+}
+
+.blue-background h2{
+	color:#ffffff;
+}
+
+.red-background {
+    background: #DD1E25;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+
+.darkgrey-background {
+    background: #888C8F;
+    color: #FFFFFF;
+    padding: 10px 5px 10px 5px;
+}
+
+.midgrey-background {
+    background: #B5B6B9;
+    color: #FFFFFF;
+    padding: 10px 5px 10px 5px;
+}
+
+.lightgrey-background {
+    background: #E5E5E7;
+    color: #888C8F;
+    padding: 10px 5px 10px 5px;
+}
+
+.well{
+background-color:#e5e5e7;
+}
+
+.dotted-border{
+	outline: 2px dotted #888c8f;
+	padding: 2em 0.5em 2em 0.5em;
+}
+
+.blue-gradient{
+	background: #004a8c;
+	background: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
+	background: -webkit-linear-gradient(-45deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
+	background: linear-gradient(135deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
+}
+
+.grey-gradient {
+	background: #cbd1d5;
+	background: -moz-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
+	background: -webkit-linear-gradient(-45deg, #cbd1d5 0%,#abb2b6 42%,#f5fbfe 100%);
+	background: linear-gradient(135deg, #cbd1d5 0%,#abb2b6 42%,#f5fbfe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbd1d5', endColorstr='#f5fbfe',GradientType=1 );
+	width:100%;
+	max-height:100%;
+	padding:10px 15px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+}
+
+.dark-grey-gradient{
+	background-image: -moz-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
+	background-image: -webkit-linear-gradient(-45deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
+	background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png), linear-gradient(135deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8e8f', endColorstr='#a6aaad',GradientType=1 );
+	width:100%;
+	color:#ffffff;
+	padding:10px 15px;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+.water-background{
+	background-image: url(/sites/default/files/background/water-background.jpg);
+	background-repeat:no-repeat;
+	border:5px solid #ffffff;
+	background-size:100%;
+}
+
+.iceberg-sea{
+	margin-top:-9em;
+}
+
+.principles-set{
+	margin-top:9em;
+}
+
+.iceberg{
+	background-image:url(/sites/all/themes/aesbs337/images/photos/workshop-back.jpg);
+	background-repeat:no-repeat;
+	height:18em;
+	background-position:60% 70%;
+	position:relative;
+	margin:1em 0 1em 0;
+	z-index:1;
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.6), inset 0 -3px 0 rgba(255,255,255,.3);
+	-moz-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.6), inset 0 -3px 0 rgba(255,255,255,.3);
+	box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.6), inset 0 -3px 0 rgba(255,255,255,.3);
+}
+
+.iceberg:after{
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	height:50%;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+	position:absolute
+}
+
+.iceberg-gradientsea{
+	padding-bottom:5em;
+	padding-top:10px;
+}/* above is the background variations that can be provided to certain blocks*/
+
+/*RRSSB*/
+.rrssb{
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0!important;
+}
+#block-rrssb-rrssb {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+	max-width: 60vw; /* limit to 60% of viewport width */
+	margin: 0px auto;
+}
+
+.product{
+	float: right;
+    display: inline;
+    padding: 10px 0 10px 10px;
+    height: auto;
+    width: 150px;
+}/* code for the images on the product range*/
+
+/*Masonry style starts here*/
+
+.masonry-item img {
+    border-radius: 6px 6px 0 0;
+}
+
+.masonry-item .views-field-title {
+    padding: 1px 0 0 15px;
+    margin: 0;
+	background-color:#ffffff;
+}
+
+.masonry-item .views-field-title .field-content {
+	background:#ffffff;
+	margin:0;
+}
+
+.text-padding {
+    padding: 0.5em 1em;
+	background:#ffffff;
+}
+
+.view-content.masonry-processed{
+	padding:0px;
+}
+
+.masonry-item .views-field-view-node {
+    padding: 12px 15px;
+    border-top: 1px solid #e5e5e7;
+	background:#ffffff;
+}
+
+.masonry-item{
+	padding:2em;
+	margin:0;
+	border:none;
+	background:none;
+}
+
+/*Added to unique masonry social styling*/
+.social-body{
+	background:#ffffff;
+	padding:5px 15px 12px;
+}
+
+.social-indicator{
+	float:right;
+	z-index:2;
+	margin-top:-2.5em;
+	position:relative;
+	border-radius:0!important;
+}
+
+.social-date{
+	color:#ffffff;
+	margin-top:-1.6em;
+	position:relative;
+	z-index:2;
+	padding-left:12px;
+	text-shadow: 2px 2px 2px rgba(58, 58, 58, 0.5);
+}/*end of unique masonry styling*/
+
+.view-social-stream{
+	padding: 2em;
+}
+
+.view-case-studies-stream{
+	padding:2em;
+}
+
+.view-mobile-social-stream{
+	padding: 2em;
+}
+
+.view-news{
+	padding: 2em;
+	margin-top:-20px;
+}/*Masonry tiles styling*/
+
+@media screen and (max-width: 767px) {
+.view-news{
+	margin-top:0;
+}
+.cust-portal{
+	display:none;
+}
+.block-menu.action-menu{
+	display:none;
+}
+.iceberg-blocktitle{
+	margin-top:-4.8em;
+}
+}
+
+@media screen and (min-width: 768px) {
+.block-search-api-page{
+	padding-top:0.28em;
+}
+
+.form-item-keys-1{
+	width:71%
+}
+}
+
+@media screen and (min-width: 992px) {
+.form-item-keys-1{
+	width:72%
+}
+.block-search-api-page{
+	padding-top:0.385em;
+}
+.iceberg-blocktitle{
+	margin-top:-4.8em;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.block-search-api-page{
+	padding-top:0.55em;
+}
+
+.iceberg-blocktitle{
+	margin-top:-4.1em;
+}
+
+.form-item-keys-1{
+	width:73%
+}
+}
+
+@media (max-width: 992px){
+.region-right{
+	display:none;
+}
+
+.region-left{
+	padding:0;
+	margin:0!important;
+}
+}
+
+@media all and (min-width: 1247px) {
+.rrssb-item-list {
+  	margin-bottom: 60px; /* more spacing on larger screens */
+ }
+#block-rrssb-rrssb {
+    padding-bottom: 25px;
+}
+}
