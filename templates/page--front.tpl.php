@@ -74,9 +74,9 @@
  */
 ?>
 
-<div class="container-fluid bannercontainer">			
+<div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
-		<div class="row waveupper row-eq-height">					
+		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-1 no-padding">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
@@ -91,7 +91,7 @@
 					<?php endif; ?>
 			</div>
 
-				
+
 		<div class="col-sm-10 col-xs-11 no-padding">
 			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
@@ -117,7 +117,7 @@
 
 					<div class="navbar-collapse collapse">
 						<div class="container-fluid navbar-container">
-			
+
 							<nav role="navigation">
 								<?php if (!empty($primary_nav)): ?>
 									<?php print render($primary_nav); ?>
@@ -142,7 +142,7 @@
 		</div>
 			</header>
 		</div>
-  
+
 		<?php if ($page['preface']): ?>
 			<div class="preface">
 				<?php print render($page['preface']);?>
@@ -159,18 +159,18 @@
 				</div>
 
 				<div class="col-sm-3 col-xs-10 no-padding">
-				
+
 					<?php
 						$block = block_load('block', '34');
 						$block_content = _block_render_blocks(array($block));
 						$build = _block_get_renderable_array($block_content);
 						print render($build);
 					?>
-					
+
 					<img class="curve-down" src = "/sites/default/files/images/wave-lower.svg" img alt ="curve-down"></img>
-					
+
 					<div class="socialmedia text-center">
-					<?php	
+					<?php
 						$block = module_invoke('views', 'block_view', 'social_icons-block');
 						print render($block['content']);
 					?>
@@ -199,11 +199,11 @@
 		<?php endif; ?>
 
 		<section class="
-		
+
 				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
 					else { print 'col-sm-4 col-md-6'; } ?>">
-			
+
 			<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 			<?php if (!empty($page['highlighted'])): ?>
 				<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
@@ -215,11 +215,11 @@
 				<?php if (!empty($title)): ?>
 					<!---<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>-->
 				<?php endif; ?>
-	  
+
 	        <?php print render($title_suffix); ?>
 				<?php print $messages; ?>
 
-	  			
+
 			<div class="breadcrumb-wrap">
 				<div class="container-fluid">
 					<div class="row">
@@ -230,7 +230,7 @@
 				</div>
 			</div>
 			</div>
-  
+
 
 			<?php if (!empty($tabs)): ?>
 				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
@@ -270,19 +270,19 @@
 			<?php if (!empty($page['postscript_fir'])): ?>
 				<aside class="col-sm-4 col-md-3" role="complementary">
 					<?php print render($page['postscript_fir']); ?>
-				</aside>  
+				</aside>
 			<?php endif; ?><!--added by Matt -->
-		
+
 			<section class="
-		
+
 				<?php if (empty($page['postscript_fir']) && empty($page['postscript_last'])) { print 'col-sm-12'; }
 					else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
 					else { print 'col-sm-4 col-md-6'; } ?>">
-			
+
 				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 					<?php print render($page['postscript_mid']);?><!--added by Matt-->
 				</div>
-			
+
 			</section>
 
 			<?php if (!empty($page['postscript_last'])): ?>
@@ -293,7 +293,7 @@
 
 		</div>
 	</div>
-	
+
 			<?php if (!empty($page['postscript'])): ?> <!-- Postscript region (172-178) added by Ben. B -->
 				<div class="postscript">
 					<div class="section">
@@ -310,9 +310,7 @@
 <?php endif; ?>
 
 <?php if ($page['footer_lower']): ?>
-	<footer class="footer_lower><?php print $container_class; ?>">
-		<div class="col-sm-12">
+	<footer class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
 			<?php print render($page['footer_lower']);?>
-		</div>
 	</footer>
 <?php endif; ?><!--added by Matt -->

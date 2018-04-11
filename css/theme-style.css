@@ -112,6 +112,17 @@ a:hover {
 	background-attachment:fixed;
 }
 
+.dark-grey-gradient{
+	background-image: -moz-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
+	background-image: -webkit-linear-gradient(-45deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
+	background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png), linear-gradient(135deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8e8f', endColorstr='#a6aaad',GradientType=1 );
+	width:100%;
+	color:#ffffff;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
 /*banner commands*/
 .banner-title{
 	color:#ffffff;
@@ -264,12 +275,15 @@ a:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbd1d5', endColorstr='#f5fbfe',GradientType=1 );
 }
 
-.footer-lower{
-	position:absolute;
-	width:100%;
-	padding:20px 0;
-	margin: 0 -15px;
+.footer_lower{
+	padding-top:0px;
+	padding-bottom:0px;
+	width:100%
 }/* lower section of the footer code for its sizing*/
+
+.footer-lower{
+	padding:10px 15px;
+}
 
 .footer-lower a{
 	border-bottom:none;

@@ -185,18 +185,6 @@ background-color:#e5e5e7;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
 }
 
-.dark-grey-gradient{
-	background-image: -moz-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
-	background-image: -webkit-linear-gradient(-45deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
-	background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png), linear-gradient(135deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8e8f', endColorstr='#a6aaad',GradientType=1 );
-	width:100%;
-	color:#ffffff;
-	padding:10px 15px;
-	background-repeat:no-repeat;
-	background-position:top center;
-}
-
 .water-background{
 	background-image: url(/sites/default/files/background/water-background.jpg);
 	background-repeat:no-repeat;
