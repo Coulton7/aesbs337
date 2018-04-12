@@ -67,7 +67,7 @@ p a[target="_blank"]:after {
 	height:100%;
 }
 
-.red-overlay{
+.overlay-red{
 	background:rgba(221,30,37,.9);
 	left:0;
 	opacity:0;
@@ -81,7 +81,7 @@ p a[target="_blank"]:after {
 	width:100%;
 }
 
-.red-overlay:hover{
+.overlay-red:hover{
 	opacity: 1;
     -moz-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
@@ -96,7 +96,7 @@ p a[target="_blank"]:after {
     transform: scale(1.2)
 }/*Makes the image slightly bigger*/
 
-.gallery-box:hover .red-overlay p {
+.gallery-box:hover .overlay-red p {
     opacity: 1;
     -moz-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
