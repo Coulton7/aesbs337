@@ -42,6 +42,7 @@ h2, h3, h4, h5, h6{
 }/*sets the color of the text and margin for all header tags above*/
 
 a {
+	color: #dd1e25;
 	text-decoration: none;
 }
 a:link {
