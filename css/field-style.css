@@ -202,6 +202,25 @@ images*/
 	color:#ffffff;
 }/*contact us form link*/
 
+.search-block .btn{
+	float:right;
+	margin:0;
+	display:inline;
+	border-radius:3px;
+	padding:5px 12px;
+	height:34px;
+	font-size:inherit;
+	line-height:5px;
+	background-color: #DD1E25;
+	border-color:#DD1E25;
+	color:#ffffff;
+}
+
+.search-block .btn:hover{
+	background-color: #fa010a;
+	outline:none;
+	color:#ffffff;
+}
 
 #search-api-page-search-form div button[type="submit"]{
 	border-radius:4px;
@@ -303,9 +322,12 @@ a.language-link.active {
 }/*Adds sperator to the bottom of the row class*/
 
 .search-block .btn{
-	background-color: #DD1E25;
-	border-color:#DD1E25;
-	color:#ffffff;
+	border-radius:4px;
+	padding:6px 12px;
+	height:34px;
+	display:inline;
+	margin:0;
+	font-size:inherit;
 }/*For the search button*/
 
 .btn-default{
@@ -627,7 +649,7 @@ div.user-picture > img {
 
 @media screen and (max-width: 767px) {
 	.social-id{
-		display:none;
+	display:none;
 }/*For the faidng contact us text*/
 .map-icon ul li:nth-child(1) a:after{
 	padding-right:0.8em;
@@ -698,9 +720,7 @@ div.user-picture > img {
 	z-index: 4;
 }/*padding bewteen the icons*/
 
-.search-block{
-	padding-top:0.28em;
-}
+
 
 .form-item-keys-1{
 	width:71%
@@ -710,7 +730,7 @@ div.user-picture > img {
 
 @media screen and (min-width: 992px) {
 	.form-item-keys-1{
-		width:72%
+	width:72%
 	}/*The width of the search box*/
 
 .map-icon ul li:nth-child(1) a:after{
