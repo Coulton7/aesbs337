@@ -179,6 +179,10 @@ body.navbar-is-fixed-top.navbar-administration{
 
 }
 
+.nav li a.active{
+	color: #1c2f55
+}
+
 .navbar-nav > li > a{
 	border-top:4px solid transparent;
 	border-bottom:none;
