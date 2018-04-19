@@ -80,13 +80,13 @@
 			<div class="col-sm-2 col-xs-1 no-padding">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-						<img class="wavelogo" src = "/sites/default/files/images/logo.svg" img alt ="logo">
+						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo">
 					</div>
 				</a>
-				<img class= "uppercurve" src = "/sites/default/files/images/wave-upper.svg" img alt ="uppercurve"></img>
+				<img class= "uppercurve" src = "/sites/all/themes/aesbs337/images/logos/wave-upper.svg" img alt ="uppercurve"></img>
 					<?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/default/files/images/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
@@ -167,7 +167,7 @@
 						print render($build);
 					?>
 
-					<img class="curve-down" src = "/sites/default/files/images/wave-lower.svg" img alt ="curve-down"></img>
+					<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
 
 					<div class="socialmedia text-center">
 					<?php
