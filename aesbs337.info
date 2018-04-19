@@ -32,6 +32,6 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/font-style.css
-stylesheets[all][] = css/reigons-style.css
+stylesheets[all][] = css/regions-style.css
 stylesheets[all][] = css/block-style.css
 stylesheets[all][] = css/field-style.css
