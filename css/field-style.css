@@ -647,6 +647,54 @@ div.user-picture > img {
 	margin-top:-20px;
 }/*For the all news stream*/
 
+.padding-bottom{
+	padding-bottom: 1em;
+}
+
+.padding-top{
+	padding-top: 1em;
+}
+
+.padding-left{
+	padding-left: 1em;
+}
+
+.padding-right{
+	padding-right: 1em;
+}
+
+.padding-1em{
+	padding: 1em;
+}
+
+.padding-2em{
+	padding: 2em;
+}
+
+.margin-top{
+	margin-top: 1em;
+}
+
+.margin-left{
+	margin-left: 1em;
+}
+
+.margin-right{
+	margin-right: 1em;
+}
+
+.margin-bottom{
+	margin-bottom: 1em;
+}
+
+.margin-1em{
+	margin: 1em;
+}
+
+.margin-2em{
+	margin: 2em;
+}
+
 @media screen and (max-width: 767px) {
 	.social-id{
 	display:none;
