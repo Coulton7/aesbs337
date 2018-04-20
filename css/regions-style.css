@@ -43,10 +43,6 @@ body.navbar-is-fixed-top.navbar-administration{
 	display: flex;
 }
 
-.padding-bottom{
-	margin-bottom:3em;
-}
-
 .row-deep{
 	padding-bottom:3em;
 	padding-top:2.5em;
