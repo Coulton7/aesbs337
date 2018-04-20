@@ -74,6 +74,9 @@
  */
 ?>
 
+<link rel="stylesheet" href="sites/all/libraries/flexslider/flexslider.css" type="text/css">
+<script src="sites/all/libraries/flexslider/jquery.flexslider.js"></script>
+
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<div class="row waveupper row-eq-height">
