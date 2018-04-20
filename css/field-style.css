@@ -381,6 +381,14 @@ a.language-link.active {
 	outline-width:1px;
 }/*Red button hover command for html*/
 
+.link-border-remove a{
+	border: none;
+}
+
+.link-border-remove a:hover{
+	border: none;
+}
+
 .tabs--primary.nav li.active a.active{
 	background:#f5f5f5;
 }/*Tabs for views and basic pages*/
