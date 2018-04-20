@@ -78,7 +78,7 @@
 	<div class="row bannerimage">
 
 		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-2 no-padding">
+			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
 						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo">
@@ -92,7 +92,7 @@
 					<?php endif; ?>
 			</div>
 
-			<div class="col-sm-10 col-xs-10 no-padding">
+			<div class="col-sm-10 col-xs-10 fullscreen">
 				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
@@ -150,12 +150,12 @@
 		</div>
 
 		<div class="row wavelower row-eq-height">
-			<div class="col-sm-9 col-xs-1 no-padding">
+			<div class="col-sm-9 col-xs-1 fullscreen">
 				<div class="bottom-gap">
 				</div>
 			</div>
 
-			<div class="col-sm-3 col-xs-10 no-padding">
+			<div class="col-sm-3 col-xs-10 fullscreen">
 
 				<?php
 					$block = block_load('block', '34');
@@ -178,7 +178,7 @@
 </div>
 		<?php endif; ?><!--added by Matt -->
 
-<div class="col-sm-12 no-padding">
+<div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
@@ -189,7 +189,7 @@
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
 	<div class="row">
-		<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12 no-padding'; }
+		<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
 					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
 					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
 

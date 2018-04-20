@@ -90,7 +90,7 @@
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-1 no-padding">
+			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
 						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo">
@@ -105,7 +105,7 @@
 			</div>
 
 
-		<div class="col-sm-10 col-xs-11 no-padding">
+		<div class="col-sm-10 col-xs-11 fullscreen">
 			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
 				<div class="<?php print $container_class; ?>">
@@ -166,12 +166,12 @@
 			</div>
 
 			<div class="row wavelower row-eq-height">
-				<div class="col-sm-9 col-xs-1 no-padding">
+				<div class="col-sm-9 col-xs-1 fullscreen">
 					<div class="bottom-gap">
 					</div>
 				</div>
 
-				<div class="col-sm-3 col-xs-10 no-padding">
+				<div class="col-sm-3 col-xs-10 fullscreen">
 
 					<?php
 						$block = block_load('block', '34');
@@ -194,7 +194,7 @@
 </div>
 	<?php endif; ?><!--added by Matt -->
 
-<div class="col-sm-12 no-padding">
+<div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
