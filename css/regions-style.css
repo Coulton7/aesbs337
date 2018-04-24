@@ -224,6 +224,13 @@ body.navbar-is-fixed-top.navbar-administration{
 	margin: 0 5em 0 5em;
 }
 
+.flexbox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
 .footer {
 	padding-top:0px;
 	padding-bottom:0px;
