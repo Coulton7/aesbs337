@@ -229,6 +229,7 @@ body.navbar-is-fixed-top.navbar-administration{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .flexbox .col{
