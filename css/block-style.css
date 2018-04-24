@@ -210,7 +210,7 @@ background-color:#e5e5e7;
 }
 
 .dotted-border{
-	outline: 2px dotted #888c8f;
+	outline: 1px dashed #888c8f;
 	padding: 1em 0.5em 1em 0.5em;
 }
 
