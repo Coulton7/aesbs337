@@ -314,6 +314,16 @@ a.language-link.active {
 	color:#ffffff;
 }/*highlight for the button when a mouse hovers over it*/
 
+.oembed{
+	float:none;
+	border:none;
+	background:none;
+}
+
+.oembed .oembed-title{
+	display:none;
+}
+
 .list-row{
 	min-height:135px;
 	clear:right;
