@@ -292,7 +292,7 @@ body.navbar-is-fixed-top.navbar-administration{
   }
 
   .flexslider .slides img{
-  	height:20.95em!important;
+  	height:20.95em;
   }
 
   .bottom-gap{
@@ -315,7 +315,7 @@ body.navbar-is-fixed-top.navbar-administration{
   	height:20em;
   }
   .flexslider .slides img{
-  	height:20em!important;
+  	height:20em;
   }
   .bottom-gap{
   	display:none;
@@ -355,7 +355,7 @@ body.navbar-is-fixed-top.navbar-administration{
   }
 
   .flexslider .slides img{
-  	height:22em!important;
+  	height:22em;
   }
 
   .uppercurve{
@@ -393,7 +393,7 @@ body.navbar-is-fixed-top.navbar-administration{
   }
 
   .flexslider .slides img{
-  	height:24em!important;
+  	height:24em;
   }
   .textlogo{
   	top:-0.1em;
