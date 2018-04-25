@@ -73,10 +73,6 @@ body.navbar-is-fixed-top.navbar-administration{
 	position:absolute;
 }
 
-.gap{
-	margin: -4.3em 0 0 0;
-}
-
 .flex_gradient{
 	height:100%;
 	-webkit-background-size:cover;
@@ -89,6 +85,7 @@ body.navbar-is-fixed-top.navbar-administration{
 	background-image: linear-gradient(135deg, #002a5b 0%, #004a8c 41%, #002a5b 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a5b', endColorstr='#004a8c',GradientType=1 );
 	background-attachment:fixed;
+	margin: -4.3em 0 0 0;
 }
 
 .dark-grey-gradient{
