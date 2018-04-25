@@ -156,7 +156,7 @@
 	</div>
 
 	<?php if ($page['preface']): ?>
-	<div class="preface">
+	<div class="preface front__flex-margin">
 			<?php print render($page['preface']);?>
 	</div>
 
