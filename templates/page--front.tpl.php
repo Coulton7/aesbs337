@@ -228,15 +228,16 @@
 				<?php print $messages; ?>
 
 
-			<div class="breadcrumb-wrap">
+			<!--<div class="breadcrumb-wrap">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-							<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!-- New breadcrumb location -->
+							<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>  New breadcrumb location
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
+			
 			</div>
 
 
