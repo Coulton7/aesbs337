@@ -73,7 +73,8 @@
  * @ingroup templates
  */
 ?>
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
