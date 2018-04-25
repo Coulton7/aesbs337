@@ -151,10 +151,9 @@
 						</div>
 					</div>
 				<?php endif; ?><!--added by Matt -->
-
-		</div>
 			</header>
 		</div>
+	</div>
 
 		<?php if ($page['preface']): ?>
 			<div class="preface">
