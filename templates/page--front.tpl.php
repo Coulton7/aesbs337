@@ -155,10 +155,10 @@
 		</div>
 	</div>
 
-		<?php if ($page['preface']): ?>
-			<div class="preface">
-				<?php print render($page['preface']);?>
-			</div>
+	<?php if ($page['preface']): ?>
+	<div class="preface">
+			<?php print render($page['preface']);?>
+	</div>
 
 			<div class="row wavelower row-eq-height">
 				<div class="col-sm-9 col-xs-1 fullscreen">
