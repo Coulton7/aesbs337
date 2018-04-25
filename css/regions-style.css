@@ -88,6 +88,10 @@ body.navbar-is-fixed-top.navbar-administration{
 	margin: -4.3em 0 0 0;
 }
 
+.front__flex-margin{
+		margin: -4.3em 0 0 0;
+}
+
 .dark-grey-gradient{
 	background-image: -moz-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
 	background-image: -webkit-linear-gradient(-45deg, #8d8e8f 0%,#5c5f60 42%,#a6aaad 100%);
