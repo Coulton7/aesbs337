@@ -159,10 +159,6 @@
 		<?php if ($page['preface']): ?>
 			<div class="preface">
 				<?php print render($page['preface']);?>
-							<?php
-								$block = module_invoke('fieldblock' , 'block_view' , 'c95f1325a4ef64f12582e4a941d72fda');
-								print render ($block ['content']);
-							?>
 			</div>
 
 			<div class="row wavelower row-eq-height">
