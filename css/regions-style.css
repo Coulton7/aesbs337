@@ -234,7 +234,7 @@ body.navbar-is-fixed-top.navbar-administration{
 }
 
 .flexbox .col{
-	flex:33%;
+	flex:1;
 }
 
 .footer {
