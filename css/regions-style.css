@@ -225,6 +225,15 @@ body.navbar-is-fixed-top.navbar-administration{
 	margin: 0 5em 0 5em;
 }
 
+.breadcrumb-wrap{
+	margin-bottom: 1em;
+}
+
+.breadcrumb{
+	display: inline;
+	background: transparent
+}
+
 .flexbox{
 	display: -webkit-box;
 	display: -webkit-flex;
