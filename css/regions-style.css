@@ -227,6 +227,9 @@ body.navbar-is-fixed-top.navbar-administration{
 
 .breadcrumb-wrap{
 	margin-bottom: 1em;
+	background:#e5e5e7;
+	padding:0.3em;
+	padding-left:1.5em;
 }
 
 .breadcrumb{
