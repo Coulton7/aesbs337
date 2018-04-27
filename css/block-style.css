@@ -132,7 +132,6 @@
 	background-image:url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png);
 	display:flex;
 	list-style-type:none;
-	justify-content:center;
 	background-repeat:no-repeat;
 	background-position:top center;
 }
