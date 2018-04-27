@@ -242,6 +242,7 @@ border-radius: 0;
 	padding:10px 15px;
 	border-top: 1px solid rgba(0,0,0,0.1);
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+	z-index:-1;
 }
 
 .water-background{
