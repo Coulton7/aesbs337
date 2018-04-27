@@ -243,6 +243,7 @@ body.navbar-is-fixed-top.navbar-administration{
 	display: -ms-flexbox;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .flexbox .col{
