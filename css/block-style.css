@@ -62,6 +62,14 @@
 	float:right;
 }/*Float for the solutions - industries section*/
 
+.float-bottom{
+	vertical-align: bottom;
+}
+
+.float-top{
+	vertical-align:bottom;
+}
+
 /*blockquote styling to add quotation mark images*/
 .blockquote{
 	margin:0 5em 0 5em;
