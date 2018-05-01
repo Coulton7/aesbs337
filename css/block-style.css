@@ -54,6 +54,10 @@
 	margin-top:20px;
 }/*margin for blocks*/
 
+.block-margin-bottom{
+	margin-bottom: 1em;
+}
+
 .float-left{
 	float:left;
 }/*Float for the solutions - industries section*/
