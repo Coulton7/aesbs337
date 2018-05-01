@@ -11,7 +11,7 @@
         if (windowScrollTop <= windowHeight) {
           var scrollPercent = windowScrollTop/windowHeight;
 
-          self.find('.textlogo').css({
+          self.find('.textlogo, .section-shadow-menu').css({
             opacity: -1.03 + scrollPercent*4.5
           });
 
@@ -37,7 +37,7 @@ jQuery(window).width( function(e){
 
 jQuery(document).ready(function(){
 if(jQuery(window).width() > 992){
-	
+
  		 jQuery('.waveupper').waveFade();
 	}
 else{

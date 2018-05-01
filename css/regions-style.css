@@ -164,6 +164,14 @@ body.navbar-is-fixed-top.navbar-administration{
 	width:100%;
 }
 
+.section-shadow-menu{
+	background-image:url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png);
+	height: 1em;
+	list-style-type:none;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
 .nav li a{
 	display:block;
 	color:#535454;
