@@ -149,6 +149,7 @@
 			</div>
 		</div>
 
+		<?php if ($page['wavelower']): ?>
 		<div class="row wavelower row-eq-height">
 			<div class="col-sm-9 col-xs-1 fullscreen">
 				<div class="bottom-gap">
@@ -156,6 +157,7 @@
 			</div>
 
 			<div class="col-sm-3 col-xs-10 fullscreen">
+
 
 				<?php
 					$block = block_load('block', '34');
@@ -165,6 +167,8 @@
 				?>
 
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"></img>
+
+				<?php print render($page['wavelower']): ?>
 
 				<div class="socialmedia text-center">
 					<?php
