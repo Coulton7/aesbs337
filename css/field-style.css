@@ -436,36 +436,6 @@ div.user-picture > img {
 	padding:3em;
 }/*rounds the user picture*/
 
-.map-icons{
-	width: 100%;
-}/*Map icon block (but only really applies to map icon*/)
-
-.map-icons ul{
-	display:flex;
-	justify-content:center;
-	list-style:none;
-	padding-left:0;
-	flex-wrap:wrap;
-}/*Set the map icons inline horizontal*/
-
-.map-icons li a{
-	border-bottom:none;
-}/*Hides the border bottom on all links in map icons*/
-
-.map-icon ul li:nth-child(1) a:after{
-    font-family: 'FontAwesome';
-    content: " \f041";
-	color:#d34836;
-	font-size: 2.5em;
-}/*Fontawesome map icon logo*/
-
-.map-icon ul li:nth-child(2) a:after{
-    font-family: 'FontAwesome';
-    content:"\f1a0";
-	color:#d34836;
-	font-size: 2.5em;
-}/*Fontawesome Google logo*/
-
 /*end of social icons*/
 
 #contact-col-left{
