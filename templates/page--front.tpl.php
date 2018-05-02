@@ -166,6 +166,7 @@
 	<div class="preface front__flex-margin">
 			<?php print render($page['preface']);?>
 	</div>
+	<?php endif; ?><!--added by Matt -->
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
