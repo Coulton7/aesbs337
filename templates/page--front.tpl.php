@@ -188,13 +188,11 @@
 
 			<?php print render($page['wavelower']);?>
 
-
-				</div>
-			</div>
-			<?php endif; ?><!--added by Matt -->
+		</div>
+	</div>
+	<?php endif; ?><!--added by Matt -->
 	</div>
 </div>
-
 
 <div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
