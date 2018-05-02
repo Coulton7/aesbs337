@@ -440,7 +440,7 @@ div.user-picture > img {
 	display:none;
 }/*Hide the social profile field icon that is provided*/
 
-.social-icon ul li:nth-child(1) a:after {
+.socialmedia ul li:nth-child(1) a:after {
     font-family: 'FontAwesome';
     content: " \f099";
 	color:#1DA1F2;
@@ -449,7 +449,7 @@ div.user-picture > img {
 	font-size: 2.5em;
 }/*Fontawesome twitter logo*/
 
-.social-icon ul li:nth-child(2) a:after {
+.socialmedia ul li:nth-child(2) a:after {
     font-family: 'FontAwesome';
     content: " \f0e1";
 	color:#0077b5;
@@ -457,7 +457,7 @@ div.user-picture > img {
 	font-size: 2.5em;
 }/*Fontawesome Linkdin logo*/
 
-.social-icon ul li:nth-child(3) a:after {
+.socialmedia ul li:nth-child(3) a:after {
     font-family: 'FontAwesome';
     content: " \f098";
     color: #d34836;
@@ -466,7 +466,7 @@ div.user-picture > img {
     font-size: 2.5em;
 }/*Fontawesome contact logo*/
 
-.social-icon ul li:nth-child(4) a:after {
+.socialmedia ul li:nth-child(4) a:after {
     font-family: 'FontAwesome';
     content: " \f0ac";
 	color:#002A5B;
@@ -474,7 +474,7 @@ div.user-picture > img {
 	font-size: 2.5em;
 }/*Fontawesome globe logo*/
 
-.social-icon ul li:nth-child(5) a:after {
+.socialmedia ul li:nth-child(5) a:after {
     font-family: 'FontAwesome';
     content: " \f041";
 	color:#d34836;
@@ -732,27 +732,27 @@ div.user-picture > img {
 	padding-right:0.8em;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(1) a:after{
+.socialmedia ul li:nth-child(1) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(2) a:after{
+.socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(3) a:after{
+.socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(4) a:after{
+.socialmedia ul li:nth-child(4) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(5) a:after{
+.socialmedia ul li:nth-child(5) a:after{
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
@@ -768,27 +768,27 @@ div.user-picture > img {
 	padding-right:0.8em;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(1) a:after{
+.socialmedia ul li:nth-child(1) a:after{
 	padding-right:0.7em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(2) a:after{
+.socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(3) a:after{
+.socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(4) a:after{
+.socialmedia ul li:nth-child(4) a:after{
 	padding-right:0.8em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(5) a:after{
+.socialmedia ul li:nth-child(5) a:after{
 	padding-right:0.8em;
 	z-index: 4;
 }/*padding bewteen the icons*/
@@ -814,25 +814,25 @@ div.user-picture > img {
 	padding-right:0.6em;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(1) a:after{
+.socialmedia ul li:nth-child(1) a:after{
 	padding-left: 0;
 	padding-right:0.6em;
 	z-index:4;
 }/*padding bewteen the icons*/
-.social-icon ul li:nth-child(2) a:after{
+.socialmedia ul li:nth-child(2) a:after{
 	padding-right:0.6em;
 	z-index:4;
 }/*padding bewteen the icons*/
-.social-icon ul li:nth-child(3) a:after{
+.socialmedia ul li:nth-child(3) a:after{
 	padding-right:0.6em;
 	z-index:4;
 }/*padding bewteen the icons*/
-.social-icon ul li:nth-child(4) a:after{
+.socialmedia ul li:nth-child(4) a:after{
 	padding-right:0.6em;
 	z-index:4;
 }/*padding bewteen the icons*/
 
-.social-icon ul li:nth-child(5) a:after{
+.socialmedia ul li:nth-child(5) a:after{
 	padding-right:0;
 	z-index:4;
 }/*padding bewteen the icons*/
