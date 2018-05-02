@@ -41,7 +41,7 @@ if(jQuery(window).width() > 992){
  		 jQuery('.waveupper').waveFade();
 	}
 else{
-	 jQuery('.textlogo').css({"opacity":"1"})
+	 jQuery('.textlogo, .section-shadow-menu').css({"opacity":"1"})
 }
 });
 });
