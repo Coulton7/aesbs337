@@ -2,12 +2,12 @@
 
   $.fn.fadeIcon = function(){
 
-    var fade-icon = jQuery(".fade-icon");
+    var fade_icon = jQuery(".fade_icon");
     var contactIcon = -1;
 
     function showNextIcon() {
         ++contactIcon;
-        fade-icon.eq(contactIcon % fade-icon.length)
+        fade_icon.eq(contactIcon % fade_icon.length)
             .fadeIn(900)
             .delay(900)
             .fadeOut(900, showNextIcon);
