@@ -648,76 +648,10 @@ div.user-picture > img {
 	.social-id{
 	display:none;
 }/*For the faidng contact us text*/
-.map-icon ul li:nth-child(1) a:after{
-	padding-right:0.8em;
-}/*padding bewteen the icons*/
 
-.map-icon ul li:nth-child(2) a:after{
-	padding-right:0.8em;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(1) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(2) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(3) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(4) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(5) a:after{
-	padding-right:0.8em;
-	z-index: 4;
-}/*padding bewteen the icons*/
 }
 
 @media screen and (min-width: 768px) {
-
-.map-icon ul li:nth-child(1) a:after{
-	padding-right:0.7em;
-}/*padding bewteen the icons*/
-
-.map-icon ul li:nth-child(2) a:after{
-	padding-right:0.8em;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(1) a:after{
-	padding-right:0.7em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(2) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(3) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(4) a:after{
-	padding-right:0.8em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(5) a:after{
-	padding-right:0.8em;
-	z-index: 4;
-}/*padding bewteen the icons*/
-
-
 
 .form-item-keys-1{
 	width:71%
@@ -729,37 +663,6 @@ div.user-picture > img {
 	.form-item-keys-1{
 	width:72%
 	}/*The width of the search box*/
-
-.map-icon ul li:nth-child(1) a:after{
-	padding-left: 0;
-	padding-right:0.6em;
-}/*padding bewteen the icons*/
-.map-icon ul li:nth-child(2) a:after{
-	padding-right:0.6em;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(1) a:after{
-	padding-left: 0;
-	padding-right:0.6em;
-	z-index:4;
-}/*padding bewteen the icons*/
-.socialmedia ul li:nth-child(2) a:after{
-	padding-right:0.6em;
-	z-index:4;
-}/*padding bewteen the icons*/
-.socialmedia ul li:nth-child(3) a:after{
-	padding-right:0.6em;
-	z-index:4;
-}/*padding bewteen the icons*/
-.socialmedia ul li:nth-child(4) a:after{
-	padding-right:0.6em;
-	z-index:4;
-}/*padding bewteen the icons*/
-
-.socialmedia ul li:nth-child(5) a:after{
-	padding-right:0;
-	z-index:4;
-}/*padding bewteen the icons*/
 }
 @media screen and (min-width: 1200px) {
 .form-item-keys-1{
