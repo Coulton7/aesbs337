@@ -12,7 +12,12 @@ p a[target="_blank"]:after {
 }/*Adds the small square icon after a link*/
 
 .red-bullet{
-	color:#DD1E25;
+	color:inherit;
+}
+
+.red-bullet li::before{
+	 content: "• ";
+	 color:#dd1e25;
 }
 
 .lead{
