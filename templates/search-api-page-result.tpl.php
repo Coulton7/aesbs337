@@ -65,6 +65,7 @@
  */
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <div class="dotted-border">
   <?php print render($title_prefix); ?>
   <h3 class="title"<?php print $title_attributes; ?>>
     <a href="<?php print $url; ?>"><?php print $title; ?></a>
@@ -76,5 +77,5 @@
         <?php print (filter_xss($snippet, $allowed_tags = array('strong'))); ?></p>
     <?php endif; ?>
   </div>
+  </div>
 </li>
-<hr>
