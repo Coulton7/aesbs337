@@ -74,7 +74,8 @@
   <div class="search-snippet-info">
     <?php if ($snippet): ?>
       <p class="search-snippet"<?php print $content_attributes; ?>>
-        <?php print (filter_xss($snippet, $allowed_tags = array('strong'))); ?></p>
+        <?php print (filter_xss($snippet, $allowed_tags = array(''))); ?></p>
+        <a href="<?php print $url; ?>">Read more</a>
     <?php endif; ?>
   </div>
   </div>
