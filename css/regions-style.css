@@ -306,6 +306,7 @@ body.navbar-is-fixed-top.navbar-administration{
   	position: absolute;
   	right: 0;
   	width:100%;
+		bottom:inherit;
   }
 
   .socialmedia ul{
