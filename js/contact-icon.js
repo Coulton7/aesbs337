@@ -8,9 +8,9 @@
     function showNextIcon() {
         ++contactIcon;
         fade_icon.eq(contactIcon % fade_icon.length)
-            .fadeIn(900)
-            .delay(900)
-            .fadeOut(900, showNextIcon);
+            .show(0)
+            .delay(5500)
+            .hide(0, showNextIcon);
     }
 
     showNextIcon();
