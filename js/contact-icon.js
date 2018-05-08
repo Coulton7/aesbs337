@@ -2,7 +2,7 @@
 
   $.fn.contactIcon = function(){
 
-    var fade_icon = jQuery(".contact_icon");
+    var contact_icon = jQuery(".contact_icon");
     var contactIcon = -1;
 
     function showNextIcon() {
