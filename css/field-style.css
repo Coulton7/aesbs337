@@ -329,6 +329,7 @@ a.language-link.active {
 	clear:right;
 	border-bottom: 1px #f5f5f5 solid;
 	overflow:hidden;
+	width: 100%;
 }/*Adds sperator to the bottom of the row class*/
 
 .search-block .btn{
