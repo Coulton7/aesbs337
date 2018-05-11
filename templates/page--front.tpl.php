@@ -85,7 +85,7 @@
 			directionNav: false
 		});
 	})
-})(jQuery);
+});
 </script>
 
 <div class="container-fluid bannercontainer">
