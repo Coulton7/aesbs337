@@ -209,7 +209,7 @@ body {
 	line-height:79px;
 }
 
-.flex-header h1{
+.flex-header p{
 	font-size: 4em;
 	line-height: 58px;
 }
@@ -265,7 +265,7 @@ body {
 	line-height:82px;
 }
 
-	.flex-header h1{
+	.flex-header p{
 	font-size: 4em;
 	line-height:58px;
 }
