@@ -28,17 +28,7 @@
  * @ingroup themeable
  */
 ?>
-<script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
+
 
 <?php if ($content): ?>
   <div class="<?php print $classes; ?>">
