@@ -645,6 +645,15 @@ div.user-picture > img {
 	margin: 2em;
 }
 
+.chosen-container{
+	font-size: inherit;
+}
+
+.chosen-container-single .chosen-single{
+	padding:6px 12px;
+	height:34px;
+}
+
 @media screen and (max-width: 767px) {
 	.social-id{
 	display:none;
