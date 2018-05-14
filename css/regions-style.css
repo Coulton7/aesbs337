@@ -170,6 +170,9 @@ body.navbar-is-fixed-top.navbar-administration{
 	list-style-type:none;
 	background-repeat:no-repeat;
 	background-position:top center;
+	position: absolute;
+	width: 100%;
+	pointer-events: none;
 }
 
 .nav li a{
