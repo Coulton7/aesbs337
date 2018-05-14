@@ -654,6 +654,22 @@ div.user-picture > img {
 	height:34px;
 }
 
+.chosen-container .chosen-drop{
+	background:#ffffff;
+	color: #535354;
+}
+
+.chosen-container .chosen-results{
+	font-size: inherit;
+}
+
+.chosen-container .chosen-results li.highlighted{
+ background-color:#002A5B;
+ background-image: none;
+ color: #ffffff;
+ font-size: inherit;
+}
+
 @media screen and (max-width: 767px) {
 	.social-id{
 	display:none;
