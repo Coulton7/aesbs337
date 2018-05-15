@@ -647,6 +647,7 @@ div.user-picture > img {
 
 .chosen-container{
 	font-size: inherit;
+	width: -webkit-fill-available!important-webkit-fill-available!important
 }
 
 .chosen-container-single .chosen-single{
