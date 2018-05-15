@@ -659,6 +659,13 @@ div.user-picture > img {
 	line-height: inherit;
 }
 
+.chosen-container-active.chosen-with-drop .chosen-single{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	border: 1px solid #ccc;
+	background: #ffffff;
+}
+
 .chosen-container .chosen-drop{
 	background:#ffffff;
 	color: #535354;
@@ -666,6 +673,14 @@ div.user-picture > img {
 
 .chosen-container .chosen-results{
 	font-size: inherit;
+}
+
+.chosen-container-single .chosen-single div b{
+	background: url("chosen-sprite.png") no-repeat 0px 2px;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 9px;
 }
 
 .chosen-container .chosen-results li.highlighted{
