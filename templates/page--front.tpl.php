@@ -203,55 +203,57 @@
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
 
-		<section class="
+		<div class="tablet-fix">
+			<section class="
 
-				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-					else { print 'col-sm-4 col-md-6'; } ?>">
+					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
+						else { print 'col-sm-4 col-md-6'; } ?>">
 
-			<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-			<?php if (!empty($page['highlighted'])): ?>
-				<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-			<?php endif; ?>
-
-			<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
-					<a id="main-content"></a>
-			<?php print render($title_prefix); ?>
-				<?php if (!empty($title)): ?>
-					<!---<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>-->
+				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+				<?php if (!empty($page['highlighted'])): ?>
+					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
 				<?php endif; ?>
 
-	        <?php print render($title_suffix); ?>
-				<?php print $messages; ?>
+				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
+						<a id="main-content"></a>
+				<?php print render($title_prefix); ?>
+					<?php if (!empty($title)): ?>
+						<!---<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>-->
+					<?php endif; ?>
+
+		        <?php print render($title_suffix); ?>
+					<?php print $messages; ?>
 
 
-			<!--<div class="breadcrumb-wrap">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-							<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>  New breadcrumb location
+				<!--<div class="breadcrumb-wrap">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+								<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>  New breadcrumb location
+							</div>
 						</div>
 					</div>
+				</div>-->
+
 				</div>
-			</div>-->
-
-			</div>
 
 
-			<?php if (!empty($tabs)): ?>
-				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-					<?php print render($tabs); ?>
-				</div>
-			<?php endif; ?>
-			<?php if (!empty($page['help'])): ?>
-				<?php print render($page['help']); ?>
-			<?php endif; ?>
-			<?php if (!empty($action_links)): ?>
-				<ul class="action-links"><?php print render($action_links); ?></ul>
-			<?php endif; ?>
-			<?php print render($page['content']); ?>
+				<?php if (!empty($tabs)): ?>
+					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+						<?php print render($tabs); ?>
+					</div>
+				<?php endif; ?>
+				<?php if (!empty($page['help'])): ?>
+					<?php print render($page['help']); ?>
+				<?php endif; ?>
+				<?php if (!empty($action_links)): ?>
+					<ul class="action-links"><?php print render($action_links); ?></ul>
+				<?php endif; ?>
+				<?php print render($page['content']); ?>
 
-		</section>
+			</section>
+		</div>
 
 
 		<?php if (!empty($page['sidebar_second'])): ?>
