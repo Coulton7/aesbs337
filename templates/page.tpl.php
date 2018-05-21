@@ -241,44 +241,45 @@
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
 
-		<section class="
+		<div class="tablet-fix">
+			<section class="
 
-				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
+					<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+						else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
+						else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
 
-			<div class="clearfix">
-				<?php if (!empty($page['highlighted'])): ?>
-					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+				<div class="clearfix">
+					<?php if (!empty($page['highlighted'])): ?>
+						<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+					<?php endif; ?>
+
+					<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
+						<a id="main-content"></a>
+					<?php print render($title_prefix); ?>
+
+					<?php print render($title_suffix); ?>
+						<?php print $messages; ?>
+				</div>
+
+
+				<div class="clearfix">
+					<?php if (!empty($tabs)): ?>
+							<?php print render($tabs); ?>
+					<?php endif; ?>
+				</div>
+
+
+				<?php if (!empty($page['help'])): ?>
+					<?php print render($page['help']); ?>
+				<?php endif; ?>
+				<?php if (!empty($action_links)): ?>
+					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
 
-				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
-					<a id="main-content"></a>
-				<?php print render($title_prefix); ?>
-
-				<?php print render($title_suffix); ?>
-					<?php print $messages; ?>
-			</div>
-
-
-			<div class="clearfix">
-				<?php if (!empty($tabs)): ?>
-						<?php print render($tabs); ?>
-				<?php endif; ?>
-			</div>
-
-
-			<?php if (!empty($page['help'])): ?>
-				<?php print render($page['help']); ?>
-			<?php endif; ?>
-			<?php if (!empty($action_links)): ?>
-				<ul class="action-links"><?php print render($action_links); ?></ul>
-			<?php endif; ?>
-
-			<?php print render($page['content']); ?>
+				<?php print render($page['content']); ?>
 
 		</section>
-
+	</div>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
