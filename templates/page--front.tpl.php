@@ -281,7 +281,7 @@
 				</aside>
 			<?php endif; ?><!--added by Matt -->
 
-			<section class="
+			<section id ="main-content" class="
 
 				<?php if (empty($page['postscript_fir']) && empty($page['postscript_last'])) { print 'col-sm-12'; }
 					else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
