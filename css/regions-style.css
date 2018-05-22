@@ -361,10 +361,14 @@ body.navbar-is-fixed-top.navbar-administration{
   	width:100%;
   }
 
+}
+
+@media screen and (max-width:991px) and (min-width: 768px){
 	.tablet-fix .col-sm-4{
 		width:66%;
 	}
 }
+
 @media screen and (min-width: 992px) {
   .navbar-default{
   	background:none;
