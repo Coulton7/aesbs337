@@ -364,7 +364,7 @@ body.navbar-is-fixed-top.navbar-administration{
 }
 
 @media screen and (max-width:991px) and (min-width: 768px){
-	.tablet-fix #main-content .col-sm-4{
+	.tablet-fix #main-content.col-sm-4{
 		width:66%;
 	}
 }
