@@ -65,7 +65,6 @@
  */
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <div class="dotted-border">
     <?php print render($title_prefix); ?>
     <h3 class="title"<?php print $title_attributes; ?>>
       <a href="<?php print $url; ?>"><?php print $title; ?></a>
@@ -79,6 +78,5 @@
             <a href="<?php print $url; ?>">Read more</a>
           <?php endif; ?>
         </div>
-    </div>
 </li>
 <br>
