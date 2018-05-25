@@ -71,6 +71,7 @@
       <a href="<?php print $url; ?>"><?php print $title; ?></a>
     </h3>
     <?php print render($title_suffix); ?>
+    <?php print $result['node']->type; ?>
       <div class="search-snippet-info">
         <?php if ($snippet): ?>
           <p class="search-snippet"<?php print $content_attributes; ?>>
