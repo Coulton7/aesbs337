@@ -65,12 +65,12 @@
  */
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <div class="dotted-border">
     <?php print render($title_prefix); ?>
     <h3 class="title"<?php print $title_attributes; ?>>
       <a href="<?php print $url; ?>"><?php print $title; ?></a>
     </h3>
     <?php print render($title_suffix); ?>
-    <?php print $result['node']->type; ?>
       <div class="search-snippet-info">
         <?php if ($snippet): ?>
           <p class="search-snippet"<?php print $content_attributes; ?>>
@@ -78,5 +78,6 @@
             <a href="<?php print $url; ?>">Read more</a>
           <?php endif; ?>
         </div>
+    </div>
 </li>
 <br>
