@@ -47,7 +47,7 @@
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
     <h6 class="search-contenttype">
-    <?php print $result['node']->type;?>
+      <?php print $entity->type;?>
     </h6>
 		<div class="search-snippet-info">
 				<?php if ($snippet): ?>
