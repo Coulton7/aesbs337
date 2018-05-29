@@ -33,11 +33,6 @@ function aesbs337_preprocess_image_style(&$vars) {
 	$vars['attributes']['class'][] = 'img-responsive';
 }
 
-function aesbs337_template_preprocess_search_api_page_result (&$variables){
-  if (isset($variables['result']['node']->type)) {
-    $variables['info_split']['type'] = $variables['result']['node']->type;
-  }
-
 function search_api_preprocess_search_result(&$variables) {
   $node = $variables['result']['node'];
   if (isset($node)) {
