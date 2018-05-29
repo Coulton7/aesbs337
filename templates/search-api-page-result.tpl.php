@@ -50,7 +50,7 @@
 				<?php if ($snippet): ?>
 				<p class="search-snippet"<?php print $content_attributes; ?>>
 				<?php print (filter_xss($snippet, $allowed_tags = array(''))); ?></p>
-				<a href="<?php print $url l($title, $url['path'], $url['options']); ?>">Read more</a>
+				<?php print $url ? l('Read more', $url['path'], $url['options']) : check_plain($title); ?>
 			<?php endif; ?>
 		</div>
 	</div>
