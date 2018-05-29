@@ -46,10 +46,12 @@
 		<h3 class="title">
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
+    <h6 class="search-contenttype">
+    <?php print $result['node']->type;?>
+    </h6>
 		<div class="search-snippet-info">
 				<?php if ($snippet): ?>
 				<p class="search-snippet"<?php print $content_attributes; ?>>
-        <?php print $result['node']->type;?>
 				<?php print (filter_xss($snippet, $allowed_tags = array(''))); ?></p>
 				<?php print $url ? l('Read more', $url['path'], $url['options']) : check_plain('Read more'); ?>
 			<?php endif; ?>
