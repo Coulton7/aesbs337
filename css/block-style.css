@@ -341,7 +341,7 @@ border-radius: 0;
 	margin-top:-4.8em;
 }
 .search-block{
-	padding-top:0.28em;
+	padding-top:0.15em;
 }
 }
 
@@ -372,7 +372,7 @@ border-radius: 0;
 
 @media screen and (min-width: 1200px) {
 .search-block{
-	padding-top:0.55em;
+	padding-top:0.6em;
 }
 
 .iceberg-blocktitle{
