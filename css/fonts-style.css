@@ -92,7 +92,10 @@ a:hover {
 	width:100%;
 }/*sets up the margin for adaptive images*/
 
-
+.legal-consent-container{
+	font-size: 0.65em;
+	line-height: 1.65em;
+}
 
 /*Media tags start here, this affects what happens to properties depending on the screen size*/
 /* xs < 768 Below is all to do with text size and spacing*/
