@@ -92,10 +92,7 @@ a:hover {
 	width:100%;
 }/*sets up the margin for adaptive images*/
 
-.legal-consent-container{
-	font-size: 0.65em;
-	line-height: 1.65em;
-}
+
 
 /*Media tags start here, this affects what happens to properties depending on the screen size*/
 /* xs < 768 Below is all to do with text size and spacing*/
@@ -151,6 +148,10 @@ body {
 .banner-subtitle{
 top:35%;
 }
+.legal-consent-container{
+	font-size: 0.75em;
+	line-height: 1.75em;
+}
 }
 
 /* sm */
@@ -202,6 +203,10 @@ body {
 
 .banner-subtitle{
 	top:23%;
+}
+.legal-consent-container{
+	font-size: 0.7em;
+	line-height: 1.7em;
 }
 }
 
@@ -259,6 +264,10 @@ body {
     font-size: 16px;
     line-height: 26px;
 }
+.legal-consent-container{
+	font-size: 0.68em;
+	line-height: 1.68em;
+}
 }
 
 /* lg */
@@ -314,5 +323,9 @@ body {
 .btn{
     font-size: 18px;
     line-height: 29px;
+}
+.legal-consent-container{
+	font-size: 0.65em;
+	line-height: 1.65em;
 }
 }
