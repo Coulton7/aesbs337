@@ -449,6 +449,10 @@ div.user-picture > img {
 	margin-bottom:15px;
 }/*For contact forms in order to keep names inline with each other*/
 
+.field-name-field-content-gate{
+	display:none;
+}
+
 .product-card{
 	width:30%;
 	border:1px solid #B5B6B9;
