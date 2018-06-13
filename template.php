@@ -40,8 +40,7 @@ function search_api_preprocess_search_result(&$variables) {
   }
 };
 
-function aesbs337_form_alter(&$form, &$form_state, $form_id){
-  if($form_id == '#search-api-page-search-form-full-node-search'){
-    $form['actions']['submit']['#value'] = '<i class="fas fa-search"></i>';
-  }
+function aesbs337_form_search_block_form_alter(&$form, &$form_state) {
+    $form['keys']['#attributes']['placeholder'][] = t('Search');
+    $form['actions']['submit']['#value'] = html_entity_decode('&#xf002;');
 }
