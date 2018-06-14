@@ -43,4 +43,5 @@ function search_api_preprocess_search_result(&$variables) {
 function aesbs337_form_search_block_form_alter(&$form, &$form_state) {
     $form['keys']['#attributes']['placeholder'][] = t('Search');
     $form['actions']['submit']['#value'] = html_entity_decode('&#xf002;');
+    $form['actions']['submit']['#attributes']['class'][] = 'search-button';
 }
