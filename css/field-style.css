@@ -216,6 +216,13 @@ images*/
 	color:#ffffff;
 }
 
+.search-button input[type="submit"]{
+    font-family: FontAwesome;
+    color: #fff !important;
+    display: inline;
+    font-size: 18px;
+}
+
 .search-block .btn:hover{
 	background-color: #fa010a;
 	outline:none;
