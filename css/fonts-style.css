@@ -32,6 +32,10 @@ p a[target="_blank"]:after {
 	padding-top:20px;
 }
 
+.flex-header{
+	bottom: 5.8em;
+}
+
 h1 {
    text-align:center;
    color:#DD1E25;
