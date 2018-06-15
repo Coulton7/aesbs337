@@ -14,6 +14,10 @@
 	border-bottom:1px solid #ffffff;
 }
 
+.cust-portal-text{
+	vertical-align: super;
+}
+
 .portal {
 	height:2.5em;
 	width:2.5em!important;
