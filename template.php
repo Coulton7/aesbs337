@@ -29,10 +29,6 @@ function aesbs337_theme(){
 	return $items;
 }
 
-function aesbs337_preprocess_image_style(&$vars) {
-	$vars['attributes']['class'][] = 'img-responsive';
-}
-
 function search_api_preprocess_search_result(&$variables) {
   $node = $variables['result']['node'];
   if (isset($node)) {
