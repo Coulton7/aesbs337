@@ -276,7 +276,7 @@ border-radius: 0;
 }
 
 .water-background{
-	background-image: url(/sites/default/files/background/water-background.jpg);
+	background-image: url(sites/all/themes/aesbs337/images/graphics/water-background.jpg);
 	background-repeat:no-repeat;
 	border:5px solid #ffffff;
 	background-size:100%;
