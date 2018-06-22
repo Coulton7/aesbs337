@@ -131,14 +131,6 @@ h6{
 	font-size:16px;
 	line-height:26px;
 }
-.blockquote{
-	font-size:16px;
-	line-height:26px;
-}
-blockquote{
-	font-size:16px;
-	line-height:26px;
-}
 body {
     font-size: 12px;
     line-height: 19px;
@@ -196,14 +188,6 @@ h6{
 	font-size:18px;
 	line-height:30px;
 }
-.blockquote{
-	font-size:18px;
-	line-height:30px;
-}
-blockquote{
-	font-size:18px;
-	line-height:30px;
-}
 body {
     font-size: 14px;
     line-height: 23px;
@@ -233,7 +217,7 @@ body {
 	line-height:79px;
 }
 
-.flex-header p{
+.flex-header{
 	font-size: 3.5em;
 	line-height: 58px;
 }
@@ -271,14 +255,6 @@ h6{
 	font-size:20px;
 	line-height:32px;
 }
-.blockquote{
-	font-size:20px;
-	line-height:32px;
-}
-blockquote{
-	font-size:20px;
-	line-height:32px;
-}	
 body {
     font-size: 16px;
     line-height: 26px;
@@ -301,7 +277,7 @@ body {
 	line-height:82px;
 }
 
-	.flex-header p{
+	.flex-header{
 	font-size: 4em;
 	line-height:58px;
 }
@@ -339,14 +315,6 @@ h6{
 	font-size:22px;
 	line-height:36px;
 }
-.blockquote{
-	font-size:22px;
-	line-height:36px;
-}
-blockquote{
-	font-size:22px;
-	line-height:36px;
-}	
 body {
     font-size: 18px;
     line-height: 29px;
