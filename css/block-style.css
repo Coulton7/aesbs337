@@ -339,6 +339,14 @@ border-radius: 0;
 	margin: 0px auto;
 }
 
+@media screen and (max-width: 370px)
+.search-block {
+    width: 19em;
+    position: absolute;
+    top: 11.5em;
+    right: 19%;
+}
+
 @media screen and (max-width: 767px) {
 .view-news{
 	margin-top:0;
