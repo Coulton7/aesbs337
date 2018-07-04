@@ -335,9 +335,6 @@ body.navbar-is-fixed-top.navbar-administration{
   	top:15%;
   	height:100%;
   }
-  .gap{
-  	height:20em;
-  }
   .flexslider .slides img{
   	height:20em;
   }
@@ -385,10 +382,6 @@ body.navbar-is-fixed-top.navbar-administration{
   	height:75%;
   }
 
-  .gap{
-  	height:22em;
-  }
-
   .flexslider .slides img{
   	height:22em;
   }
@@ -424,10 +417,6 @@ body.navbar-is-fixed-top.navbar-administration{
 @media screen and (min-width: 1200px) {
   .navbar-nav{
   	width:100%
-  }
-
-  .gap{
-  	height:24em;
   }
 
   .uppercurve{
