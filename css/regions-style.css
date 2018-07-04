@@ -312,16 +312,12 @@ body.navbar-is-fixed-top.navbar-administration{
   	margin-top:0.5em
   }
 
-  .gap{
-  	height:20.95em;
-  }
-
   .flexslider .slides img{
   	height:20.95em;
   }
 
   .bottom-gap{
-  	height: 8em;
+  	height: 5em;
   }
 
   .textlogo{
