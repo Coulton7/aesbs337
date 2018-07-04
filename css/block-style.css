@@ -341,10 +341,9 @@ border-radius: 0;
 
 @media screen and (max-width: 370px){
 .search-block {
-    width: 19em;
     position: absolute;
-    top: 11.5em;
-    right: 19%;
+    top: 10.9em;
+    left: 5%;
 }
 }
 
