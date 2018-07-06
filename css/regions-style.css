@@ -210,6 +210,10 @@ body.navbar-is-fixed-top.navbar-administration{
 }
 
 .socialmedia ul{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 	display:flex;
 	justify-content:center;
 	list-style:none;
