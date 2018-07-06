@@ -86,10 +86,10 @@
 }/*Calls the font awesome icon*/
 
 .gallery img, .gallery p{
-transition:all,.5s;
--moz-transition:all,.5s;
--o-transition:all,.5s;
--webkit-transition:all,.5s;
+transition:color,.5s;
+-moz-transition:color,.5s;
+-o-transition:color,.5s;
+-webkit-transition:color,.5s;
 }/*Transition speed*/
 
 .text-vertical-center {
@@ -124,10 +124,10 @@ images*/
 }
 
 .image-link img, .image-link p{
-	transition:all,.5s;
-	-moz-transition:all,.5s;
-	-o-transition:all,.5s;
-	-webkit-transition:all,.5s;
+	transition:color,.5s;
+	-moz-transition:color,.5s;
+	-o-transition:color,.5s;
+	-webkit-transition:color,.5s;
 }
 
 .black-fade{
