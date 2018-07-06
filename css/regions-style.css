@@ -37,7 +37,6 @@ body.navbar-is-fixed-top.navbar-administration{
 }
 
 .row-eq-height{
-	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
