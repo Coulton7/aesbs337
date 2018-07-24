@@ -106,7 +106,7 @@
 }
 
 .display-none{
-	display:none;	
+	display:none;
 }
 
 .flex{
@@ -237,8 +237,8 @@
 }
 
 .well{
-background-color:#e5e5e7;
-border-radius: 0;
+	background-color:#e5e5e7;
+	border-radius: 0;
 }
 
 .dotted-border{
