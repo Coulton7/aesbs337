@@ -189,6 +189,12 @@
 	outline-width:1px;
 }
 
+.country-block-icon{
+	float:left;
+	max-height:3em;
+	max-width: 3em;
+}
+
 /*Block stylings*/
  .red-radial{
 	width:100%;
