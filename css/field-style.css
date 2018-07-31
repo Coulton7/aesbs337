@@ -108,7 +108,7 @@ transition:color,.5s;
 images*/
 .image-link{
 	opacity:1;
-	transition: all 0.5s ease;
+	transition: color 0.5s ease;
 	background-color:#000000;
 	position:relative;
 	border-radius: 6px 6px 0 0;
