@@ -439,10 +439,6 @@ body.navbar-is-fixed-top.navbar-administration{
   	left:1em;
   }
 
-	.textlogo{
-		top:-0.1em;
-		left:1em;
-	}
 }
 @media (max-width: 992px){
 
