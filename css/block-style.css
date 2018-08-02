@@ -151,7 +151,7 @@
 	background-image: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
 	background-image: -webkit-linear-gradient(-45deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
 	background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png), linear-gradient(135deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
 	display:flex;
 	list-style-type:none;
 	justify-content:center;
@@ -257,7 +257,7 @@
 	background: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
 	background: -webkit-linear-gradient(-45deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
 	background: linear-gradient(135deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
 }
 
 .grey-gradient {
@@ -265,7 +265,7 @@
 	background: -moz-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
 	background: -webkit-linear-gradient(-45deg, #cbd1d5 0%,#abb2b6 42%,#f5fbfe 100%);
 	background: linear-gradient(135deg, #cbd1d5 0%,#abb2b6 42%,#f5fbfe 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbd1d5', endColorstr='#f5fbfe',GradientType=1 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbd1d5', endColorstr='#f5fbfe',GradientType=1 );
 	width:100%;
 	max-height:100%;
 	padding:10px 15px;
