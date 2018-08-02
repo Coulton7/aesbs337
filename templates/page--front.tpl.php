@@ -250,9 +250,12 @@
 						<?php print render($tabs); ?>
 					</div>
 				<?php endif; ?>
-				<?php if (!empty($page['help'])): ?>
-					<?php print render($page['help']); ?>
-				<?php endif; ?>
+
+				<div class="clearfix">
+					<?php if (!empty($page['help'])): ?>
+						<?php print render($page['help']); ?>
+					<?php endif; ?>
+				</div>
 				<?php if (!empty($action_links)): ?>
 					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
