@@ -77,6 +77,17 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/brands.js" integrity="sha384-BPIhZF7kZGuZzBS4SP/oIqzpxWuOUtsPLUTVGpGw+EtB1wKt1hv63jb2OCroS3EX" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/fontawesome.js" integrity="sha384-6AOxTjzzZLvbTJayrLOYweuPckqh0rrB4Sj+Js8Vzgr85/qm2e0DRqi+rBzyK52J" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
+<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8">
+(function($){
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			controlNav: false,
+			directionNav: false
+		});
+	})
+})(jQuery);
+</script>
 
 
 <div class="container-fluid bannercontainer">
