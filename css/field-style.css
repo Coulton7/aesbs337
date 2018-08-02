@@ -86,10 +86,10 @@
 }/*Calls the font awesome icon*/
 
 .gallery img, .gallery p{
-transition:color,.5s;
--moz-transition:color,.5s;
--o-transition:color,.5s;
--webkit-transition:color,.5s;
+transition:color,0.5s;
+-moz-transition:color,0.5s;
+-o-transition:color,0.5s;
+-webkit-transition:color,0.5s;
 }/*Transition speed*/
 
 .text-vertical-center {
@@ -124,20 +124,20 @@ images*/
 }
 
 .image-link img, .image-link p{
-	transition:color,.5s;
-	-moz-transition:color,.5s;
-	-o-transition:color,.5s;
-	-webkit-transition:color,.5s;
+	transition:color,0.5s;
+	-moz-transition:color,0.5s;
+	-o-transition:color,0.5s;
+	-webkit-transition:color,0.5s;
 }
 
 .black-fade{
 	background: rgba(0,0,0,0.6);
 	opacity:0;
 	color:#ffffff;
-	transition:opacity,.5s;
-	-moz-transition: opacity,.5s;
-    -o-transition: opacity,.5s;
-    -webkit-transition: opacity,.5s;
+	transition:opacity,0.5s;
+	-moz-transition: opacity,0.5s;
+    -o-transition: opacity,0.5s;
+    -webkit-transition: opacity,0.5s;
 	position:absolute;
 	height:100%;
 	width:100%;
