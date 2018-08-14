@@ -335,17 +335,18 @@
 				</div>
 			<?php endif; ?>
 
+			<footer>
+				<?php if (!empty($page['footer'])): ?>
+			  	<div class="footer <?php print $container_class; ?> footer-background">
+						<?php print render($page['footer']); ?>
+					</div>
+				<?php endif; ?>
 
-			<?php if (!empty($page['footer'])): ?>
-			  <footer class="footer <?php print $container_class; ?> footer-background">
-				<?php print render($page['footer']); ?>
-			  </footer>
-			<?php endif; ?>
-
-			<?php if ($page['footer_lower']): ?>
-				<footer class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-					<div class="section-shadow">
-						<?php print render($page['footer_lower']);?>
+				<?php if ($page['footer_lower']): ?>
+					<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
+						<div class="section-shadow">
+							<?php print render($page['footer_lower']);?>
+						</div>
 					</div>
 				</footer>
 			<?php endif; ?><!--added by Matt -->
