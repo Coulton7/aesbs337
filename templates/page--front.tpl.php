@@ -329,7 +329,7 @@
 <footer>
 	<?php if (!empty($page['footer'])): ?>
   	<div class="footer <?php print $container_class; ?> footer-background">
-	<?php print render($page['footer']); ?>
+			<?php print render($page['footer']); ?>
 		</div>
 	<?php endif; ?>
 
@@ -339,5 +339,5 @@
 					<?php print render($page['footer_lower']);?>
 				</div>
 			</div>
-	</footer>
-			<?php endif; ?><!--added by Matt -->
+	<?php endif; ?><!--added by Matt -->
+</footer>
