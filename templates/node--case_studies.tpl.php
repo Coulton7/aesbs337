@@ -85,17 +85,6 @@
 <script type="text/javascript" charset="utf-8">
 (function ($) {
 
-	window.onload=(function () {
-		if ($('field_content_gate').val()==1){
-			$('.field-name-field-document').hide();
-			$('.view-display-id-block_3').show();
-		}
-		else{
-			$('.field-name-field-document').show();
-			$('.view-display-id-block_3').hide();
-		}
-	});
-	
   function getUrlVars ()
   {
 	var vars = [], hash;
@@ -108,14 +97,14 @@
     }
     return vars;
   }
-  
+
   var submitString = getUrlVars()["fs"];
   if(submitString=='y'){
     $('.field-name-field-document').show();
 	$('.view-display-id-block_3').hide();
 	$('.field-label').hide();
   }
-	
+
 })(jQuery);
 </script>
 
@@ -129,7 +118,7 @@
 
   </header>
   <?php endif; ?>
-  
+
   <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
@@ -137,7 +126,7 @@
     hide($content['field_tags']);
     print render($content);
   ?>
-  
+
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
   <footer>
     <?php print render($content['field_tags']); ?>
@@ -156,5 +145,5 @@
     </div>
 	</div>
     <?php endif; ?>
-	
+
 </article>
