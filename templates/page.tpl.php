@@ -232,7 +232,7 @@
 								</div>
               </div>
             </div>
-          </div>
+      </div>
 
 		<div class="tablet-fix">
 			<section id ="main-content" class="
