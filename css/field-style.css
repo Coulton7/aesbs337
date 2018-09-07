@@ -109,7 +109,7 @@ images*/
 .image-link{
 	opacity:1;
 	transition: color 0.5s ease;
-	background-color:#000000;
+	background-color:#ffffff;
 	position:relative;
 	border-radius: 6px 6px 0 0;
 }
