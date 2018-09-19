@@ -709,20 +709,29 @@ div.user-picture > img {
 }
 
 @media screen and (min-width: 768px) {
-
-.form-item-keys-1{
-	width:71%
-}/*The width of the search box*/
-
+	.form-item-keys-1{
+		width:71%;
+	}/*The width of the search box*/
 }
 
 @media screen and (min-width: 992px) {
 	.form-item-keys-1{
-	width:72%
+	width:72%;
 	}/*The width of the search box*/
+	.social-id{
+		width:35%;
+	}
 }
 @media screen and (min-width: 1200px) {
-.form-item-keys-1{
-	width:73%
-}/*The width of the search box*/
+	.form-item-keys-1{
+		width:73%
+	}/*The width of the search box*/
+	.social-id{
+		width:35%;
+	}
+}
+@media screen and (min-width:1550px){
+	.social-id{
+	width:25%
+	}
 }
