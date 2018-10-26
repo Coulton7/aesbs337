@@ -7,8 +7,8 @@ body{
 }/* sets the text color and base height and size*/
 
 p a[target="_blank"]:after {
-    font-family: 'FontAwesome';
-    content: " \f08e";
+    font-family: 'Font Awesome 5 Free';
+    content: " \f35d";
 }/*Adds the small square icon after a link*/
 
 .red-bullet{
