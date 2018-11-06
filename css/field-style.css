@@ -529,6 +529,10 @@ div.user-picture > img {
 	display:none;
 }/*Hides the title of this content type on the view*/
 
+.linkedin{
+	display:none;
+}/*Hides the title of this content type on the view*/
+
 .product{
 	float: right;
   display: inline;
