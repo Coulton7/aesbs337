@@ -44,7 +44,7 @@
 <li class="search-result">
 	<div class="dotted-border">
 		<h3 class="title">
-			<a href="<?php print $url;?>"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></a>
+		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
     <h6>
       <?php print $result['type']; ?>
