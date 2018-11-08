@@ -44,10 +44,10 @@
 <li class="search-result">
 	<div class="dotted-border">
 		<h3 class="title">
-		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
+		<?php print $url ? l($title, $url['path'], $url['options']) : $title; ?>
 		</h3>
     <h6>
-      <?php print $result['type']; ?>
+      <?php print $entity['bundle']; ?>
     </h6>
 		<div class="search-snippet-info">
 				<?php if ($snippet): ?>
