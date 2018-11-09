@@ -344,7 +344,7 @@ body.navbar-is-fixed-top.navbar-administration{
   }
 }
 
-@media screen amd (max-width:500px){
+@media screen and (max-width:500px){
   .front__flex-margin{
 		-ms-transform: scale(2);
 		-webkit-transform:scale(2);
