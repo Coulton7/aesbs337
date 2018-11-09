@@ -342,6 +342,14 @@ body.navbar-is-fixed-top.navbar-administration{
     transform-origin: top;
     margin-bottom: 16%;
   }
+	.lang-switch{
+		position: relative;
+		left: 12%;
+	}
+	.search-block{
+		position: relative;
+		right: 12%;
+	}
 }
 
 @media screen and (max-width:500px){
@@ -352,6 +360,12 @@ body.navbar-is-fixed-top.navbar-administration{
     transform-origin: top;
     margin-bottom: 30%;
   }
+	.lang-switch{
+		left: 0;
+	}
+	.search-block{
+		right: 0;
+	}
 }
 @media screen and (min-width: 768px) {
   .socialmedia ul{
