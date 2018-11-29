@@ -162,13 +162,13 @@
 			</div>
 			</div>
 		</div>
-	<?php endif; ?><!--added by Matt -->
+	<?php endif; ?>
 
 	<?php if ($page['preface']): ?>
 	<div class="preface front__flex-margin">
 			<?php print render($page['preface']);?>
 	</div>
-	<?php endif; ?><!--added by Matt -->
+	<?php endif; ?>
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
@@ -193,7 +193,7 @@
 
 		</div>
 	</div>
-	<?php endif; ?><!--added by Matt -->
+	<?php endif; ?>
 	</div>
 </div>
 
@@ -284,7 +284,7 @@
 		<div class="suffix">
 			<?php print render($page['suffix']);?>
 		</div>
-	<?php endif; ?> <!--added by Matt -->
+	<?php endif; ?>
 
 
 	<div class ="container-fluid">
@@ -294,7 +294,7 @@
 				<aside class="col-sm-4 col-md-3" role="complementary">
 					<?php print render($page['postscript_fir']); ?>
 				</aside>
-			<?php endif; ?><!--added by Matt -->
+			<?php endif; ?>
 
 			<section id ="main-content" class="
 
@@ -303,7 +303,7 @@
 					else { print 'col-sm-4 col-md-6'; } ?>">
 
 				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-					<?php print render($page['postscript_mid']);?><!--added by Matt-->
+					<?php print render($page['postscript_mid']);?>
 				</div>
 
 			</section>
@@ -312,12 +312,12 @@
 				<aside class="col-sm-4 col-md-3" role="complementary">
 					<?php print render($page['postscript_last']);?>
 				</aside>
-			<?php endif; ?><!--added by Matt -->
+			<?php endif; ?>
 
 		</div>
 	</div>
 
-			<?php if (!empty($page['postscript'])): ?> <!-- Postscript region (172-178) added by Ben. B -->
+			<?php if (!empty($page['postscript'])): ?>
 				<div class="postscript">
 					<div class="section">
 						<?php print render($page['postscript']); ?>
@@ -339,5 +339,5 @@
 					<?php print render($page['footer_lower']);?>
 				</div>
 			</div>
-	<?php endif; ?><!--added by Matt -->
+	<?php endif; ?>
 </footer>
