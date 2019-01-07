@@ -41,13 +41,45 @@
  * @see template_preprocess_search_api_page_result()
  */
 ?>
+<?php
+  $nid = $variables['result']['node']->nid;
+  $node = node_load($nid);
+  $nodeType = $node->type;
+
+  switch($nodeType):
+    case 'article':
+      $contentType = 'News';
+    break;
+    case 'case_studies':
+      $contentType = 'Case Studies';
+    break;
+    case 'industryguide':
+      $contentType = 'Industry Guide';
+    break;
+    case 'product':
+      $contentType = 'Product';
+    break;
+    case 'productbrochure':
+      $contentType = 'Product Brochure';
+    break;
+    case 'video':
+      $contentType = 'Video';
+    break;
+    case 'whitepaper':
+      $contentType = 'Whitepaper';
+    break;
+    default:
+      $contentType = '';
+    break;
+  endswitch;
+?>
 <li class="search-result">
 	<div class="dotted-border">
 		<h3 class="title">
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
     <h6>
-      <?php print $entity['bundle']->type; ?>
+      <?php print $contentType; ?>
     </h6>
 		<div class="search-snippet-info">
 				<?php if ($snippet): ?>
