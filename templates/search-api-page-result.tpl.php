@@ -42,7 +42,7 @@
  */
 ?>
 <?php
-  $nid = $variables['result']['node']->nid;
+  $nid = $id;
   $node = node_load($nid);
   $nodeType = $node->type;
 
