@@ -36,6 +36,11 @@ p a[target="_blank"]:after {
 	padding-top:20px;
 }
 
+.h1-blue{
+	color: #002A5B;
+	text-align: left;
+}
+
 h1 {
    text-align:center;
    color:#DD1E25;
