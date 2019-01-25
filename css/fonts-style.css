@@ -36,16 +36,16 @@ p a[target="_blank"]:after {
 	padding-top:20px;
 }
 
-.h1-blue{
-	color: #002A5B;
-	text-align: left;
-}
-
 h1 {
    text-align:center;
    color:#DD1E25;
    font-family: "HelveticaNeue","Helvetica Neue","HelveticaNeueRoman","HelveticaNeue-Roman","Helvetica Neue Roman","Arial","TeXGyreHerosRegular","Helvetica","Tahoma","Geneva",sans-serif;
    font-weight: 300;
+}
+
+.h1-blue{
+	color: #002A5B;
+	text-align: left;
 }
 
 h2, h3, h4, h5, h6{
