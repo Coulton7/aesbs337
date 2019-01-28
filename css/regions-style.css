@@ -203,7 +203,6 @@ body.navbar-is-fixed-top.navbar-administration{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	display:flex;
 	justify-content:center;
 	list-style:none;
 	padding-left:0;
