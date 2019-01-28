@@ -300,22 +300,6 @@ a.language-link.active {
 	padding-bottom:10px;
 }/*this sets the placement of the button on the form*/
 
-.entitytype-product_enquiry-form .btn{
-	margin-top:20px;
-	background-color: #ffffff;
-	border-color:#ffffff;
-	color:#535354;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}/*color for the button on the form*/
-
-.entitytype-product_enquiry-form .btn:hover{
-	background-color: #e5e5e5;
-	border-color:#e5e5e5;
-	color:#535354;
-}/*color for the button on the form*/
-
 .entitytype-branch_disti_form-form .btn:hover{
 	background-color: #fa010a;
 	border-color:#fa010a;
