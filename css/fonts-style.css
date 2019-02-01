@@ -21,6 +21,16 @@ p a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.standard-text{
+  color:#535454;
+  border-bottom: none;
+}
+
+.standard-text:hover{
+  color:#a6aaad;
+  border-bottom: none
+}
+
 .red-bullet li::before {
   content: "• ";
   color: #dd1e25;
