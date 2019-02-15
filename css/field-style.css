@@ -285,6 +285,10 @@ images*/
   padding: 5px 12px;
 }
 
+.inline .field-label{
+  float: left;
+}
+
 /*case study search button*/
 #edit-submit-case-studies:hover {
   background-color: #fa010a;
