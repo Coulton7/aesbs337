@@ -76,6 +76,7 @@ body.navbar-is-fixed-top.navbar-administration {
 }
 
 .flex_gradient {
+  overflow: hidden;
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
