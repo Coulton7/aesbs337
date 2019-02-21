@@ -328,12 +328,6 @@ body.navbar-is-fixed-top.navbar-administration {
   }
 }
 
-@media screen and (max-width: 370px) {
-  .mobile-search{
-    display: block;
-  }
-}
-
 @media screen and (min-width:501px) and (max-width: 767px) {
   .mobile-search{
     display: none;
@@ -355,6 +349,12 @@ body.navbar-is-fixed-top.navbar-administration {
   .search-block {
     position: relative;
     right: 12%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .mobile-search{
+    display: block;
   }
 }
 
@@ -469,7 +469,7 @@ body.navbar-is-fixed-top.navbar-administration {
   .mobile-search{
     display: none;
   }
-  
+
   .navbar-nav {
     width: 100%
   }

@@ -203,6 +203,8 @@
 		<?php endif; ?>
 
 <div class="col-sm-12 fullscreen">
+	<div class="mobile-search">
+	</div>
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
