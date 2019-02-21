@@ -379,8 +379,9 @@
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
-    top: 19em;
+    top: 22.5em;
     left: 5%;
+    width:23em;
   }
 }
 
