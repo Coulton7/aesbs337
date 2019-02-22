@@ -676,9 +676,9 @@ div.user-picture>img {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     color: #fff;
-    background-color: #000;
     border-radius: 50%;
     text-align: center;
+    border-bottom: none;
 }
 .flex-direction-nav a:before {
     font-family: "flexslider-icon";
@@ -692,6 +692,10 @@ div.user-picture>img {
 .flex-direction-nav .flex-next {
     right: -50px;
     text-align: center;
+}
+
+.flex-control-nav{
+  bottom: -90px;
 }
 
 /*For the all news stream*/
