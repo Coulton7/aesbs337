@@ -59,6 +59,9 @@
     case 'product':
       $contentType = 'Product';
     break;
+    case 'gland_packing':
+      $contentType = 'Product';
+    break
     case 'productbrochure':
       $contentType = 'Product Brochure';
     break;
