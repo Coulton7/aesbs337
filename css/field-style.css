@@ -480,18 +480,6 @@ a.language-link.active {
   padding-bottom: 0.75em;
 }
 
-/*lines up and places the exposed filters view for the news page*/
-.view-key-branches .view-content .views-row-odd {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-/*Set the gaps between the key branches to stop flags from being to close*/
-.view-key-branches .view-content .views-row-even {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
 /*Set the gaps between the key branches to stop flags from being to close*/
 div.user-picture>img {
   width: 100%;
