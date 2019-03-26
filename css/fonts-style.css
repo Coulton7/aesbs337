@@ -387,3 +387,8 @@ a:hover {
     line-height: 1.65em;
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  a:visited {
+    color: #dd1e25;
+  }
