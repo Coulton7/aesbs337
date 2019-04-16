@@ -12,22 +12,6 @@ p a[target="_blank"]:after {
   content: " \f35d";
 }
 
-.no-underline a{
-  border-bottom: none;
-}
-
-.no-underline a:hover{
-  border-bottom: none;
-}
-
-a.no-dash{
-  border-bottom: none;
-}
-
-a.no-dash{
-  border-bottom: none;
-}
-
 /*Adds the small square icon after a link*/
 .red-bullet {
   color: inherit;
@@ -103,6 +87,22 @@ a:hover {
   color: #fa010a;
   border-bottom: 1px dashed #fa010a;
   text-decoration: none;
+}
+
+.no-underline a{
+  border-bottom: none;
+}
+
+.no-underline a:hover{
+  border-bottom: none;
+}
+
+a.no-dash{
+  border-bottom: none;
+}
+
+a.no-dash{
+  border-bottom: none;
 }
 
 /*link text decoration and effects when clicked on or hover overed*/
