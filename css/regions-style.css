@@ -192,6 +192,14 @@ body.navbar-is-fixed-top.navbar-administration {
   border-bottom: none;
 }
 
+.region-sidebar-first .block{
+  margin-bottom: 1em;
+}
+
+.region-sidebar-second .block{
+  margin-bottom: 1em;
+}
+
 /*social icons section lower wave*/
 .socialmedia {
   width: 100%;
