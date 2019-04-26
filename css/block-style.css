@@ -116,6 +116,24 @@
   display: flex;
 }
 
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item--center {
+  max-width: 50%;
+}
+
+.flex-item--top {
+  align-self: flex-start;
+}
+
+.flex-item--bottom {
+  align-self: flex-end;
+}
+
 .object-fit-cover {
   object-fit: cover;
   height: 100%;
