@@ -122,15 +122,15 @@
   justify-content: center;
 }
 
-.flex-item--center {
+.flex-item-center {
   max-width: 50%;
 }
 
-.flex-item--top {
+.flex-item-top {
   align-self: flex-start;
 }
 
-.flex-item--bottom {
+.flex-item-bottom {
   align-self: flex-end;
 }
 
