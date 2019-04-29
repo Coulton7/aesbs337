@@ -101,7 +101,7 @@ a.no-dash{
   border-bottom: none;
 }
 
-a.no-dash{
+a.no-dash:hover{
   border-bottom: none;
 }
 
