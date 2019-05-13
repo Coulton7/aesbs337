@@ -495,8 +495,18 @@ div.user-picture>img {
   margin-bottom: 15px;
 }
 
+.contact-col-left{
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
 /*For contact forms in order to keep names inline with each other*/
 #contact-col-right {
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+
+.contact-col-right{
   padding-right: 0;
   margin-bottom: 15px;
 }
