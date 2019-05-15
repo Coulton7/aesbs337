@@ -511,6 +511,18 @@ div.user-picture>img {
   margin-bottom: 15px;
 }
 
+.img-25{
+max-width: 25%;
+}
+
+.img-50{
+  max-width: 50%;
+}
+
+.img-75{
+  max-width: 75%;
+}
+
 /*For contact forms in order to keep names inline with each other*/
 .field-name-field-deliverable {
   display: none;
