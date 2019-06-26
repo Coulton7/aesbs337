@@ -134,6 +134,12 @@ a.no-dash:hover{
   width: 100%;
 }
 
+.email-overflow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #dd1e25;
+}
+
 /* xs < 768 Below is all to do with text size and spacing*/
 @media screen and (max-width: 767px) {
   .banner-title {
