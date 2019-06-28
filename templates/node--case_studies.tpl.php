@@ -83,29 +83,7 @@
 
 
 <script type="text/javascript" charset="utf-8">
-(function ($) {
 
-  function getUrlVars ()
-  {
-	var vars = [], hash;
-	var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-	for(var i = 0; i < hashes.length; i++)
-    {
-		hash = hashes[i].split('=');
-		vars.push(hash[0]);
-		vars[hash[0]] = hash[1];
-    }
-    return vars;
-  }
-
-  var submitString = getUrlVars()["fs"];
-  if(submitString=='y'){
-    $('.field-name-field-document').show();
-	$('.view-display-id-block_3').hide();
-	$('.field-label').hide();
-  }
-
-})(jQuery);
 </script>
 
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
