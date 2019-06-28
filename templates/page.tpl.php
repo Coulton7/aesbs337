@@ -73,36 +73,16 @@
  * @ingroup templates
  */
 ?>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-<link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
-<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
-
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
-					<div class="wavelogo">
-						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt="logo"></img>
-					</div>
 				</a>
-				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt="uppercurve"></img>
 					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="	" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
@@ -179,23 +159,8 @@
 
 	<div class="col-sm-3 col-xs-10 fullscreen">
 
-
-		<?php
-			$block = block_load('block', '34');
-			$block_content = _block_render_blocks(array($block));
-			$build = _block_get_renderable_array($block_content);
-			print render($build);
-		?>
-
-		<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
 		<?php print render($page['wavelower']): ?>
-				<div class="socialmedia text-center">
-					<?php
-						$block = module_invoke('views', 'block_view', 'social_icons-block');
-						print render($block['content']);
-					?>
-				</div>
+
 			</div>
 		</div>
 	</div>
@@ -345,16 +310,14 @@
 
 			<footer>
 				<?php if (!empty($page['footer'])): ?>
-			  	<div class="footer <?php print $container_class; ?> footer-background">
+			  	<div class="footer <?php print $container_class; ?>">
 						<?php print render($page['footer']); ?>
 					</div>
 				<?php endif; ?>
 
 				<?php if ($page['footer_lower']): ?>
-					<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-						<div class="section-shadow">
+					<div class="footer_lower <?php print $container_class; ?>">
 							<?php print render($page['footer_lower']);?>
-						</div>
 					</div>
 				<?php endif; ?>
 			</footer>

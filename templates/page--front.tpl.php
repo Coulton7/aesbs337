@@ -73,129 +73,99 @@
  * @ingroup templates
  */
 ?>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-<link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
-<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
-
-
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
+
 		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-1 fullscreen">
+			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
-					<div class="wavelogo">
-						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt="logo">
-					</div>
 				</a>
-				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt="uppercurve"></img>
-					<?php if ($logo): ?>
+					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="	" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
 
+			<div class="col-sm-10 col-xs-10 fullscreen">
+				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
-		<div class="col-sm-10 col-xs-11 fullscreen">
-			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+					<div class="<?php print $container_class; ?>">
+						<div class="navbar-header">
 
-				<div class="<?php print $container_class; ?>">
-					<div class="navbar-header">
+							<?php if (!empty($site_name)): ?>
+								<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+							<?php endif; ?>
 
-						<?php if (!empty($site_name)): ?>
-							<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-						<?php endif; ?>
-
-						<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						<?php endif; ?>
-					</div>
-				</div>
-
-				<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-
-					<div class="navbar-collapse collapse">
-						<div class="container-fluid navbar-container">
-
-							<nav role="navigation">
-								<?php if (!empty($primary_nav)): ?>
-									<?php print render($primary_nav); ?>
-								<?php endif; ?>
-
-								<?php if (!empty($page['navigation'])): ?>
-									<?php print render($page['navigation']); ?>
-								<?php endif; ?>
-							</nav>
+							<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							<?php endif; ?>
 						</div>
 					</div>
-					<div class="section-shadow-menu"></div>
-				<?php endif; ?>
 
-			</header>
+					<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+
+						<div class="navbar-collapse collapse">
+							<div class="container-fluid navbar-container">
+
+								<nav role="navigation">
+									<?php if (!empty($primary_nav)): ?>
+										<?php print render($primary_nav); ?>
+									<?php endif; ?>
+
+									<?php if (!empty($page['navigation'])): ?>
+										<?php print render($page['navigation']); ?>
+									<?php endif; ?>
+									<div class="section-shadow-menu"></div>
+								</nav>
+							</div>
+						</div>
+					<?php endif; ?>
+
+				</header>
+			</div>
 		</div>
-	</div>
 
-	<?php if ($page['navigation_col']): ?>
-		<div class="navigation_col">
-			<div class="action-menu text-center">
-				<div class="col-sm-2 col-xs-0 fullscreen">
+		<?php if ($page['navigation_col']): ?>
+			<div class="navigation_col">
+				<div class="action-menu text-center">
+					<div class="col-sm-2 col-xs-2 fullscreen">
+					</div>
+					<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+					<?php print render($page['navigation_col']);?>
 				</div>
-				<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
-				<?php print render($page['navigation_col']);?>
+				</div>
 			</div>
-			</div>
-		</div>
-	<?php endif; ?>
+		<?php endif; ?>
 
-	<?php if ($page['preface']): ?>
-	<div class="preface front__flex-margin">
-			<?php print render($page['preface']);?>
-	</div>
-	<?php endif; ?>
-
-	<?php if ($page['wavelower']): ?>
-	<div class="row wavelower row-eq-height">
-		<div class="col-sm-9 col-xs-1 fullscreen">
-			<div class="bottom-gap">
+		<?php if ($page['preface']): ?>
+		<div class="preface">
+			<div class= "flex_gradient">
+				<?php print render($page['preface']);?>
 			</div>
 		</div>
 
-		<div class="col-sm-3 col-xs-10 fullscreen">
-
-
-			<?php
-				$block = block_load('block', '34');
-				$block_content = _block_render_blocks(array($block));
-				$build = _block_get_renderable_array($block_content);
-				print render($build);
-			?>
-
-			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
-			<?php print render($page['wavelower']);?>
-
+		<?php if ($page['wavelower']): ?>
+<div class="row wavelower row-eq-height">
+	<div class="col-sm-9 col-xs-1 fullscreen">
+		<div class="bottom-gap">
 		</div>
 	</div>
-	<?php endif; ?>
+
+	<div class="col-sm-3 col-xs-10 fullscreen">
+
+		<?php print render($page['wavelower']): ?>
+
+			</div>
+		</div>
 	</div>
 </div>
+		<?php endif; ?>
 
 <div class="col-sm-12 fullscreen">
 	<div class="mobile-search">
@@ -212,81 +182,90 @@
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
 	<div class="row">
+	 <div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
+					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
+
+          <?php if (!empty($title)): ?>
+  					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
+					<?php endif; ?>
+
+			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
+														else { print 'col-sm-12'; }
+											?>">
+          <div class="breadcrumb-wrap">
+            <div class="container-fluid">
+              <div class="row">
+                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
+								</div>
+              </div>
+            </div>
+      </div>
 
 		<div class="tablet-fix">
-			<section class="
+			<section id="main-content" class="
 
 			<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
-				else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?>">
+				else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?> fullscreen">
 
-				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-				<?php if (!empty($page['highlighted'])): ?>
-					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-				<?php endif; ?>
-
-				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
-						<a id="main-content"></a>
-				<?php print render($title_prefix); ?>
-					<?php if (!empty($title)): ?>
-						<!---<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>-->
+				<div class="clearfix">
+					<?php if (!empty($page['highlighted'])): ?>
+						<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
 					<?php endif; ?>
 
-		        <?php print render($title_suffix); ?>
-					<?php print $messages; ?>
+						<a id="main-content"></a>
+					<?php print render($title_prefix); ?>
 
-
-				<!--<div class="breadcrumb-wrap">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-								<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>  New breadcrumb location
-							</div>
-						</div>
-					</div>
-				</div>-->
-
+					<?php print render($title_suffix); ?>
+						<?php print $messages; ?>
 				</div>
 
 
-				<?php if (!empty($tabs)): ?>
-					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-						<?php print render($tabs); ?>
-					</div>
-				<?php endif; ?>
+				<div class="clearfix">
+					<?php if (!empty($tabs)): ?>
+							<?php print render($tabs); ?>
+					<?php endif; ?>
+				</div>
 
 				<div class="clearfix">
 					<?php if (!empty($page['help'])): ?>
 						<?php print render($page['help']); ?>
 					<?php endif; ?>
 				</div>
+
+
 				<?php if (!empty($action_links)): ?>
 					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
+
 				<?php print render($page['content']); ?>
 
-			</section>
-		</div>
+		</section>
+	</div>
 
-		<?php if (!empty($page['sidebar_first'])): ?>
-			<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
-						else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
-				<?php print render($page['sidebar_first']); ?>
-			</aside>  <!-- /#sidebar-first -->
-		<?php endif; ?>
+	<?php if (!empty($page['sidebar_first'])): ?>
+		<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
+					else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
+			<?php print render($page['sidebar_first']); ?>
+		</aside>  <!-- /#sidebar-first -->
+	<?php endif; ?>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
 				<?php print render($page['sidebar_second']); ?>
 			</aside>  <!-- /#sidebar-second -->
 		<?php endif; ?>
-    </div>
+	</div>
+   </div>
   </div>
+ </div>
 
 
   	<?php if ($page['suffix']): ?>
 		<div class="suffix">
-			<?php print render($page['suffix']);?>
+				<?php print render($page['suffix']);?>
 		</div>
 	<?php endif; ?>
 
@@ -300,7 +279,7 @@
 				</aside>
 			<?php endif; ?>
 
-			<section id="main-content" class="
+			<section class="
 
 				<?php if (empty($page['postscript_fir']) && empty($page['postscript_last'])) { print 'col-sm-12'; }
 					else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
@@ -328,20 +307,17 @@
 					</div>
 				</div>
 			<?php endif; ?>
-</div>
 
-<footer>
-	<?php if (!empty($page['footer'])): ?>
-  	<div class="footer <?php print $container_class; ?> footer-background">
-			<?php print render($page['footer']); ?>
-		</div>
-	<?php endif; ?>
+			<footer>
+				<?php if (!empty($page['footer'])): ?>
+			  	<div class="footer <?php print $container_class; ?>">
+						<?php print render($page['footer']); ?>
+					</div>
+				<?php endif; ?>
 
-	<?php if ($page['footer_lower']): ?>
-			<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-				<div class="section-shadow">
-					<?php print render($page['footer_lower']);?>
-				</div>
-			</div>
-	<?php endif; ?>
-</footer>
+				<?php if ($page['footer_lower']): ?>
+					<div class="footer_lower <?php print $container_class; ?>">
+							<?php print render($page['footer_lower']);?>
+					</div>
+				<?php endif; ?>
+			</footer>

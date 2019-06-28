@@ -73,38 +73,16 @@
  * @ingroup templates
  */
 ?>
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
-<script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
-
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
-					<div class="wavelogo">
-						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt ="logo"></img>
-					</div>
 				</a>
-				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
 					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="	" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
@@ -167,39 +145,27 @@
 
 		<?php if ($page['preface']): ?>
 		<div class="preface">
+			<div class= "flex_gradient">
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
-		<?php endif; ?>
 
 		<?php if ($page['wavelower']): ?>
-		<div class="row wavelower row-eq-height">
-			<div class="col-sm-9 col-xs-1 fullscreen">
-				<div class="bottom-gap">
-				</div>
-			</div>
+<div class="row wavelower row-eq-height">
+	<div class="col-sm-9 col-xs-1 fullscreen">
+		<div class="bottom-gap">
+		</div>
+	</div>
 
-			<div class="col-sm-3 col-xs-10 fullscreen">
+	<div class="col-sm-3 col-xs-10 fullscreen">
 
-
-				<?php
-					$block = block_load('block', '34');
-					$block_content = _block_render_blocks(array($block));
-					$build = _block_get_renderable_array($block_content);
-					print render($build);
-				?>
-
-				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
-				<?php print render($page['wavelower']);?>
+		<?php print render($page['wavelower']): ?>
 
 			</div>
 		</div>
-		<?php endif; ?>
 	</div>
 </div>
-
-
+		<?php endif; ?>
 
 <div class="col-sm-12 fullscreen">
 	<div class="mobile-search">
@@ -235,7 +201,7 @@
 								</div>
               </div>
             </div>
-          </div>
+      </div>
 
 		<div class="tablet-fix">
 			<section id="main-content" class="
@@ -249,7 +215,6 @@
 						<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
 					<?php endif; ?>
 
-					<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
 						<a id="main-content"></a>
 					<?php print render($title_prefix); ?>
 
@@ -264,25 +229,28 @@
 					<?php endif; ?>
 				</div>
 
+				<div class="clearfix">
+					<?php if (!empty($page['help'])): ?>
+						<?php print render($page['help']); ?>
+					<?php endif; ?>
+				</div>
 
-				<?php if (!empty($page['help'])): ?>
-					<?php print render($page['help']); ?>
-				<?php endif; ?>
+
 				<?php if (!empty($action_links)): ?>
 					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
 
 				<?php print render($page['content']); ?>
 
-			</section>
-		</div>
+		</section>
+	</div>
 
-		<?php if (!empty($page['sidebar_first'])): ?>
-			<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
-						else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
-				<?php print render($page['sidebar_first']); ?>
-			</aside>  <!-- /#sidebar-first -->
-		<?php endif; ?>
+	<?php if (!empty($page['sidebar_first'])): ?>
+		<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9 col-sm-pull-8'; }
+					else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-8'; } ?>" role="complementary">
+			<?php print render($page['sidebar_first']); ?>
+		</aside>  <!-- /#sidebar-first -->
+	<?php endif; ?>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
@@ -342,16 +310,14 @@
 
 			<footer>
 				<?php if (!empty($page['footer'])): ?>
-			  	<div class="footer <?php print $container_class; ?> footer-background">
+			  	<div class="footer <?php print $container_class; ?>">
 						<?php print render($page['footer']); ?>
 					</div>
 				<?php endif; ?>
 
 				<?php if ($page['footer_lower']): ?>
-					<div class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-						<div class="section-shadow">
+					<div class="footer_lower <?php print $container_class; ?>">
 							<?php print render($page['footer_lower']);?>
-						</div>
 					</div>
 				<?php endif; ?>
 			</footer>
