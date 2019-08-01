@@ -837,7 +837,7 @@ max-width: 25%;
 }
 
 .css-fade-linkedin {
-  background-image: url('/sites/all/aesbs337/images/social/linkedin-panel.png');
+  background-image: url('/sites/all/themes/aesbs337/images/social/linkedin-panel.png');
   background-size: contain;
   background-color: #f5f5f5;
   background-repeat: no-repeat;
@@ -856,7 +856,7 @@ max-width: 25%;
 }
 
 .css-fade-instagram {
-  background-image: url('/sites/all/aesbs337/images/social/instagram-panel.png');
+  background-image: url('/sites/all//themes/aesbs337/images/social/instagram-panel.png');
   background-size: contain;
   background-color: #f5f5f5;
   background-repeat: no-repeat;
@@ -875,7 +875,7 @@ max-width: 25%;
 }
 
 .css-fade-youtube {
-  background-image: url('/sites/all/aesbs337/images/social/youtube-panel.png');
+  background-image: url('/sites/all/themes/aesbs337/images/social/youtube-panel.png');
   background-size: contain;
   background-color: #f5f5f5;
   background-repeat: no-repeat;
@@ -894,7 +894,7 @@ max-width: 25%;
 }
 
 .css-fade-twitter {
-  background-image: url('/sites/all/aesbs337/images/social/twitter-panel.png');
+  background-image: url('/sites/all/themes/aesbs337/images/social/twitter-panel.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #f5f5f5;
