@@ -528,6 +528,32 @@ max-width: 25%;
   display: none;
 }
 
+.product-widget{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.product-widget:hover{
+  border: 2px solid #034f7a;
+}
+
+.product-image-widget{
+  transition: all .2s ease-in-out;
+}
+
+.product-image-widget:hover{
+  transform: scale(1.1);
+}
+
+.product-widget:hover .product-widget-title a{
+  color: #fa010a;
+  border-bottom: 1px dashed #fa010a;
+}
+
+.product-widget-title{
+  margin-top: 1em;
+}
+
 .product-card {
   width: 30%;
   border: 1px solid #B5B6B9;
@@ -976,6 +1002,9 @@ max-width: 25%;
   .social-id {
     display: none;
   }
+  .product-widget-title{
+    padding-top: 2.2em;
+  }
 
   /*For the faidng contact us text*/
 }
@@ -983,6 +1012,9 @@ max-width: 25%;
 @media screen and (min-width: 768px) {
   .form-item-keys-1 {
     width: 71%;
+  }
+  .product-widget-title{
+    padding-top: 1em;
   }
 
   /*The width of the search box*/
