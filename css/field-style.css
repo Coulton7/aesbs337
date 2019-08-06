@@ -534,7 +534,7 @@ max-width: 25%;
 }
 
 .product-widget:hover{
-  border: 2px solid #034f7a;
+  outline: 2px solid #034f7a;
 }
 
 .product-image-widget{
