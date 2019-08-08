@@ -548,9 +548,9 @@ max-width: 25%;
   bottom: 0;
 }
 
-.product-widget:hover .product-widget-title a{
+.product-widget:hover .product-widget-btn {
+  background-color: #cfcfd1;
   color: #fa010a;
-  border-bottom: 1px dashed #fa010a;
 }
 
 .product-widget-title{
