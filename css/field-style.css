@@ -543,8 +543,13 @@ max-width: 25%;
   transform: scale(1.1);
 }
 
-.product-widget-btn{
+.product-widget-text{
+  margin-bottom: 23%;
+}
 
+.product-widget-btn{
+  position: absolute;
+  bottom: 0;
 }
 
 .product-widget:hover .product-widget-btn a{
