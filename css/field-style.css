@@ -532,6 +532,7 @@ max-width: 25%;
   overflow: hidden;
   margin-bottom: 10px;
   background: #ffffff!important;
+  position: relative;
 }
 
 .product-image-widget{
@@ -540,6 +541,11 @@ max-width: 25%;
 
 .product-image-widget:hover{
   transform: scale(1.1);
+}
+
+.product-widget-btn{
+  position: absolute;
+  bottom: 0;
 }
 
 .product-widget:hover .product-widget-title a{
