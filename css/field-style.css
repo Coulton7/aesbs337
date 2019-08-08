@@ -533,11 +533,6 @@ max-width: 25%;
   margin-bottom: 10px;
   background: #ffffff!important;
   position: relative;
-  align-items: center;
-  display: flex;
-  flex: 1;
-  justify-content:center;
-  text-align: center;
 }
 
 .product-image-widget{
