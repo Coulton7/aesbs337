@@ -113,8 +113,8 @@
 /*Sets the font awesome icon to the center of the image*/
 /*gallery style with masonry*/
 .social-font:before {
-  content: "\f08e";
-  font-family: "FontAwesome";
+  font-family: 'Font Awesome 5 Free';
+  content: " \f35d";
   font-size: 6em;
 }
 
