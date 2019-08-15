@@ -554,10 +554,17 @@ max-width: 25%;
   bottom: 0;
 }
 
-.product-widget:hover .product-widget-btn a{
+.product-widget:hover .product-widget-btn {
   background-color: #cfcfd1;
   color: #fa010a;
+}
+
+.product-widget:hover .product-widget-btn a{
   border-bottom: 1px dashed #fa010a;
+}
+
+.product-widget:hover .product-image-widget{
+  transform: scale(1.1);
 }
 
 .product-widget-title{
