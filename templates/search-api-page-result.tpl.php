@@ -71,6 +71,12 @@
     case 'whitepaper':
       $contentType = 'Whitepaper';
     break;
+    case 'apiplans':
+      $contentType = 'API Plans';
+    break;
+    case 'page':
+      $contentType = 'Web Page';
+    break;
     default:
       $contentType = '';
     break;
