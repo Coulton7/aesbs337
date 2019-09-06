@@ -311,6 +311,10 @@ body.navbar-is-fixed-top.navbar-administration {
     bottom: inherit;
   }
 
+  .socialmedia ul li{
+    width: 15%;
+  }
+
   .socialmedia ul {
     margin-top: 0.5em
   }
