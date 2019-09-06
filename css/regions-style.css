@@ -305,7 +305,7 @@ body.navbar-is-fixed-top.navbar-administration {
 
   .socialmedia {
     background-color: transparent;
-    position: static;
+    position: initial;
     right: 0;
     width: 100%;
     bottom: inherit;
