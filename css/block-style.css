@@ -404,7 +404,7 @@
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
-    top: 22.5em;
+    top: 25.5rem;
     left: 5%;
     width:23em;
   }
