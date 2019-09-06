@@ -312,7 +312,9 @@ body.navbar-is-fixed-top.navbar-administration {
   }
 
   .socialmedia ul li{
-    width: 16%;
+    width: 18%;
+    text-align: center;
+    transform: translate(10%);
   }
 
   .socialmedia ul {
