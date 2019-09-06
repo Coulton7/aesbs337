@@ -368,6 +368,9 @@ body.navbar-is-fixed-top.navbar-administration {
   .mobile-search{
     display: block;
   }
+  .search-block{
+    padding:0;
+  }
 }
 
 @media screen and (max-width:500px) {
