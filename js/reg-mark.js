@@ -17,5 +17,5 @@
 }(document.getElementsByTagName("html")[0]);
 
 jQuery(document).ready(function() {
-  jQuery('hmtl').e();
+  jQuery('html').e();
 });
