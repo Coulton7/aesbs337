@@ -62,7 +62,7 @@
     case 'gland_packing':
       $contentType = 'Product';
     break;
-    case 'bearing_protection'
+    case 'bearing_protection':
       $contentType = 'Product';
     break;
     case 'productbrochure':
