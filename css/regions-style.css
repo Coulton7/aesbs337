@@ -314,7 +314,7 @@ body.navbar-is-fixed-top.navbar-administration {
   .socialmedia ul li{
     width: 18%;
     text-align: center;
-    transform: translate(10%);
+    transform: translate(25%);
   }
 
   .socialmedia ul {
