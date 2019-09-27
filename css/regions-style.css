@@ -327,6 +327,7 @@ body.navbar-is-fixed-top.navbar-administration {
 
   .textlogo {
     top: 0.3em;
+    height: 9.75em!important;
   }
 
   .fit-menu {
@@ -416,6 +417,7 @@ body.navbar-is-fixed-top.navbar-administration {
 
   .textlogo {
     top: 0.1em;
+    height: 10.75em!important;
   }
 
   .fit-menu {
