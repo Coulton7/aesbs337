@@ -9,9 +9,10 @@
         var e = document.createElement("div"),
           n = document.createDocumentFragment();
         for (e.innerHTML = t; e.firstChild;) n.appendChild(e.firstChild);
-        return n
+        return n;
       }();
-      n.insertBefore(i, e), n.removeChild(e)
+      n.insertBefore(i, e), n.removeChild(e);
     }
-  }(n, n.parentElement)
+    return true;
+  }(n, n.parentElement);
 }(document.getElementsByTagName("html")[0]);
