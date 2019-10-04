@@ -1,3 +1,18 @@
+.caption-container{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.flex-item-caption{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
 .form-control {
   font-size: inherit;
 }
