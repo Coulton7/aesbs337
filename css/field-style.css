@@ -22,7 +22,7 @@
 
 .front .caption-container{
   height: 100%;
-  width: 59%;
+  width: 63%;
   position: absolute;
   top: 26%;
   left: 0%;
@@ -1086,6 +1086,10 @@ max-width: 25%;
   .social-id {
     width: 35%;
   }
+
+  .front .caption-container{
+    top: 23%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1096,6 +1100,10 @@ max-width: 25%;
   /*The width of the search box*/
   .social-id {
     width: 35%;
+  }
+
+  .front .caption-container{
+    top: 28%;
   }
 }
 
