@@ -13,6 +13,21 @@
   flex-flow: column;
 }
 
+.front .flex-item-caption{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.front .caption-container{
+  height: 100%;
+  width: 59%;
+  position: absolute;
+  top: 26%;
+  left: 0%;
+}
+
 .form-control {
   font-size: inherit;
 }
