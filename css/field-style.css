@@ -15,7 +15,7 @@
 
 .front .flex-item-caption{
   display: flex;
-  align-items: left;
+  align-items: initial;
   justify-content: center;
   flex-flow: column;
 }
