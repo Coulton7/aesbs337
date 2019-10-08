@@ -425,6 +425,7 @@
 
   .iceberg-blocktitle {
     margin-top: -4.8em;
+    position: relative;
   }
 
   .search-block {
@@ -449,6 +450,7 @@
 @media screen and (min-width: 992px) {
   .iceberg-blocktitle {
     margin-top: -4.8em;
+    position: relative;
   }
 
   .region-right {
@@ -467,6 +469,7 @@
 
   .iceberg-blocktitle {
     margin-top: -4.2em;
+    position: relative;
   }
 
   .mobile-stream {
@@ -481,6 +484,7 @@
 
   .iceberg-blocktitle {
     margin-top: -4.1em;
+    position: relative;
   }
 }
 
