@@ -63,16 +63,11 @@ body.navbar-is-fixed-top.navbar-administration {
 .flex-header {
   padding-left: 1em;
   color: #dd1e25;
-  bottom: 3em;
-  position: absolute;
 }
 
 .flex-caption {
   padding-left: 1em;
   color: #ffffff;
-  width: 60%;
-  bottom: 0.5em;
-  position: absolute;
 }
 
 .flex_gradient {
