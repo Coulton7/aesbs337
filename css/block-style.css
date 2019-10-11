@@ -33,6 +33,11 @@
   height: 100%
 }
 
+.search-block .form-control{
+  background-color: #272D2D;
+  color: #ffffff;
+}
+
 .lang-switch {
   color: #ffffff;
   float: left;
