@@ -193,9 +193,9 @@ if (typeof(CKEDITOR) !== 'undefined') {
       },
       {
         name: 'Table',
-        element: 'table',
+        element: 'div',
         attributes: {
-          'class': 'table'
+          'class': 'table-responsive'
         }
       },
 
