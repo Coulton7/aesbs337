@@ -11,7 +11,7 @@
         for (e.innerHTML = t; e.firstChild;) n.appendChild(e.firstChild);
         return n;
       }();
-      n.insertBefore(i, e), n.removeChild(e);
+      n.insertBefore(i, e); n.removeChild(e);
     }
     return true;
   }(n, n.parentElement);
