@@ -32,6 +32,7 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = css/jquery.scrolling-tabs.min.css
 stylesheets[all][] = css/chosen.css
 stylesheets[all][] = css/fonts-style.css
 stylesheets[all][] = css/regions-style.css
@@ -39,3 +40,4 @@ stylesheets[all][] = css/block-style.css
 stylesheets[all][] = css/field-style.css
 
 scripts[] = js/chosen.jquery.min.js
+scripts [] = js/jquery.scrolling-tabs.min.js
