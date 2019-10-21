@@ -1,4 +1,4 @@
-! function e(n) {
+(function e(n) {
   if (0 < n.childNodes.length)
     for (var t = 0; t < n.childNodes.length; t++) e(n.childNodes[t]);
   3 == n.nodeType && (/\S/).test(n.NodeValue) && function(e, n) {
@@ -11,8 +11,9 @@
         for (e.innerHTML = t; e.firstChild;) n.appendChild(e.firstChild);
         return n;
       }();
-      n.insertBefore(i, e); n.removeChild(e);
+      n.insertBefore(i, e);
+      n.removeChild(e);
     }
     return true;
   }(n, n.parentElement);
-}(document.getElementsByTagName("html")[0]);
+})(document.getElementsByTagName("html")[0]);
