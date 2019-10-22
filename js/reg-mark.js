@@ -20,4 +20,4 @@
       }(n, n.parentElement);
     })(document.getElementsByTagName("html")[0]);
   });
-});
+})(jQuery);
