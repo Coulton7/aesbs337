@@ -464,6 +464,38 @@ a.language-link.active {
   outline-width: 1px;
 }
 
+.blue-nav-tabs {
+  border-bottom: 5px solid #5B82AD;
+}
+
+.blue-nav-tabs li a {
+  background: #002A5B;
+  color: #ffffff;
+  border: 2px solid #5B82AD;
+  border-bottom: 2px solid #002A5B !important;
+}
+
+.blue-nav-tabs li a:hover {
+  background: #004a8c;
+  color: #ffffff;
+  border: 2px solid #5B82AD;
+  border-bottom: 2px solid #004a8c !important;
+}
+
+.blue-nav-tabs li.active a {
+  background: #004a8c;
+  color: #ffffff;
+  border: 2px solid #5B82AD;
+  border-bottom: 2px solid #004a8c !important;
+}
+
+.blue-nav-tabs li.active a:hover {
+  background: #004a8c;
+  color: #ffffff;
+  border: 2px solid #5B82AD;
+  border-bottom: 2px solid #004a8c !important;
+}
+
 /*Red button hover command for html*/
 .link-border-remove a {
   border: none;
