@@ -1,23 +1,36 @@
 (function($) {
   $(document).ready(function() {
-    (function e(n) {
-      if (0 < n.childNodes.length)
-        for (var t = 0; t < n.childNodes.length; t++) e(n.childNodes[t]);
-      3 == n.nodeType && /\S/.test(n.NodeValue) && function(e, n) {
-        var t = e.data;
-        if (!e.nextSibling || "sup" !== e.nextSibling.nodeName.toLowerCase()) {
-          t = e.data.replace(/\bWarman\b/gi, "$&<sup>&reg;</sup>");
-          var i = function() {
-            var e = document.createElement("div"),
-              n = document.createDocumentFragment();
-            for (e.innerHTML = t; e.firstChild;) n.appendChild(e.firstChild);
-            return n;
-          }();
-          n.insertBefore(i, e);
-          n.removeChild(e);
+    function recurse(element) {
+      if (element.childNodes.length > 0) {
+        for (var i = 0; i < element.childNodes.length; i++) {
+          recurse(element.childNodes[i]);
         }
-        return true;
-      }(n, n.parentElement);
-    })(document.getElementsByTagName("html")[0]);
+      }
+      if (element.nodeType == 3 && /\S/.test(element.nodeValue)) {
+        doReplacements(element, element.parentElement);
+      }
+    }
+    var html = document.getElementsByTagName('html')[0];
+    recurse(html);
+    function doReplacements(element, parent) {
+      var html = element.data;
+      if (element.nextSibling) {
+        if (element.nextSibling.nodeName.toLowerCase() === 'sup') {
+          return;
+        }
+      }
+      html = element.data.replace(/\bWarman\b/gi, "$&<sup>&reg;</sup>");
+      var frag = (function() {
+        var wrap = document.createElement('div'),
+          frag = document.createDocumentFragment();
+        wrap.innerHTML = html;
+        while (wrap.firstChild) {
+          frag.appendChild(wrap.firstChild);
+        }
+        return frag;
+      })();
+      parent.insertBefore(frag, element);
+      parent.removeChild(element);
+    }
   });
 })(jQuery);
