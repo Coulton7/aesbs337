@@ -60,7 +60,7 @@ function pdfCreator() {
         ],
       },
       {
-        text: ['The Board of ', orgName.value, '. encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
+        text: ['The Board of ', orgName.value, 'encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
       }
     ],
 
@@ -143,13 +143,13 @@ function pdfOpen() {
           {
             text: ['As a Board we undertake to use our personal and corporate presence to influence policy makers to legislate the requirement for such a policy for all businesses with more than ', orgWorkers.value,  ' co-workers.\n\n']
           },
-          'Current or potential supplier input is welcomed, including their use of the global hotline where necessary.\n\n',
+          'Current or potential supplier input is welcomed, including their use of the global hotline where necessary.\n\n'
         ],
       },
-    {
-      text: ['The Board of ', orgName.value, '. encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
-    }
-  ],
+      {
+        text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
+      }
+    ],
 
     styles: {
       header: {
