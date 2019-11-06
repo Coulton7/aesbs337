@@ -60,7 +60,7 @@ function pdfCreator() {
         ],
       },
       {
-        text: ['The Board of ', orgName.value, 'encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
+        text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
       }
     ],
 
