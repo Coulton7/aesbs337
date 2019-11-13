@@ -388,6 +388,12 @@
   padding-bottom: 3em;
 }
 
+.iceberg-blocktitle{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
 /* above is the background variations that can be provided to certain blocks*/
 /*RRSSB*/
 .rrssb {
