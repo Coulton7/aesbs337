@@ -279,6 +279,11 @@
   padding: 1em 0.5em 1em 0.5em;
 }
 
+.white-dotted-border {
+  outline: 1px dashed #ffffff;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
 .blue-gradient {
   background: #004a8c;
   background: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
