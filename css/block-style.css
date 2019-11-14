@@ -279,6 +279,11 @@
   padding: 1em 0.5em 1em 0.5em;
 }
 
+.white-dotted-border {
+  outline: 1px dashed #ffffff;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
 .white-dotted-line {
   border-top: 1px dashed #ffffff;
 }
