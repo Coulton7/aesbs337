@@ -1,5 +1,5 @@
 (function($) {
-  (function() {
+  $(document).ready(function() {
     'use strict';
     $(activate);
 
@@ -10,5 +10,5 @@
         $('.tab-content').show();
       });
     }
-  }());
+  });
 })(jQuery);
