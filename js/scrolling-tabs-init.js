@@ -1,3 +1,4 @@
+(function($){
 (function(){
   'use strict';
   $(activate);
@@ -9,3 +10,4 @@
     });
   }
 }());
+})(jQuery);
