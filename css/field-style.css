@@ -730,6 +730,10 @@ max-width: 25%;
   display: none;
 }
 
+.training_events-pub-date{
+  display: none;
+}
+
 /*Hides the title of this content type on the view*/
 .product {
   float: right;
