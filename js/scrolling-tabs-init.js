@@ -4,7 +4,7 @@
     $(activate);
 
     function activate() {
-      $('.nav-tabs').scorllingTabs({
+      $('.nav-tabs').scrollingTabs({
         enableSwiping: true
       }).on('ready.scrtabs', function() {
         $('.tab-content').show();
