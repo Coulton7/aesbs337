@@ -991,6 +991,29 @@ max-width: 25%;
   justify-content: center;
 }
 
+.vex-ext:after{
+  font-family: 'Font Awesome 5 Free';
+  content: " \f35d";
+  font-weight: 900;
+}
+
+.vex-closes:after{
+  font-family: 'Font Awesome 5 Free';
+  content:" \f00d";
+  font-weight: 900;
+}
+
+.web-banner{
+  width: 100%!important;
+  border-radius: 0!important;
+  background: #fcfcfc!important;
+}
+
+.vex-dialog-button{
+  -webkit-animation:none!important;
+  animation: none!important;
+}
+
 .css-fade {
   position: relative;
   background-color: #b5b6b9;
