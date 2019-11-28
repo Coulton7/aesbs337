@@ -165,7 +165,7 @@
 
 	<div class="col-sm-3 col-xs-10 fullscreen">
 
-		<?php print render($page['wavelower']): ?>
+		<?php print render($page['wavelower']); ?>
 
 			</div>
 		</div>
