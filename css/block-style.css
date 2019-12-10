@@ -265,8 +265,12 @@
 
 .lightgrey-background {
   background: #E5E5E7;
-  color: #FFFFFF;
   padding: 10px 5px 10px 5px;
+}
+
+.white-background {
+padding: 1em 0.5em 1em 0.5em;
+background-color: #fff;
 }
 
 .well {
