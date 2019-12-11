@@ -612,6 +612,14 @@ max-width: 25%;
   max-width: 75%;
 }
 
+.blue-border-bottom{
+  border-top: 3px solid #002a5b;
+}
+
+.blue-border-top{
+  border-bottom: 3px solid #002a5b;
+}
+
 /*For contact forms in order to keep names inline with each other*/
 .field-name-field-deliverable {
   display: none;
