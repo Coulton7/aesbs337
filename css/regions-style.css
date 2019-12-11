@@ -50,6 +50,11 @@ body.navbar-is-fixed-top.navbar-administration {
   padding-top: 2.5em;
 }
 
+.row-deeper{
+  padding-bottom: 6em;
+  padding-top: 5em;
+}
+
 .flexslider {
   margin: -4.5em 0 0 0;
   border: none;
