@@ -612,11 +612,11 @@ max-width: 25%;
   max-width: 75%;
 }
 
-.blue-border-bottom{
+.blue-border-top{
   border-top: 3px solid #002a5b;
 }
 
-.blue-border-top{
+.blue-border-bottom{
   border-bottom: 3px solid #002a5b;
 }
 
