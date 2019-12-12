@@ -905,6 +905,10 @@ max-width: 25%;
   padding-right: 1em;
 }
 
+.padding-05em{
+  padding: 0.5em;
+}
+
 .padding-1em {
   padding: 1em;
 }
@@ -927,6 +931,10 @@ max-width: 25%;
 
 .margin-bottom {
   margin-bottom: 1em;
+}
+
+.margin-05em{
+  margin: 0.5em;
 }
 
 .margin-1em {
