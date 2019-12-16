@@ -97,7 +97,7 @@
 				<?php if ($snippet): ?>
 				<p class="search-snippet"<?php print $content_attributes; ?>>
 				<?php print (filter_xss($snippet, $allowed_tags = array('sup'))); ?></p>
-				<?php print $url ? l('Read more', $url['path'], $url['options']) : check_plain('Read more'); ?>
+				<?php print $url ? l(t('Read more', $url['path'], $url['options'])) : check_plain('Read more'); ?>
 			<?php endif; ?>
 		</div>
 	</div>
