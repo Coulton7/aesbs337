@@ -69,9 +69,6 @@
   <![endif]-->
   <?php print $scripts; ?>
 
-  <script type="text/javascript">
-
-</script>
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
