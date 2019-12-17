@@ -82,10 +82,6 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 
-<script type="text/javascript" charset="utf-8">
-
-</script>
-
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
     <?php print render($title_prefix); ?>
