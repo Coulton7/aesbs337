@@ -10,11 +10,11 @@ body.navbar-is-fixed-top.navbar-administration {
   padding-top: 39px !important;
 }
 
+/*Added so the logo doesn't slide in front of adminimal menu*/
 #navbar-administration, #navbar-administration *:not(select) {
   z-index: 1040;
 }
 
-/*Added so the logo doesn't slide in front of adminimal menu*/
 .navbar {
   margin-bottom: 0;
 }
