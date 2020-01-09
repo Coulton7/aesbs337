@@ -215,3 +215,11 @@ function pdfOpen() {
   var pdf = pdfMake.createPdf(docDefinition).open();
 
 }
+
+document.getElementById("downloadPDF").addEventListener("click", function(){
+  pdfCreator();
+});
+
+document.getElementById("savePDF").addEventListener("click", function(){
+  pdfOpen();
+});
