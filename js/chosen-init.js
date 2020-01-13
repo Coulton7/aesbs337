@@ -5,4 +5,4 @@
       no_results_text: "Sorry, no results found."
     });
   });
-});
+})(jQuery);
