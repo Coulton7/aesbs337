@@ -16,7 +16,7 @@
         runCount++;
       } else {
         contact_icon.eq(contactIcon % contact_icon.length)
-          .show(0)
+          .show(0);
       }
     }
     showNextIcon();
