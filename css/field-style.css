@@ -752,6 +752,11 @@ max-width: 25%;
   display: none;
 }
 
+/*Use to hide a field in the views of a specific content type*/
+.news{
+  display: none;
+}
+
 .training_events-pub-date{
   display: none;
 }
