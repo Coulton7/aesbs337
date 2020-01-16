@@ -105,6 +105,10 @@ a.no-dash:hover{
   border-bottom: none;
 }
 
+a.white-text{
+  color: #ffffff;
+}
+
 /*link text decoration and effects when clicked on or hover overed*/
 ::selection {
   background-color: #dd1e25;
