@@ -450,7 +450,7 @@ body.navbar-is-fixed-top.navbar-administration {
     list-style-type: none;
     overflow: hidden;
     background-color: #ffffff;
-    padding-left: 16em;
+    padding-left: 17em;
   }
 
   .socialmedia ul {
@@ -493,7 +493,9 @@ body.navbar-is-fixed-top.navbar-administration {
   }
 
   .navbar-nav {
-    width: 100%
+    width: 100%;
+    padding-left: 16.4em;
+
   }
 
   .uppercurve {
