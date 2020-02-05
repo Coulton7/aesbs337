@@ -922,6 +922,38 @@ max-width: 25%;
   padding: 2em;
 }
 
+.padding-top-2em{
+  padding-top: 2em;
+}
+
+.padding-bottom-2em{
+  padding-bottom: 2em;
+}
+
+.padding-left-2em{
+  padding-left: 2em;
+}
+
+.padding-right-2em{
+  padding-right: 2em;
+}
+
+.margin-top-2em{
+  margin-top: 2em;
+}
+
+.margin-bottom-2em{
+  margin-bottom: 2em;
+}
+
+.margin-right-2em{
+  margin-right: 2em;
+}
+
+.margin-left-2em{
+  margin-left: 2em;
+}
+
 .margin-top {
   margin-top: 1em;
 }
