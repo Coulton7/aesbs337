@@ -2,7 +2,8 @@ function countdown(){
   var i = document.getElementById('counter');
   if (parseInt(i.innerHTML)<=0){
 
-  document.getElementById('replace').textContent= "If re-direct has failed click the link above to the site";
+  document.getElementById('replace').textContent= "If re-direct has failed click the link to the global site";
+  document.getElementById('ext-link').removeClass("display-none");
   return;
 
   }
