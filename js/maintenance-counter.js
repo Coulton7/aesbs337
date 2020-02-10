@@ -3,7 +3,7 @@ function countdown(){
   if (parseInt(i.innerHTML)<=0){
 
   document.getElementById('replace').textContent= "If re-direct has failed click the link to the global site";
-  document.getElementById('ext-link').removeClass("display-none");
+  $('#ext-link').removeClass("display-none");
   return;
 
   }
