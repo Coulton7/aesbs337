@@ -4,6 +4,7 @@ function countdown() {
 
     document.getElementById('replace').textContent = "If re-direct has failed click the link to the global site";
     document.getElementById('ext-link').classList.remove("display-none");
+    document.getElementById('counter').classsList.add("display-none");
     return;
 
   }
