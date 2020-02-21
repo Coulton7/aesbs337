@@ -155,6 +155,7 @@
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
+	<?php endif; ?>
 
 		<?php if ($page['wavelower']): ?>
 <div class="row wavelower row-eq-height">
