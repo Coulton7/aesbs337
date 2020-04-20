@@ -14,7 +14,7 @@ function loadImgs() {
   if (window.matchMedia("only screen and (max-width:991px)").matches){
     var src1 = forestBackground.getAttribute('data-src-small');
   } else {
-    var src1 - forestBackground.getAttribute('data-src-large');
+    var src1 = forestBackground.getAttribute('data-src-large');
   }
 
   forestBackground.setAttribute('data-src', src1);
@@ -35,4 +35,4 @@ window.onresize = function (event){
   }
 
   lastWindowSize = currentWindowSize;
-}
+};
