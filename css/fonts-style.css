@@ -109,6 +109,14 @@ a.white-text{
   color: #ffffff;
 }
 
+a.blue-text{
+  color: #002a5b;
+}
+
+a.blue-text:hover{
+  color: #00428e;
+}
+
 /*link text decoration and effects when clicked on or hover overed*/
 ::selection {
   background-color: #dd1e25;
