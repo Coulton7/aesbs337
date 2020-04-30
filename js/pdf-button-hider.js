@@ -17,22 +17,22 @@ $(document).ready(function() {
 
      if (orgEmail.value == "") {
        window.alert("Please enter your email");
-       $(orgEmail).addClass("has-error");
+       $(orgEmail).addClass("has-error has-feedback");
        return false;
      }
 
      if (orgPhone.value == "") {
-       $(orgPhone).addClass("has-error");
+       $(orgPhone).addClass("has-error has-feedback");
        return false;
      }
 
      if (orgWorkers.value == "") {
-       $(orgWorkers).addClass("has-error");
+       $(orgWorkers).addClass("has-error has-feedback");
        return false;
      }
 
      if (roi.value == "") {
-       $(roi).addClass("has-error");
+       $(roi).addClass("has-error has-feedback");
        return false;
      }
 
