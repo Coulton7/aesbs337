@@ -17,30 +17,30 @@ $(document).ready(function() {
 
      if (orgEmail.value == "") {
        window.alert("Please enter your email");
-       $(orgEmail).addClass("is-invalid");
+       $(orgEmail).addClass("has-error");
        return false;
      }
 
      if (orgPhone.value == "") {
-       $(orgPhone).addClass("is-invalid");
+       $(orgPhone).addClass("has-error");
        return false;
      }
 
      if (orgWorkers.value == "") {
-       $(orgWorkers).addClass("is-invalid");
+       $(orgWorkers).addClass("has-error");
        return false;
      }
 
      if (roi.value == "") {
-       $(roi).addClass("is-invalid");
+       $(roi).addClass("has-error");
        return false;
      }
 
      if ($('input[name=orgType]:checked').length == 0) {
        window.alert("Please select a business type");
-       $(type1).addClass("is-invalid");
-       $(type2).addClass("is-invalid");
-       $(type3).addClass("is-invalid");
+       $(type1).addClass("has-error");
+       $(type2).addClass("has-error");
+       $(type3).addClass("has-error");
        return false;
      } else {
       $('#createPDF').hide();
