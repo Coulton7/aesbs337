@@ -1040,6 +1040,27 @@ max-width: 25%;
   transform: translateY(-100%);
 }
 
+.wistia-ui-out{
+  background-color: #aeaeae;
+  color: #ffffff;
+  opacity: 0.88;
+}
+
+.wistia-ui-number{
+  background-color: #aeaeae;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 0.15em 0.65em;
+}
+
+.wistia-ui-number:hover{
+  background-color: #8b8b8b;
+  border: 1px solid #8b8b8b;
+  border-radius: 50%;
+  padding: 0.15em 0.65em;
+  opacity: 1;
+}
+
 .center-vertical {
   display: flex;
   flex-direction: column;
