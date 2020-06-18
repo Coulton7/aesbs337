@@ -20,7 +20,7 @@ function getUrlVars()
 
 var submitString = getUrlVars()["fs"];
 if(submitString=='y'){
-  $('.field-name-field-document').show();
+  $('.download-field-wrapper').show();
   $('.field-name-field-hubspot-form').hide();
   $('#block-sharethis-sharethis-block').hide();
   $('.field-label').hide();
