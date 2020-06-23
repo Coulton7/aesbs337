@@ -237,21 +237,29 @@ images*/
   transform: translate3d(0, 0, 0)
 }
 
-/*Gallery and masonry styling*/
+
 .social-id {
   position: absolute;
-  top: -3.8em;
-  left: -10.75em;
+  top: 4.8em;
   z-index: 2;
+  width: 100%;
 }
 
-/*For the fading contact us block*/
 .fade_text {
+  color: #535354;
   display: none;
-  color: #ffffff;
 }
 
-/*for the fading contact us block*/
+.social-id p:nth-child(1){
+  right: 28%;
+  position: absolute;
+}
+
+.social-id p:nth-child(2){
+  left: 18%;
+  position: absolute;
+}
+
 .block-menu.action-menu {
   width: 10%;
   background: none;
@@ -1214,14 +1222,23 @@ max-width: 25%;
 }
 
 @media screen and (max-width: 767px) {
-  .social-id {
-    display: none;
-  }
   .product-widget-title{
     padding-top: 2.2em;
   }
+  .social-id p:nth-child(1){
+  right: 18%;
+  position: absolute;
+  }
 
-  /*For the faidng contact us text*/
+  .social-id p:nth-child(2){
+    left: 26%;
+    position: absolute;
+  }
+
+  .social-id p:nth-child(3){
+    right: 38%;
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1231,8 +1248,19 @@ max-width: 25%;
   .product-widget-title{
     padding-top: 1em;
   }
+  .social-id p:nth-child(1){
+    right: 20%;
+    position: absolute;
+  }
 
-  /*The width of the search box*/
+  .social-id p:nth-child(2){
+    left: 18%;
+    position: absolute;
+  }
+  .social-id p:nth-child(3){
+    right: 32%;
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1248,6 +1276,19 @@ max-width: 25%;
   .front .caption-container{
     top: 23%;
     width: 59%;
+  }
+  .social-id p:nth-child(1){
+  right: 28%;
+  position: absolute;
+  }
+
+  .social-id p:nth-child(2){
+    left: 18%;
+    position: absolute;
+  }
+  .social-id p:nth-child(3){
+    right: initial;
+    position: relative;
   }
 }
 
