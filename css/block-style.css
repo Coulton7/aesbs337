@@ -430,8 +430,8 @@ background-color: #fff;
   .search-block {
     position: absolute;
     top: 19.2em;
-    left: 14%;
-    width:23em;
+    left: 8%;
+    width:23em!important;
   }
 }
 
