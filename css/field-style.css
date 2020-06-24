@@ -1268,11 +1268,6 @@ max-width: 25%;
     width: 72%;
   }
 
-  /*The width of the search box*/
-  .social-id {
-    width: 35%;
-  }
-
   .front .caption-container{
     top: 23%;
     width: 59%;
@@ -1297,19 +1292,8 @@ max-width: 25%;
     width: 73%
   }
 
-  /*The width of the search box*/
-  .social-id {
-    width: 35%;
-  }
-
   .front .caption-container{
     top: 30%;
     width: 63%;
-  }
-}
-
-@media screen and (min-width:1550px) {
-  .social-id {
-    width: 25%
   }
 }
