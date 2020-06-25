@@ -13,15 +13,26 @@
     });
 
     $('.carousel-slider').flexslider({
-      controlNav: true,
+      controlNav: false,
       directionNav: true,
       animation: "slide",
       easing: "swing",
       animationLoop: true,
       pauseOnHover: true,
-      minItems: 5,
+      itemWidth: 210,
+      itemMargin: 10,
+      maxItems: 5,
       move: 1
 
+    });
+
+    $('.product-slider').flexslider({
+      controlNav: false,
+      directionNav: false,
+      animation: "slide",
+      easing: "swing",
+      animationLoop: true,
+      pauseOnHover: true,
     });
 
     $('.directionNav').flexslider({
