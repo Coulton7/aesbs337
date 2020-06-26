@@ -47,7 +47,6 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .row-flex-col > [class*='col-']{
