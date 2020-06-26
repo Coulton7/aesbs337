@@ -62,6 +62,10 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   flex-direction: column;
 }
 
+.row-flex-col::before {
+    display: none;
+}
+
 .row-deep {
   padding-bottom: 3em;
   padding-top: 2.5em;
