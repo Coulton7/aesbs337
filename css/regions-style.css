@@ -49,6 +49,14 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   display: flex;
 }
 
+.row-flex-col{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .row-flex-col > [class*='col-']{
   display: flex;
   flex-direction: column;
