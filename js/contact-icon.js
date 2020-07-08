@@ -19,6 +19,7 @@
               .show(0);
         }
     showNextIcon();
+    }
   };
 })(jQuery);
 
