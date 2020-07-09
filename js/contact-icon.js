@@ -7,7 +7,7 @@
     var runCount = 0;
 
     function showNextIcon() {
-      if (runCount < 100) {
+      if (runCount < 101) {
         ++contactIcon;
         contact_icon.eq(contactIcon % contact_icon.length)
           .show(0)
