@@ -14,7 +14,6 @@
           .delay(1800)
           .hide(0, showNextIcon);
         runCount++;
-        runCount++;
       } else {
         contact_icon.eq(contactIcon % contact_icon.length)
           .show(0);
