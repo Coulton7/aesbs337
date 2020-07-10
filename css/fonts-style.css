@@ -6,6 +6,12 @@ body {
   font-weight: 300;
 }
 
+.lead {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
+  font-weight: 300;
+  color: #002A5B;
+}
+
 /* sets the text color and base height and size*/
 p a[target="_blank"]:after {
   font-family: 'Font Awesome 5 Free';
@@ -15,10 +21,6 @@ p a[target="_blank"]:after {
 /*Adds the small square icon after a link*/
 .red-bullet {
   color: inherit;
-}
-
-.white-text {
-  color: #ffffff;
 }
 
 .standard-text{
@@ -36,10 +38,8 @@ p a[target="_blank"]:after {
   color: #dd1e25;
 }
 
-.lead {
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
-  font-weight: 300;
-  color: #002A5B;
+.white-text {
+  color: #ffffff;
 }
 
 .page-header {
