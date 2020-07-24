@@ -233,7 +233,7 @@ ul.resource-cats a, ul.about-us-cats a {
   height: 1em;
   width: 1em;
   transition: 0.5s;
-  pointer-events: auto;
+  pointer-events: pointer;
 }
 
 .change:hover:after {
