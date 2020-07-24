@@ -162,7 +162,9 @@ html{
 }
 
 .navbar-header {
-  background: #ffffff;
+    background-color: #ffffff;
+    z-index: 1030;
+    position: relative;
 }
 
 /*alters the background for the navbar*/
