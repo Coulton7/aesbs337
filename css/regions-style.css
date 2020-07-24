@@ -137,7 +137,7 @@ html{
 .uppercurve {
   height: 7.35em;
   left: 11em;
-  z-index: 1030;
+  z-index: 1032;
   position: relative;
   top: 2.95em;
 }
@@ -157,6 +157,8 @@ html{
   margin-top: 0;
   background: #ffffff;
   border-bottom: none;
+  position: relative;
+  z-index: 1032
 }
 
 .navbar-header {
