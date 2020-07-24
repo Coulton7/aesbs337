@@ -92,6 +92,7 @@
   z-index: 1031;
   border-top: 4px solid transparent;
   border-bottom: none;
+  cursor: pointer;
 }
 
 .overlay-btn:hover {
