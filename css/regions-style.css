@@ -429,6 +429,10 @@ html{
     display: none;
   }
 
+  .nav li a{
+  padding: 0.95em 0.95em;
+  }
+
   .socialmedia ul {
     top: 15%;
     height: 100%;
@@ -465,6 +469,10 @@ html{
 @media screen and (min-width: 992px) {
   .mobile-search{
     display: none;
+  }
+
+  .nav li a{
+  padding: 0.95em 1.1em;
   }
 
   .navbar-default {
