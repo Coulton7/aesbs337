@@ -1457,6 +1457,10 @@ div.user-picture>img {
     top: 3.4em;
   }
 
+  .overlay-btn{
+    margin-right: 0;
+  }
+
   .overlay-main a {
     font-size: 2em;
     line-height: 2em;
@@ -1509,6 +1513,10 @@ div.user-picture>img {
   .overlay-main a {
     font-size: 2em;
     line-height: 1.6em;
+  }
+
+  .overlay-btn{
+    margin-right: 1.5em;
   }
 
   ul.resource-cats a, ul.about-us-cats a {
