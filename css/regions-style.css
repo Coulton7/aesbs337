@@ -66,6 +66,10 @@ html{
   flex-direction: column;
 }
 
+.row-flex-col-align-bottom{
+  align-items: flex-end;
+}
+
 .row-flex-col::before {
     display: none;
 }
