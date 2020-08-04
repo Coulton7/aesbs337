@@ -1,7 +1,8 @@
 (function($) {
   $(document).ready(function() {
-    document.getElementById("removeCookies").addEventlistener("click", function() {
-      _hsq.push(['revokeCookieConsent']);
-    });
+    var _hsp = window._hsp = window._hsp || [];
+    document.getElementById("removeCookies").onclick = function() {
+        _hsp.push(['revokeCookieConsent']);
+    };
   });
 })(jQuery);
