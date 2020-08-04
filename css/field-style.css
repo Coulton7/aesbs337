@@ -1230,7 +1230,7 @@ div.user-picture>img {
   object-position: bottom;
   position: relative;
   top: 100%;
-  transform: translateY(17%);
+  transform: translateY(-100%);
 }
 
 .wistia-ui-out {
