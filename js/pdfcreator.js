@@ -83,13 +83,13 @@ function pdfCreator() {
       header: {
         fontSize: 26,
         alignment: 'center',
-        color: '#002a5b',
+        color: '#4a843b',
         bold: true
       },
       subheader: {
         fontSize: 20,
         alignment: 'center',
-        color: '#002a5b',
+        color: '#4a843b',
         bold: true
       },
       defaultStyle: {
@@ -191,13 +191,13 @@ function pdfOpen() {
       header: {
         fontSize: 26,
         alignment: 'center',
-        color: '#002a5b',
+        color: '#4a843b',
         bold: true
       },
       subheader: {
         fontSize: 20,
         alignment: 'center',
-        color: '#002a5b',
+        color: '#4a843b',
         bold: true
       },
       defaultStyle: {
