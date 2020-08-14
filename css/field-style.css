@@ -151,6 +151,7 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   color: transparent;
   border-bottom: none;
   pointer-events: none;
+  cursor: pointer;
 }
 
 .overlay-menu .action-menu {
