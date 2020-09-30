@@ -1,6 +1,6 @@
   $(document).ready(function() {
   $('#block-block-166').hide();
-  if ($('.field-name-field-hubspot-form').length > 0) {
+  if ($('.field-hubspot-form').length > 0) {
       $('.download-field-wrapper').hide();
   }
 
@@ -21,7 +21,7 @@ function getUrlVars()
 var submitString = getUrlVars()["fs"];
 if(submitString=='y'){
   $('.download-field-wrapper').show();
-  $('.field-name-field-hubspot-form').hide();
+  $('.field-hubspot-form').hide();
   $('#block-sharethis-sharethis-block').hide();
   $('.field-label').hide();
   $('#block-block-166').show();
