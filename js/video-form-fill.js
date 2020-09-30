@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $('#block-block-166').hide();
-  $('.field-name-field-thumbnail').hide();
+  $('.field-thumbnail').hide();
 
-  if ($('.field-name-field-hubspot-form').length > 0) {
-    $('.field-name-field-api-stream').hide();
-    $('.field-name-field-thumbnail').show();
+  if ($('.field-hubspot-form').length > 0) {
+    $('.field-api-stream').hide();
+    $('.field-thumbnail').show();
   }
 
   function getUrlVars()
@@ -23,8 +23,8 @@ $(document).ready(function() {
   var submitString = getUrlVars()["fs"];
     if(submitString=='y'){
       $('.oembed').show();
-      $('.field-name-field-thumbnail').hide();
-      $('.field-name-field-hubspot-form').hide();
+      $('.field-thumbnail').hide();
+      $('.field-hubspot-form').hide();
       $('#block-sharethis-sharethis-block').hide();
       $('.field-label').hide();
       $('#block-block-166').show();
