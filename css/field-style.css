@@ -1025,6 +1025,10 @@ div.user-picture>img {
   margin-top: -20px;
 }
 
+.rrssb {
+    padding-right: 0 !important;
+}
+
 .flex-direction-nav a {
   display: block;
   width: 40px;
