@@ -42,6 +42,14 @@ p a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.red-text{
+  color: #dd1e25;
+}
+
+.green-text{
+  color: #006400;
+}
+
 .page-header {
   color: #B5B6B9;
   padding-bottom: 0px;
