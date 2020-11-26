@@ -34,6 +34,14 @@ function pdfCreator() {
       style: 'subsmall'
     },
 
+    header: {
+      margin: [45, 20, 45, 0, ],
+      text: [
+        'Printed on ', new Intl.DateTimeFormat('en-GB').format()
+      ],
+      style: 'small'
+    },
+
     content: [{
         text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
@@ -70,6 +78,9 @@ function pdfCreator() {
       },
       {
         text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
+      },
+      {
+        text:['\n\n']
       },
       {
         text:['\n\n']
@@ -112,7 +123,7 @@ function pdfCreator() {
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 }
 
-function pdfCreator() {
+function pdfOpen() {
   var orgName = document.getElementById('orgName');
   var orgPhone = document.getElementById('orgPhone');
   var orgEmail = document.getElementById('orgEmail');
