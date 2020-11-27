@@ -34,14 +34,6 @@ function pdfCreator() {
       style: 'subsmall'
     },
 
-    header: {
-      margin: [45, 20, 45, 0, ],
-      text: [
-        'Printed on ', new Intl.DateTimeFormat('en-GB').format()
-      ],
-      style: 'small'
-    },
-
     content: [{
         text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
@@ -78,9 +70,6 @@ function pdfCreator() {
       },
       {
         text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']
-      },
-      {
-        text:['\n\n']
       },
       {
         text:['\n\n']
@@ -123,7 +112,7 @@ function pdfCreator() {
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 }
 
-function pdfOpen() {
+function pdfMake() {
   var orgName = document.getElementById('orgName');
   var orgPhone = document.getElementById('orgPhone');
   var orgEmail = document.getElementById('orgEmail');
@@ -140,6 +129,13 @@ function pdfOpen() {
   } else if (document.getElementById('type3').checked) {
     orgTypeValue = document.getElementById('type3').value;
   };
+var date = document.getElementById('date');
+var startDate;
+if(date.value ===""){
+  startDate = new Intl.DateTimeFormat('en-GB').format()
+} else{
+  startDate = date.value;
+};
 
 
   var docDefinition = {
@@ -157,14 +153,6 @@ function pdfOpen() {
         'This policy is copyright free and any, or all of it can be adopted at will by any organisation. Create your own by visiting, https://www.aesseal.com/en/resources/industry-guides/policy-prevent-global-warming'
       ],
       style: 'subsmall'
-    },
-
-    header: {
-      margin: [45, 20, 45, 0, ],
-      text: [
-        'Printed on ', new Intl.DateTimeFormat('en-GB').format()
-      ],
-      style: 'small'
     },
 
     content: [{
@@ -214,11 +202,14 @@ function pdfOpen() {
         text:['.......................................................................................\n\n']
       },
       {
-        text:['',name.value,'\n\n']
+        text:['',name.value,'']
       },
       {
         text:['',jobRole.value,'']
       },
+      {
+        text:['', startDate], style:['date']
+      }
     ],
 
     styles: {
@@ -242,6 +233,9 @@ function pdfOpen() {
       },
       subsmall: {
         fontSize: 8
+      },
+      date:{
+        alignment:'right'
       }
     }
   };
