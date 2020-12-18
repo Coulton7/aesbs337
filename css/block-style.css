@@ -235,6 +235,10 @@
   color: #ffffff
 }
 
+.transparent-background{
+  background: transparent;
+}
+
 /*red radial text within background*/
 .blue-background {
   background: #002A5B;

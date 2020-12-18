@@ -293,6 +293,14 @@ html{
   flex: 1;
 }
 
+.flex-grow-auto{
+  flex: 1 0 auto
+}
+
+.align-self-center{
+  align-self: center;
+}
+
 .footer {
   padding-top: 0px;
   padding-bottom: 0px;
