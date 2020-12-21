@@ -16,6 +16,7 @@ body {
 p a[target="_blank"]:after {
   font-family: 'Font Awesome 5 Free';
   content: " \f35d";
+  font-weight: 700;
 }
 
 /*Adds the small square icon after a link*/
