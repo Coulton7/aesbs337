@@ -236,7 +236,7 @@
 }
 
 .transparent-background{
-  background: transparent;
+  background: transparent!important;
 }
 
 /*red radial text within background*/
