@@ -1201,6 +1201,10 @@ div.user-picture>img {
   margin: 2em;
 }
 
+.overflow-wrap-break{
+  overflow-wrap: break-word;
+}
+
 .chosen-container {
   font-size: inherit;
 }
