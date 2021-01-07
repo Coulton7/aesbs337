@@ -913,27 +913,22 @@ div.user-picture>img {
   max-width: 2.5em;
 }
 
-/*For the footer on the key branches view*/
 .success_stories {
   display: none;
 }
 
-/*Hides the title of this content type on the view*/
 .instagram {
   display: none;
 }
 
-/*Hides the title of this content type on the view*/
 .tweet {
   display: none;
 }
 
-/*Hides the title of this content type on the view*/
 .linkedin {
   display: none;
 }
 
-/*Use to hide a field in the views of a specific content type*/
 .news {
   display: none;
 }
@@ -942,7 +937,6 @@ div.user-picture>img {
   display: none;
 }
 
-/*Hides the title of this content type on the view*/
 .product {
   float: right;
   display: inline;
@@ -951,7 +945,6 @@ div.user-picture>img {
   width: 28%;
 }
 
-/* code for the images on the product range (may rename)*/
 /*Masonry style starts here*/
 .masonry-item img {
   border-radius: 6px 6px 0 0;
