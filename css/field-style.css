@@ -1430,7 +1430,7 @@ div.user-picture>img {
   color: #ffffff;
   border: 2px solid #5B82AD;
   border-bottom: 2px solid #002A5B !important;
-  padding: 10px 15px;
+  padding: 10px 15px !important;
 }
 
 .blue-tabs .dropdown-menu li{
