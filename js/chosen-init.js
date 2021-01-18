@@ -6,3 +6,11 @@
     });
   });
 })(jQuery);
+
+(function($) {
+  $(document).ready(function() {
+    $('#productEnquiry').on('shown.bs.modal', function() {
+      $('.chosen-select', this).chosen();
+    });
+  });
+})(jQuery);
