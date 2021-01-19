@@ -126,6 +126,10 @@ a.blue-text:hover{
   color: #004a8c;
 }
 
+a.panel-outline {
+    color: #ddd;
+}
+
 /*link text decoration and effects when clicked on or hover overed*/
 ::selection {
   background-color: #dd1e25;
