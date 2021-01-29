@@ -162,7 +162,8 @@ html{
   background: -moz-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
   background: -webkit-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
   background: linear-gradient(135deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbd1d5', endColorstr='#f5fbfe', GradientType=1);  position: absolute;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbd1d5', endColorstr='#f5fbfe', GradientType=1);
+  position: absolute;
   bottom: 1.4em;
 }
 
