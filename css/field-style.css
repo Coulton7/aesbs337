@@ -1083,6 +1083,10 @@ div.user-picture>img {
   margin: 0;
 }
 
+.height-0{
+  height: 0;
+}
+
 .padding-bottom {
   padding-bottom: 1em;
 }
