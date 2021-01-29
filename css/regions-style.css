@@ -167,11 +167,7 @@ html {
 .footer-curve-block {
   width: 100%;
   height: 6.185em;
-  background: #cbd1d5;
-  background: -moz-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
-  background: -webkit-linear-gradient(-45deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
-  background: linear-gradient(135deg, #cbd1d5 0%, #abb2b6 42%, #f5fbfe 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbd1d5', endColorstr='#f5fbfe', GradientType=1);
+  background: #B5B6B9;
   position: absolute;
   bottom: 0.55em;
   background-attachment: fixed;
