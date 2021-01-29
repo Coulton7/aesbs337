@@ -29,7 +29,7 @@ p a[target="_blank"]:after {
   border-bottom: none;
 }
 
-.standard-text:hover{
+a.standard-text:hover{
   color:#a6aaad;
   border-bottom: none
 }
