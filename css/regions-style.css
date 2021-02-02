@@ -162,7 +162,7 @@ html {
   position: relative;
   bottom: 0.55em;
   margin-top: -7.9em;
-  filter: invert(43%) sepia(99%) saturate(8%) hue-rotate(202deg) brightness(101%) contrast(93%);
+  filter: invert(43%) sepia(99%) saturate(18%) hue-rotate(202deg) brightness(101%) contrast(96%);
 }
 
 .footer-curve-block {
