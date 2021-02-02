@@ -105,6 +105,15 @@
   color: #ffffff;
 }
 
+.footer-blockquote{
+  color: #ffffff;
+  margin: 0;
+  background-image: url(/sites/all/aesbs337/images/graphics/leading-quote-mark.png);
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  padding: 1.7em
+}
+
 /*inline commands and object fit variations*/
 .inline-flex {
   display: inline-flex;
