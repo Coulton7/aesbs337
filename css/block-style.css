@@ -109,6 +109,7 @@
   color: #ffffff;
   margin: 0;
   background-image: url(/sites/all/themes/aesbs337/images/graphics/leading-quote-mark.png);
+  background-size: contain;
   background-position: 0% 0%;
   background-repeat: no-repeat;
   padding: 1.7em
