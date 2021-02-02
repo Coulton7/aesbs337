@@ -147,7 +147,7 @@ html {
 }
 
 .curve-down {
-  width: 100%;;
+  width: 8em;;
   height: 6.185em;
   right: 6.5em;
   position: relative;
@@ -156,13 +156,11 @@ html {
 }
 
 .footer-curve {
-  width: 8em;
-  height: 6.185em;
-  right: 6.5em;
+  width: 100%;
+  right: -1.6em;
   position: relative;
-  bottom: 0.55em;
+  bottom: 0.3em;
   margin-top: -7.9em;
-  filter: invert(43%) sepia(99%) saturate(18%) hue-rotate(202deg) brightness(101%) contrast(96%);
 }
 
 .footer-curve-block {
