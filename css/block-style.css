@@ -101,6 +101,10 @@
   padding: 1.7em
 }
 
+.blockquote.white-text{
+  color: #ffffff;
+}
+
 /*inline commands and object fit variations*/
 .inline-flex {
   display: inline-flex;
