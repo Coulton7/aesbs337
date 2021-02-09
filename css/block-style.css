@@ -295,6 +295,11 @@
   padding: 10px 5px 10px 5px;
 }
 
+.grey-background{
+  background: #828f90;
+  padding: 10px 15px;
+}
+
 .white-background {
 padding: 1em 0.5em 1em 0.5em;
 background-color: #fff;
