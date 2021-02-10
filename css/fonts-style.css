@@ -169,6 +169,18 @@ a.panel-outline {
   color: #0077b5;
 }
 
+.linkedin-font-colour:hover{
+  color: #006ba2;
+}
+
+a.linkedin-font-colour{
+  color: #0077b5;
+}
+
+a.linkedin-font-colour:hover{
+  color: #006ba2;
+}
+
 /* xs < 768 Below is all to do with text size and spacing*/
 @media screen and (max-width: 767px) {
   .banner-title {
