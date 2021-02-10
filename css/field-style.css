@@ -1433,6 +1433,14 @@ div.user-picture>img {
   margin-bottom: 0;
 }
 
+.hover-grow{
+  transition: all .2s ease-in-out;
+}
+
+.hover-grow:hover{
+  transform: scale(1.1);
+}
+
 
 .blue-tabs {
   border-bottom: 5px solid #5B82AD;
