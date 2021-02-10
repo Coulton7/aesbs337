@@ -426,11 +426,11 @@ background-attachment: fixed;
 
 .iceberg-sea {
   margin-top: -9em;
-  z-index: 10;
 }
 
 .icebrg-bottomsea{
   margin-bottom: -9em;
+  z-index: 10;
 }
 
 .principles-set {
