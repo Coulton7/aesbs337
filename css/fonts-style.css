@@ -165,6 +165,10 @@ a.panel-outline {
   color: #dd1e25;
 }
 
+.linkedin-font-colour{
+  color: #0077b5;
+}
+
 /* xs < 768 Below is all to do with text size and spacing*/
 @media screen and (max-width: 767px) {
   .banner-title {
