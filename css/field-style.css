@@ -1209,6 +1209,8 @@ div.user-picture>img {
 
 .footer-title{
   margin-top: -1em;
+  font-size: 4em;
+  font-weight: 700;
 }
 
 .overflow-wrap-break{
@@ -1534,6 +1536,9 @@ div.user-picture>img {
     top: 16%;
     transform: translate(0);
   }
+  .footer-title{
+    margin-top: 0em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1585,6 +1590,9 @@ div.user-picture>img {
   ul.resource-cats a, ul.about-us-cats a {
     font-size: 1.4em;
     line-height: 2em;
+  }
+  .footer-title{
+    margin-top: -1em;
   }
 }
 
