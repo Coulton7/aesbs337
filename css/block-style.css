@@ -536,6 +536,11 @@ background-attachment: fixed;
   .blockquote {
     margin: 0 3em 0 3em;
   }
+
+  .icebrg-bottomsea{
+    margin-bottom: -11em;
+    z-index: 10;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -545,6 +550,11 @@ background-attachment: fixed;
 
   .blockquote {
     margin: 0 5em 0 5em;
+  }
+
+  .icebrg-bottomsea{
+    margin-bottom: -9em;
+    z-index: 10;
   }
 }
 
