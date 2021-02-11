@@ -1487,6 +1487,10 @@ div.user-picture>img {
   background-color: #044a8c;
 }
 
+.user-img-circle img{
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
