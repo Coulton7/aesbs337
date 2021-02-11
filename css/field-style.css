@@ -1229,6 +1229,33 @@ div.user-picture>img {
   opacity: 0.75;
 }
 
+.fade-hover-25{
+  transition: opacity 2s;
+  opacity: 0.25;
+}
+
+.fade-hover-50{
+  transition: opacity 2s;
+  opacity: 0.5;
+}
+
+.fade-hover-75{
+  transition: opacity 2s;
+  opacity: 0.75;
+}
+
+.fade-hover-25:hover{
+  opacity: 0.5;
+}
+
+.fade-hover-50:hover{
+  opacity: 0.75;
+}
+
+.fade-hover-75:hover{
+  opacity: 1;
+}
+
 .overflow-wrap-break{
   overflow-wrap: break-word;
 }
