@@ -1217,6 +1217,18 @@ div.user-picture>img {
   font-weight: 700;
 }
 
+.fade-25{
+  opacity: 0.25;
+}
+
+.fade-50{
+  opacity: 0.5;
+}
+
+.fade-75{
+  opacity: 0.75;
+}
+
 .overflow-wrap-break{
   overflow-wrap: break-word;
 }
