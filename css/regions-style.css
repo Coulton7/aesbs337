@@ -325,7 +325,8 @@ html {
 .footer {
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 100%
+  width: 100%;
+  border-top: none;
 }
 
 .footer-background {
