@@ -1207,6 +1207,10 @@ div.user-picture>img {
   margin: 2em;
 }
 
+.footer-title{
+  margin-top: -1em;
+}
+
 .overflow-wrap-break{
   overflow-wrap: break-word;
 }
