@@ -1536,6 +1536,10 @@ div.user-picture>img {
   border-radius: 50%;
 }
 
+.author-picture:empty{
+  display: none;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
