@@ -229,7 +229,13 @@ html {
 }
 
 .nav li a.active {
-  color: #1c2f55
+  color: #1c2f55;
+  background-color: #e5e5e7;
+}
+
+.side-menu .nav li a.active {
+  color: #1c2f55;
+  background-color: #e5e5e7;
 }
 
 .navbar-nav>li>a {
