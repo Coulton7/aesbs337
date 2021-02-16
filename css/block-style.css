@@ -437,8 +437,8 @@ background-attachment: fixed;
   margin-top: -9em;
 }
 
-.icebrg-bottomsea{
-  margin-bottom: -9em;
+.iceberg-bottomsea{
+  margin-bottom: -8em;
   z-index: 10;
 }
 
@@ -562,7 +562,7 @@ background-attachment: fixed;
   }
 
   .icebrg-bottomsea{
-    margin-bottom: -9em;
+    margin-bottom: -8em;
     z-index: 10;
   }
 }
