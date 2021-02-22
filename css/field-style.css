@@ -604,6 +604,7 @@ a.language-link.active {
   background: #ffffff;
   background-color: transparent;
   color: #535354;
+  white-space: normal;
 }
 
 /*Default button colour*/
@@ -611,6 +612,7 @@ a.language-link.active {
   border: 1px solid #e5e5e7;
   background: #e5e5e7;
   color: #535354;
+  white-space: normal;
 }
 
 .btn-midgrey {
@@ -618,6 +620,7 @@ a.language-link.active {
   background: #ffffff;
   background-color: #e5e5e5;
   color: #535354;
+  white-space: normal;
 }
 
 /*Default button colour*/
@@ -625,6 +628,7 @@ a.language-link.active {
   border: 1px solid #e5e5e7;
   background: #d7d7d7;
   color: #535354;
+  white-space: normal;
 }
 
 /*Default button colour hover effect*/
@@ -635,6 +639,7 @@ a.language-link.active {
   color: #ffffff !important;
   border: none !important;
   border-radius: 0;
+  white-space: normal;
 }
 
 /*Blue button command for html*/
@@ -646,6 +651,7 @@ a.language-link.active {
   outline-style: solid;
   outline-color: #ffffff;
   outline-width: 1px;
+  white-space: normal;
 }
 
 .btn-red {
@@ -655,6 +661,7 @@ a.language-link.active {
   color: #ffffff !important;
   border: none !important;
   border-radius: 0;
+  white-space: normal;
 }
 
 /*Red button command for html*/
@@ -666,6 +673,7 @@ a.language-link.active {
   outline-style: solid;
   outline-color: #ffffff;
   outline-width: 1px;
+  white-space: normal;
 }
 
 .blue-nav-tabs {
