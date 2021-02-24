@@ -55,7 +55,7 @@
 }
 
 /*the font-size for the serach box to match the site*/
-.form-item-keys-1 {
+.search-block .form-item {
   display: inline-block;
 }
 
@@ -1597,7 +1597,7 @@ div.user-picture>img {
 }
 
 @media screen and (min-width: 768px) {
-  .form-item-keys-1 {
+  .search-block .form-item {
     width: 71%;
   }
 
@@ -1652,7 +1652,7 @@ div.user-picture>img {
 }
 
 @media screen and (min-width: 992px) {
-  .form-item-keys-1 {
+    .search-block .form-item {
     width: 72%;
   }
 
@@ -1696,7 +1696,7 @@ div.user-picture>img {
 }
 
 @media screen and (min-width: 1200px) {
-  .form-item-keys-1 {
+  .search-block .form-item {
     width: 73%
   }
 
