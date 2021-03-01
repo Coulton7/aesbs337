@@ -103,6 +103,28 @@
   height: 100%;
 }
 
+.modal .close{
+  color: #ffffff;
+  position: fixed;
+  font-size: 3em;
+  float: right;
+  z-index: 1032;
+  top: 2em;
+  right: 1em;
+  height: 1em;
+  width: 1em;
+  transition: 0.5s;
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.modal .close:hover {
+  color:#dd1e25;
+  text-shadow:none;
+  opacity: 1;
+}
+
 .overlay-btn {
   float: right;
   margin-right: 1.5em;
