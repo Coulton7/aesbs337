@@ -83,8 +83,8 @@
   height: 0;
 }
 
-.modal-backdrop.fade{
-  transition-delay: 0.25s;
+.modal.fade {
+  transition-delay: 0.45s;
 }
 
 .modal.in.modal-dialog{
