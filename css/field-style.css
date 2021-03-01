@@ -117,12 +117,14 @@
   pointer-events: auto;
   cursor: pointer;
   opacity: 1;
+  font-weight: normal;
 }
 
 .modal .close:hover {
   color:#dd1e25;
   text-shadow:none;
   opacity: 1;
+  font-weight: normal;
 }
 
 .overlay-btn {
