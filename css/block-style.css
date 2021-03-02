@@ -272,6 +272,12 @@
   color: #ffffff;
 }
 
+.light-blue-background{
+  color: #ffffff;
+  background: #004a8c;
+  padding-left: 10px 5px;
+}
+
 .red-background {
   background: #DD1E25;
   color: #FFFFFF;
