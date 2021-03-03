@@ -422,11 +422,11 @@ html {
 
 @media screen and (min-width:501px) and (max-width: 767px) {
   .front__flex-margin {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    transform-origin: top;
-    margin-bottom: 16%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .lang-switch {
@@ -452,11 +452,11 @@ html {
 
 @media screen and (max-width:500px) {
   .front__flex-margin {
-    -ms-transform: scale(2);
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    transform-origin: top;
-    margin-bottom: 30%;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
   }
 
   .lang-switch {
