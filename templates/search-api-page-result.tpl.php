@@ -87,7 +87,7 @@
 ?>
 <li class="search-result">
 	<div class="dotted-border">
-    <p class="search-performance"><?php print $url; ?></p>
+    <p class="search-performance"><?php print check_plain($url)?></p>
 		<h3 class="title">
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
