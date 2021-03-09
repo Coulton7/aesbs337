@@ -77,6 +77,12 @@
     case 'apiplans':
       $contentType = 'API Plans';
     break;
+    case 'analysis':
+      $contentType = 'Analysis';
+    break;
+    case 'training':
+      $contentType = 'Web Page';
+    break;
     case 'page':
       $contentType = 'Web Page';
     break;
