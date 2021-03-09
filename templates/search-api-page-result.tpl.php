@@ -87,6 +87,7 @@
 ?>
 <li class="search-result">
 	<div class="dotted-border">
+    <p class="search-performance"><?php print $url ?></p>
 		<h3 class="title">
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
@@ -97,7 +98,7 @@
 				<?php if ($snippet): ?>
 				<p class="search-snippet"<?php print $content_attributes; ?>>
 				<?php print (filter_xss($snippet, $allowed_tags = array('sup'))); ?></p>
-				<?php print $url ? l(t('Read more'), $url['path'], $url['options']) : check_plain('Read more'); ?>
+				<div class="text-right"><?php print $url ? l(t('Read more'), $url['path'], $url['options']) : check_plain('Read more'); ?></div>
 			<?php endif; ?>
 		</div>
 	</div>
