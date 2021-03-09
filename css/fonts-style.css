@@ -227,7 +227,7 @@ a.linkedin-font-colour:hover{
     line-height: 29px;
   }
 
-  body {
+  body, .hs-richtext {
     font-size: 15px;
     line-height: 24px;
   }
@@ -293,7 +293,7 @@ a.linkedin-font-colour:hover{
     line-height: 31px;
   }
 
-  body {
+  body,.hs-richtext {
     font-size: 16px;
     line-height: 26px;
   }
@@ -369,7 +369,7 @@ a.linkedin-font-colour:hover{
     line-height: 32px;
   }
 
-  body {
+  body, .hs-richtext {
     font-size: 17px;
     line-height: 28px;
   }
@@ -437,7 +437,7 @@ a.linkedin-font-colour:hover{
     line-height: 34px;
   }
 
-  body {
+  body, .hs-richtext {
     font-size: 18px;
     line-height: 29px;
   }
