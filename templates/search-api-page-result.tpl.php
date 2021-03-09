@@ -59,9 +59,6 @@
     case 'product':
       $contentType = 'Product';
     break;
-    case 'products':
-      $contentType = 'Product';
-    break;
     case 'gland_packing':
       $contentType = 'Product';
     break;
@@ -79,15 +76,6 @@
     break;
     case 'apiplans':
       $contentType = 'API Plans';
-    break;
-    case 'analysis':
-      $contentType = 'Analysis';
-    break;
-    case 'training':
-      $contentType = 'Web Page';
-    break;
-    case 'services':
-      $contentType = 'Services';
     break;
     case 'page':
       $contentType = 'Web Page';
