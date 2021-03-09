@@ -93,7 +93,7 @@
       $contentType = 'Web Page';
     break;
     default:
-      $contentType = 'Category Page';
+      $contentType = '';
     break;
   endswitch;
 ?>
