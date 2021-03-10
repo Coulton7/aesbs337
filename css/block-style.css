@@ -510,7 +510,7 @@ background-attachment: fixed;
 
 .block-productenquiry{
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .35);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left;
