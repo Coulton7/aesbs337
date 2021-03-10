@@ -245,7 +245,7 @@ a.linkedin-font-colour:hover{
     top: 35%;
   }
 
-  .legal-consent-container {
+  .hs-richtext .legal-consent-container {
     font-size: 0.75em;
     line-height: 1.75em;
   }
@@ -311,7 +311,7 @@ a.linkedin-font-colour:hover{
     top: 23%;
   }
 
-  .legal-consent-container {
+  .hs-richtext .legal-consent-container {
     font-size: 0.7em;
     line-height: 1.7em;
   }
@@ -379,7 +379,7 @@ a.linkedin-font-colour:hover{
     line-height: 28px;
   }
 
-  .legal-consent-container {
+  .hs-richtext .legal-consent-container {
     font-size: 0.68em;
     line-height: 1.68em;
   }
@@ -447,7 +447,7 @@ a.linkedin-font-colour:hover{
     line-height: 29px;
   }
 
-  .legal-consent-container {
+  .hs-richtext .legal-consent-container {
     font-size: 0.65em;
     line-height: 1.65em;
   }
