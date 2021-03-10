@@ -513,7 +513,8 @@ background-attachment: fixed;
   background-color: rgba(0, 0, 0, .5);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
+  background-position: left;
   background-blend-mode: multiply;
   filter: blur(3px);
 }
