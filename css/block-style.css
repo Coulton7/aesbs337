@@ -511,6 +511,9 @@ background-attachment: fixed;
 .block-productenquiry{
   width: 100%;
   background-color: rgba(0, 0, 0, .85);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* above is the background variations that can be provided to certain blocks*/
