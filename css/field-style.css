@@ -1275,6 +1275,46 @@ div.user-picture>img {
   margin-left: 3em;
 }
 
+.padding-5em {
+  padding: 5em;
+}
+
+.padding-top-5em {
+  padding-top: 5em;
+}
+
+.padding-bottom-5em {
+  padding-bottom: 5em;
+}
+
+.padding-left-5em {
+  padding-left: 5em;
+}
+
+.padding-right-5em {
+  padding-right: 5em;
+}
+
+.margin-top-5em {
+  margin-top: 5em;
+}
+
+.margin-bottom-5em {
+  margin-bottom: 5em;
+}
+
+.margin-right-5em {
+  margin-right: 5em;
+}
+
+.margin-left-5em {
+  margin-left: 5em;
+}
+
+.margin-5em{
+  margin: 5em;
+}
+
 .margin-top {
   margin-top: 1em;
 }
