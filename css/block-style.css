@@ -508,6 +508,11 @@ background-attachment: fixed;
   text-align: center;
 }
 
+.block-productenquiry{
+  width: 100%;
+  background-color: rgba(0, 0, 0, .85);
+}
+
 /* above is the background variations that can be provided to certain blocks*/
 /*RRSSB*/
 .rrssb {
