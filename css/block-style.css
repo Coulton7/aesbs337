@@ -515,6 +515,7 @@ background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
+  filter: blur(3px);
 }
 
 /* above is the background variations that can be provided to certain blocks*/
