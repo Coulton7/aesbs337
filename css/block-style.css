@@ -526,6 +526,7 @@ background-attachment: fixed;
   background-color: #b5b6b9;
   width: 100%;
   opacity: 0.5;
+  display: block;
 }
 
 .blur-backdrop{
