@@ -510,11 +510,11 @@ background-attachment: fixed;
 
 .block-productenquiry{
   width: 100%;
-  background-color: rgba(0, 0, 0, .35);
+  background-color: #B5B6B9;
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: left;
-  background-blend-mode: multiply;
+  background-blend-mode: color-burn;
 }
 
 .blur-backdrop{
