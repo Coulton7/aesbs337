@@ -531,6 +531,7 @@ background-attachment: fixed;
 
 .blur-backdrop{
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 /* above is the background variations that can be provided to certain blocks*/
