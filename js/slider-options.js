@@ -19,8 +19,8 @@
       easing: "swing",
       animationLoop: true,
       pauseOnHover: true,
-      itemWidth: 210,
-      itemMargin: 20,
+      itemWidth: 180,
+      itemMargin: 15,
       minItems: 4,
       maxItems: 4,
       move: 1
