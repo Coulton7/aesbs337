@@ -21,6 +21,7 @@
       pauseOnHover: true,
       itemWidth: 210,
       itemMargin: 20,
+      minItems: 4,
       maxItems: 4,
       move: 1
 
