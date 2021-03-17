@@ -61,6 +61,15 @@ html {
   flex-wrap: wrap;
 }
 
+.row-eq-center{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .row-flex-col>[class*='col-'] {
   display: flex;
   flex-direction: column;
