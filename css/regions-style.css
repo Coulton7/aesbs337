@@ -61,7 +61,7 @@ html {
   flex-wrap: wrap;
 }
 
-.row-eq-center{
+.row-flex-center, .row-eq-center .region{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
