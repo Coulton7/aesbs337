@@ -513,6 +513,7 @@ background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: left;
+  position: relative;
 }
 
 .block-productenquiry::before {
