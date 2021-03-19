@@ -1721,6 +1721,18 @@ div.user-picture>img {
   opacity: 0.7px
 }
 
+.blue-circle-border{
+  border-radius: 50%;
+  border: 25px solid #002a5b;
+  overflow: hidden;
+}
+
+.grey-circle-border{
+  border-radius: 50%;
+  border: 25px solid #888C8F;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
