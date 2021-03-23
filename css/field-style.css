@@ -1373,6 +1373,10 @@ div.user-picture>img {
   margin-top: 4em;
 }
 
+.optionset-footer-image-slider .slides li img{
+  filter: contrast(0.8) grayscale(0.5) brightness(1.5);
+}
+
 .footer-title{
   margin-top: -1em;
   font-size: 4em;
