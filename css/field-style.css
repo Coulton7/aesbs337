@@ -305,7 +305,10 @@ ul.resource-cats a, ul.about-us-cats a {
   right: 1em;
   height: 1em;
   width: 1em;
-  transition: 0.5s;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   pointer-events: auto;
   cursor: pointer;
 }
