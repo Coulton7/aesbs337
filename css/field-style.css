@@ -285,7 +285,10 @@ ul.resource-cats a, ul.about-us-cats a {
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  transition: 0.5s;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   font-size: 2em;
   line-height: 1.3em;
 }
