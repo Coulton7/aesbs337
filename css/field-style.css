@@ -1377,6 +1377,10 @@ div.user-picture>img {
   filter: contrast(0.8) grayscale(0.5) brightness(1.5);
 }
 
+.optionset-footer-image-slider .slides li{
+  background-color: #b5b6b9;
+}
+
 .footer-title{
   margin-top: -1em;
   font-size: 4em;
