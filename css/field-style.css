@@ -1749,6 +1749,11 @@ div.user-picture>img {
   overflow: hidden;
 }
 
+.btn-text-overflow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
