@@ -558,7 +558,11 @@ background-attachment: fixed;
     position: absolute;
     top: 25.2em;
     left: 8%;
-    width:23em!important;
+    width: 23em !important;
+  }
+
+  .front .search-block {
+    top: 15.2em;
   }
 }
 
