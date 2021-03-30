@@ -310,6 +310,15 @@
   padding: 10px 15px;
 }
 
+.off-white-background{
+  background-color: #f4f4f4;
+  padding: 10px 5px 10px 5px;
+}
+
+.off-white-background:hover{
+  background-color: #f4f4f4;
+}
+
 .white-background {
 padding: 1em 0.5em 1em 0.5em;
 background-color: #fff;
