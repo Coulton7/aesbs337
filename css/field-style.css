@@ -1655,7 +1655,7 @@ div.user-picture>img {
 }
 
 .hover-grow{
-  transition: all .2s ease-in-out;
+  transition: transform .2s ease-in-out
 }
 
 .hover-grow:hover{
