@@ -378,6 +378,11 @@ html {
   border-bottom: none;
 }
 
+.footer-logos{
+  position: relative;
+  z-index: 10;
+}
+
 @media screen and (max-width: 767px) {
   .row-eq-height {
     display: block;
