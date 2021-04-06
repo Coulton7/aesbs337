@@ -1,6 +1,6 @@
 (function($){
   $(document).ready(function() {
-    var allRegions = $("#Land > *");
+    var allRegions = $("#Lands > *");
 
     allRegions.on("click", function() {
       var link = ($(this).attr('id'));
