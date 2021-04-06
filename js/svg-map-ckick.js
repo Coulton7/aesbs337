@@ -13,6 +13,8 @@
         $('.longview').addClass('show');
       } else if (link == "Land-Iowa" || "Land-Nebraska" || "Land-NorthDakota" || "Land-SouthDakota") {
         $('.marion').addClass('show');
+      } else if (link == "Land-Illinois" || "Land-Indiana" || "Land-Wisconsin") {
+        $('.avtssi').addClass('show');
       } else if(link == "Land-Texas") {
         $('.llp' && '.mss').addClass('show');
       }
@@ -40,6 +42,8 @@
           $('.longview').removeClass('show');
         } else if (link == "Land-Iowa" || "Land-Nebraska" || "Land-NorthDakota" || "Land-SouthDakota") {
           $('.marion').removeClass('show');
+        } else if (link == "Land-Illinois" || "Land-Indiana" || "Land-Wisconsin") {
+          $('.avtssi').addClass('show');
         } else if(link == "Land-Texas") {
           $('.llp' && '.mss').removeClass('show');
         }
