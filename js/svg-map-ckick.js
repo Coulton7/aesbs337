@@ -9,7 +9,7 @@
         $('.rockford').addClass('show');
       } else if (link == "Land-Maine" || "Land-NH" || "Land-Vt" || "Land-NewJersey" || "Land-NewYork" || "Land-WestVirginia" || "Land-Wisconsin" || "Land-Minnesota") {
         $('.fairfield').addClass('show');
-      } else if (link == "Land-Washington" || "Land-Oregona" || "Land-Utah" || "Land-Colorado" || "Land-Wyoming" || "Lnad-Montana") {
+      } else if (link == "Land-Washington" || "Land-Oregona" || "Land-Utah" || "Land-Colorado" || "Land-Wyoming" || "Lnad-Montana" || "Land-Nevada") {
         $('.longview').addClass('show');
       } else if (link == "Land-Iowa" || "Land-Nebraska" || "Land-NorthDakota" || "Land-SouthDakota") {
         $('.marion').addClass('show');
