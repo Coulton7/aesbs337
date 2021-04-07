@@ -20,13 +20,15 @@
         $('.avtssi').addClass('show');
       } else if (link === "Land-Texas") {
         $('.llp' && '.mss').addClass('show');
+      } else {
+        $('.connect-text') addClass('show');
       }
 
       allRegions.removeClass("on");
       $(this).addClass("on");
       $('body').addClass("noscroll");
       $('.location-pop-up').dialog({
-        open: function(event, ui){
+        open: function(event, ui) {
           $('ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span class="close">x</span>');
         },
         width: "70%",
@@ -51,6 +53,8 @@
           $('.avtssi').addClass('show');
         } else if (link === "Land-Texas") {
           $('.llp' && '.mss').removeClass('show');
+        } else {
+          $('.connect-text') removeClass('show');
         }
 
       });
