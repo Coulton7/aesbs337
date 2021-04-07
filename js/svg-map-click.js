@@ -1,5 +1,8 @@
 (function($){
   $(document).ready(function() {
+    var bootstrapButton = $.fn.button.noConflict()
+    $.fn.bootstrapBtn = bootstrapButton;
+    
     var allRegions = $("#Lands > *");
 
     allRegions.on("click", function() {
