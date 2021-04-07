@@ -5,7 +5,7 @@
     allRegions.on("click", function() {
       var link = ($(this).attr('id'));
 
-      if (link == "Land-Tennesse"){
+      if (link == "Land-Tennessee"){
         $('.rockford').addClass('show');
       } else if (link == "Land-Maine" || "Land-NH" || "Land-Vt" || "Land-NewJersey" || "Land-NewYork" || "Land-WestVirginia" || "Land-Wisconsin" || "Land-Minnesota") {
         $('.fairfield').addClass('show');
