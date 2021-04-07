@@ -53,7 +53,7 @@
         else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota")) {
           $('.fairfield').removeClass('show');
         }
-        else if ((link == "Land-Washington" || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
+        else if ((link == "Land-Washington") || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
           $('.longview').removeClass('show');
         }
         else if ((link == "Land-Iowa") || (link == "Land-Nebraska") || (link == "Land-NorthDakota") || (link == "Land-SouthDakota")) {
