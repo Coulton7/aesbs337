@@ -11,16 +11,16 @@
       if (link == "Land-Tennessee") {
         $('.rockford').addClass('show');
       }
-      else if (link == "Land-Maine" || "Land-NH" || "Land-Vt" || "Land-NewJersey" || "Land-NewYork" || "Land-WestVirginia" || "Land-Wisconsin" || "Land-Minnesota") {
+      else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota")) {
         $('.fairfield').addClass('show');
       }
-      else if (link == "Land-Washington" || "Land-Oregona" || "Land-Utah" || "Land-Colorado" || "Land-Wyoming" || "Land-Montana" || "Land-Nevada") {
+      else if ((link == "Land-Washington") || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
         $('.longview').addClass('show');
       }
-      else if (link == "Land-Iowa" || "Land-Nebraska" || "Land-NorthDakota" || "Land-SouthDakota") {
+      else if ((link == "Land-Iowa") || (link == "Land-Nebraska") || (link == "Land-NorthDakota") || (link == "Land-SouthDakota")) {
         $('.marion').addClass('show');
       }
-      else if (link == "Land-Illinois" || "Land-Indiana" || "Land-Wisconsin") {
+      else if ((link == "Land-Illinois") || (link == "Land-Indiana") || (link == "Land-Wisconsin")) {
         $('.avtssi').addClass('show');
       }
       else if (link == "Land-Texas") {
@@ -50,16 +50,16 @@
         if (link == "Land-Tennessee") {
           $('.rockford').removeClass('show');
         }
-        else if (link == "Land-Maine" || "Land-NH" || "Land-Vt" || "Land-NewJersey" || "Land-NewYork" || "Land-WestVirginia" || "Land-Wisconsin" || "Land-Minnesota") {
+        else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota")) {
           $('.fairfield').removeClass('show');
         }
-        else if (link == "Land-Washington" || "Land-Oregona" || "Land-Utah" || "Land-Colorado" || "Land-Wyoming" || "Land-Montana" || "Land-Nevada") {
+        else if ((link == "Land-Washington" || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
           $('.longview').removeClass('show');
         }
-        else if (link == "Land-Iowa" || "Land-Nebraska" || "Land-NorthDakota" || "Land-SouthDakota") {
+        else if ((link == "Land-Iowa") || (link == "Land-Nebraska") || (link == "Land-NorthDakota") || (link == "Land-SouthDakota")) {
           $('.marion').removeClass('show');
         }
-        else if (link == "Land-Illinois" || "Land-Indiana" || "Land-Wisconsin") {
+        else if ((link == "Land-Illinois") || (link == "Land-Indiana") || (link == "Land-Wisconsin")) {
           $('.avtssi').addClass('show');
         }
         else if (link == "Land-Texas") {
