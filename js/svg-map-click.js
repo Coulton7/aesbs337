@@ -27,7 +27,7 @@
       $('body').addClass("noscroll");
       $('.location-pop-up').dialog({
         open: function(event, ui){
-          $('ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span class="close">x</span>')
+          $('ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span class="close">x</span>');
         },
         width: "70%",
         height: 'auto',
