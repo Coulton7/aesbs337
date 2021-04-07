@@ -21,7 +21,7 @@
       } else if (link === "Land-Texas") {
         $('.llp' && '.mss').addClass('show');
       } else {
-        $('.connect-text') addClass('show');
+        $('.connect-text').addClass('show');
       }
 
       allRegions.removeClass("on");
@@ -54,7 +54,7 @@
         } else if (link === "Land-Texas") {
           $('.llp' && '.mss').removeClass('show');
         } else {
-          $('.connect-text') removeClass('show');
+          $('.connect-text').removeClass('show');
         }
 
       });
