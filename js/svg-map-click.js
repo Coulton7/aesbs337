@@ -63,7 +63,7 @@
           $('.marion').removeClass('show');
         }
         else if ((link == "Land-Illinois") || (link == "Land-Indiana") || (link == "Land-Wisconsin")) {
-          $('.avtssi').addClass('show');
+          $('.avtssi').removeClass('show');
         }
         else if (link == "Land-Texas") {
           $('.llp' && '.mss').removeClass('show');
