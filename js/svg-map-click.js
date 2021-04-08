@@ -42,6 +42,8 @@
         height: 'auto',
         modal: true,
         title: 'Location Details',
+        draggable: false,
+        resizable: false,
         close: function() {},
       });
       $('.location-pop-up').on("dialogclose", function() {
