@@ -36,7 +36,7 @@
       $('.location-pop-up').dialog({
         open: function(event, ui) {
           $('ui-dialog-titlebar-close').removeClass("ui-button-icon-primary ui-icon ui-icon-closethick").html('<span class="close-dialog">x</span>');
-          $('ui-dialog-title').addClass(h3);
+          $('ui-dialog-title').addClass('h3');
         },
         width: "70%",
         height: 'auto',
