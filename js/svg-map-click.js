@@ -69,7 +69,7 @@
       case(link == "Land-WestVirginia"):
         state = "West Virginia";
         break;
-      case(link == "Land-Virginia"):
+      case(link == "Land-Virginia_1_"):
         state = "Virginia";
         break;
       case(link == "Land-NorthCarolina_1_"):
