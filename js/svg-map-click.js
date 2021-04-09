@@ -154,7 +154,7 @@
         state = "Colorado";
         break;
       case(link == "Land-NewMexico"):
-        state = "New NewMexico";
+        state = "New Mexico";
         break;
       case(link == "Land-Arizona"):
         state = "Arizona";
