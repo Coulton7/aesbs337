@@ -11,7 +11,7 @@
       if (link == "Land-Tennessee") {
         $('.rockford').addClass('show');
       }
-      else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota")) {
+      else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota") || (link == "Land-Pennsylvania")) {
         $('.fairfield').addClass('show');
       }
       else if ((link == "Land-Washington") || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
@@ -209,7 +209,7 @@
         if (link == "Land-Tennessee") {
           $('.rockford').removeClass('show');
         }
-        else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota")) {
+        else if ((link == "Land-Maine") || (link == "Land-NH") || (link == "Land-Vt") || (link == "Land-NewJersey") || (link == "Land-NewYork") || (link == "Land-WestVirginia") || (link == "Land-Wisconsin") || (link == "Land-Minnesota") || (link == "Land-Pennsylvania")) {
           $('.fairfield').removeClass('show');
         }
         else if ((link == "Land-Washington") || (link == "Land-Oregona") || (link == "Land-Utah") || (link == "Land-Colorado") || (link == "Land-Wyoming") || (link == "Land-Montana") || (link == "Land-Nevada")) {
