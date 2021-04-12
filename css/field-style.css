@@ -1716,7 +1716,7 @@ div.user-picture>img {
   display: none;
 }
 
-.carousel-slider .flex-direction-nav a{
+.carousel-slider .flex-direction-nav a, .directionNav .flex-direction-nav a{
   top: 35%;
   opacity: 0.7;
   display: block;
@@ -1727,16 +1727,16 @@ div.user-picture>img {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-.carousel-slider .flex-direction-nav a:before{
+.carousel-slider .flex-direction-nav a:before, .directionNav .flex-direction-nav a:before{
   font-size: 30px;
 }
 
-.carousel-slider .flex-direction-nav a.flex-prev{
+.carousel-slider .flex-direction-nav a.flex-prev, .directionNav .flex-direction-nav a:before{
    left: 0;
    opacity: 0.7;
  }
 
- .carousel-slider .flex-direction-nav a.flex-next {
+ .carousel-slider .flex-direction-nav a.flex-next, .directionNav .flex-direction-nav a:before {
   right: -15px;
   opacity: 0.7px
 }
