@@ -119,6 +119,30 @@
   padding: 1.7em
 }
 
+blockquote::before{
+  content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
+  margin-right: -0.75em;
+  z-index: -1;
+  position: absolute;
+  left: -2.8em;
+  top: -1.9em;
+}
+
+blockquote::after{
+  content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
+  position: absolute;
+  margin-left: -0.5em;
+  z-index: -1;
+}
+
+blockquote {
+  color: #002A5B;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  position: relative;
+}
+
 /*inline commands and object fit variations*/
 .inline-flex {
   display: inline-flex;
