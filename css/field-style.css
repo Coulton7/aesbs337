@@ -1758,6 +1758,11 @@ div.user-picture>img {
   text-overflow: ellipsis;
 }
 
+.no-focus-border:focus{
+  outline: none;
+  border: none;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
