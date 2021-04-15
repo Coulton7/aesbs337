@@ -141,6 +141,7 @@ blockquote {
   border: none;
   font-size: inherit;
   position: relative;
+  margin: 2em 3em 2em 3em;
 }
 
 /*inline commands and object fit variations*/
