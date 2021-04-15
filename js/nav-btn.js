@@ -38,7 +38,7 @@
           $('navigation_col').removeClass('overlay-menu');
           $(y).addClass('fixed-top');
         } else {
-          x.style.height = "100%"";
+          x.style.height = "100%";
           $('.main').addClass('active');
           $("body").addClass('noscroll');
           $('#overlay-btn').removeClass('overlay-btn');
