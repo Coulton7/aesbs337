@@ -1,4 +1,15 @@
 (function($) {
+
+  var $window = $(window),
+  flexslider = { vars:{} };
+
+  function getGridSize() {
+    return (window.innerWidth > 1200) ? 4 : 4,
+           (window.innerWidth > 992) ? 3 : 4,
+           (window.innerWidth > 768) ? 3 : 3,
+           (window.innerWidth < 768) ? 2 : 2;
+  }
+
   $(document).ready(function() {
 
     $('.flexslider').flexslider({
@@ -21,8 +32,8 @@
       pauseOnHover: true,
       itemWidth: 180,
       itemMargin: 15,
-      minItems: 4,
-      maxItems: 4,
+      minItems: getGridSize(),
+      maxItems: getGridSize(),
       move: 1
 
     });
@@ -41,4 +52,12 @@
     });
 
   });
-})(jQuery)
+
+  $window.resize(function(){
+    var gridSize = getGridSize();
+
+    flexslider.vars.minItems = gridSize;
+    flexslider.vars.maxItems = gridSize;
+  });
+
+})(jQuery);
