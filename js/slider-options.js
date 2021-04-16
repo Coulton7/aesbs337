@@ -4,8 +4,8 @@
   flexslider = { vars:{} };
 
   function getGridSize() {
-    return (window.innerWidth < 768) ? 2 :,
-           (window.innerWidth < 992) ? 3 :,
+    return (window.innerWidth < 768) ? 2 :
+           (window.innerWidth < 992) ? 3 :
            (window.innerWidth < 1200) ? 4 : 4;
   }
 
