@@ -33,9 +33,9 @@
           x.style.height = "0%";
           $('.main').removeClass('active');
           $("body").removeClass('noscroll');
-          $('#overlay-btn').addClass('.overlay-btn');
+          $('#overlay-btn').addClass('overlay-btn');
           $('.search-block').removeClass('overlay-search');
-          $('navigation_col').removeClass('overlay-menu');
+          $('.navigation_col').removeClass('overlay-menu');
           $(y).addClass('fixed-top');
         } else {
           x.style.height = "100%";
