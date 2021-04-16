@@ -28,21 +28,21 @@
   left: 0%;
 }
 
-.blue-background .form-control {
+.blue-background .form-control, .contact-form .form-Controls {
   background-color: #eeeeee;
   border: 1px solid #66afe9;
 }
 
-.blue-background .form-control .chosen-sinlge {
+.blue-background .form-control .chosen-sinlge, .contact-form .form-control  .chosen-sinlge {
   color: inherit;
 }
 
-.blue-background a.chosen-single {
+.blue-background a.chosen-single, .contact-form a.chosen-single {
   color: #535454;
   border: 1px solid #66afe9;
 }
 
-.blue-background a.chosen-single:hover {
+.blue-background a.chosen-single:hover, , .contact-form a.chosen-single:hover {
   color: #535454;
   border: 1px solid #66afe9;
   outline: 0;
