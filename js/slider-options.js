@@ -4,9 +4,9 @@
   flexslider = { vars:{} };
 
   function getGridSize() {
-    return (window.innerWidth < 1200) ? 4 : 4,
+    return (window.innerWidth < 768) ? 2 : 2,
            (window.innerWidth < 992) ? 3 : 3,
-           (window.innerWidth < 768) ? 2 : 2;
+           (window.innerWidth < 1200) ? 4 : 4;
   }
 
   $(document).ready(function() {
@@ -31,8 +31,8 @@
       pauseOnHover: true,
       itemWidth: 180,
       itemMargin: 15,
-      minItems: 4,
-      maxItems: 4,
+      minItems: getGridSize(),
+      maxItems: getGridSize(),
       move: 1
 
     });
