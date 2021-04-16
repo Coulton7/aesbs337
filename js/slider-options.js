@@ -31,8 +31,8 @@
       pauseOnHover: true,
       itemWidth: 180,
       itemMargin: 15,
-      minItems: getGridSize(),
-      maxItems: getGridSize(),
+      minItems: 4,
+      maxItems: 4,
       move: 1
 
     });
