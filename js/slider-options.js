@@ -6,7 +6,7 @@
   function getGridSize() {
     return (window.innerWidth < 1200) ? 4 : 4,
            (window.innerWidth < 992) ? 3 : 3,
-           (window.innerWidth < 768) ? 3 : 3;
+           (window.innerWidth < 768) ? 2 : 2;
   }
 
   $(document).ready(function() {
