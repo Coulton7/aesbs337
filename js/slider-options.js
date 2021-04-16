@@ -4,8 +4,8 @@
   flexslider = { vars:{} };
 
   function getGridSize() {
-    return (window.innerWidth < 768) ? 2 : ,
-           (window.innerWidth < 992) ? 3 : ,
+    return (window.innerWidth < 768) ? 2 :,
+           (window.innerWidth < 992) ? 3 :,
            (window.innerWidth < 1200) ? 4 : 4;
   }
 
@@ -33,8 +33,10 @@
       itemMargin: 15,
       minItems: getGridSize(),
       maxItems: getGridSize(),
-      move: 1
-
+      move: 1,
+      start: function(slider){
+        flexslider = slider;
+      }
     });
 
     $('.product-slider').flexslider({
