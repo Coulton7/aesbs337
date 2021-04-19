@@ -1878,8 +1878,8 @@ div.user-picture>img {
   }
 
   .front .caption-container {
-    top: 23%;
-    width: 59%;
+    top: 22%;
+    width: 70%;
   }
 
   .social-id p:nth-child(1) {
@@ -1922,7 +1922,7 @@ div.user-picture>img {
   }
 
   .front .caption-container {
-    top: 30%;
-    width: 63%;
+    top: 27%;
+    width: 70%;
   }
 }
