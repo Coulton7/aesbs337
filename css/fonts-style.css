@@ -122,6 +122,10 @@ a.white-text{
   color: #ffffff;
 }
 
+a.white-text:hover{
+  color: #e7e7e7;
+}
+
 a.blue-text{
   color: #002a5b;
 }
