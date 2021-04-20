@@ -52,6 +52,11 @@
       directionNav: true
     });
 
+    $('.base-slider').flexslider({
+      controlNav: false,
+      directionNav: false
+    });
+
   });
 
   $window.resize(function(){
