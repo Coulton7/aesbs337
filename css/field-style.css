@@ -28,7 +28,7 @@
   left: 0%;
 }
 
-.blue-background .form-control, .contact-form .form-Controls {
+.blue-background .form-control, .contact-form .form-control {
   background-color: #eeeeee;
   border: 1px solid #66afe9;
 }
