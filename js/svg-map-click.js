@@ -194,7 +194,7 @@
           $('.ui-dialog-title').addClass('h2').addClass('text-center');
         },
         width: "70%",
-        height: 'auto',
+        height: "80%",
         modal: true,
         title: "Contact Details for "+ state,
         draggable: false,
