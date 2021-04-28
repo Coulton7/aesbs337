@@ -126,6 +126,14 @@ a.white-text:hover{
   color: #e7e7e7;
 }
 
+a.off-white-text{
+  color: #ffffff;
+}
+
+a.off-white-text:hover{
+    color: #e7e7e7;
+}
+
 a.blue-text{
   color: #002a5b;
 }
