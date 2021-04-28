@@ -127,11 +127,11 @@ a.white-text:hover{
 }
 
 a.off-white-text{
-  color: #ffffff;
+  color: #e7e7e7;
 }
 
 a.off-white-text:hover{
-    color: #e7e7e7;
+    color: #ffffff;
 }
 
 a.blue-text{
