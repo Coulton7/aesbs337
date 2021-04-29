@@ -440,9 +440,7 @@
             $('.rockford').removeClass('show');
             break;
           }
-        }
-
-      });
+        });
     });
   });
 })(jQuery);
