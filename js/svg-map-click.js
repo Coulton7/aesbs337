@@ -219,11 +219,6 @@
       $('body').addClass("noscroll");
       $('.location-pop-up').dialog({
         open: function(event, ui) {
-          $(this).parent().css({
-            position: 'absolute',
-            left: (window.innerWidth - $(this).parent().parent().outerWidth())/2,
-            top: (window.innerHeight - $(this).parent().parent().outerHeight())/2
-          });
           $('.ui-dialog-titlebar-close').removeClass("ui-button-icon-primary ui-icon ui-icon-closethick").html('<span class="close-dialog">x</span>');
           $('.ui-dialog-title').addClass('h2').addClass('text-center');
         },
