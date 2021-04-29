@@ -225,7 +225,7 @@
         width: "70%",
         height: 'auto',
         modal: true,
-        title: "Contact Details for "+ state,
+        title: "Regional sales & contact Details for "+ state,
         draggable: false,
         resizable: false,
         close: function() {},
