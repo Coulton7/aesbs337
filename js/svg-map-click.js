@@ -309,7 +309,7 @@
           $('.ui-dialog-title').addClass('h2').addClass('text-center');
         },
         width: "70%",
-        height: '600px',
+        height: '600',
         modal: true,
         title: "Regional sales & contact Details for "+ state,
         draggable: false,
