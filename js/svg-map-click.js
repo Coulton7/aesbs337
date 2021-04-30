@@ -142,20 +142,20 @@
         break;
       case(link == "Land-Indiana"):
         state = "Indiana";
-        $('.avtssi').addClass('show');
+        $('.Lomabard').addClass('show');
         $('.IN').addClass('show');
         $('.Pontiac').addClass('show');
         break;
       case(link == "Land-Illinois"):
         state = "Illinois";
-        $('.avtssi').addClass('show');
+        $('.Lomabard').addClass('show');
         $('.IL').addClass('show');
         $('.Edmonds').addClass('show');
         break;
       case(link == "Land-Wisconsin"):
         state = "Wisconsin";
         $('.Fairfield').addClass('show');
-        $('.avtssi').addClass('show');
+        $('.Lomabard').addClass('show');
         $('.WI').addClass('show');
         break;
       case(link == "Land-Minnesota"):
@@ -455,20 +455,20 @@
             break;
           case(link == "Land-Indiana"):
             state = "Indiana";
-            $('.avtssi').removeClass('show');
+            $('.Lomabard').removeClass('show');
             $('.IN').removeClass('show');
             $('.Pontiac').removeClass('show');
             break;
           case(link == "Land-Illinois"):
             state = "Illinois";
-            $('.avtssi').removeClass('show');
+            $('.Lomabard').removeClass('show');
             $('.IL').removeClass('show');
             $('.Edmonds').removeClass('show');
             break;
           case(link == "Land-Wisconsin"):
             state = "Wisconsin";
             $('.Fairfield').removeClass('show');
-            $('.avtssi').removeClass('show');
+            $('.Lomabard').removeClass('show');
             $('.WI').removeClass('show');
             break;
           case(link == "Land-Minnesota"):
