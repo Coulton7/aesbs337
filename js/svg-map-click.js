@@ -77,47 +77,47 @@
         break;
       case(link == "Land-NorthCarolina_1_"):
         state = "North Carolina";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.NC').addClass('show');
         break;
       case(link == "Land-SouthCarolina"):
         state = "South Carolina";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.SC').addClass('show');
         break;
       case(link == "Land-Georgia"):
         state = "Georgia";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.GA').addClass('show');
         break;
       case(link == "Land-Florida"):
         state = "Florida";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.FL').addClass('show');
         break;
       case(link == "Land-Alabama"):
         state = "Alabama";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.AL').addClass('show');
         break;
       case(link == "Land-Mississippi"):
         state = "Mississippi";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.MS').addClass('show');
         break;
       case(link == "Land-Tennessee"):
         state = "Tennessee";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.TN').addClass('show');
         break;
       case(link == "Land-Kentucky"):
         state = "Kentucky";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.KY').addClass('show');
         break;
       case(link == "Land-Ohio"):
         state = "Ohio";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.OH').addClass('show');
         break;
       case(link == "Land-Michigan_1_"):
@@ -148,118 +148,118 @@
         break;
       case(link == "Land-Iowa"):
         state = "Iowa";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.IA').addClass('show');
         break;
       case(link == "Land-Missouri"):
         state = "Missouri";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.MO').addClass('show');
         break;
       case(link == "Land-Arkansas"):
         state = "Arkansas";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.AR').addClass('show');
         break;
       case(link == "Land-Louisiana"):
         state = "Louisiana";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.LA').addClass('show');
         break;
       case(link == "Land-Texas"):
         state = "Texas";
-        $('.llp').addClass('show');
-        $('.mss').addClass('show');
+        $('.Corpus').addClass('show');
+        $('.Odessa').addClass('show');
         $('.TX').addClass('show');
         break;
       case(link == "Land-Oklahoma"):
         state = "Oklahoma";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.OK').addClass('show');
         break;
       case(link == "Land-Kansas"):
         state = "Kansas";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.KS').addClass('show');
         break;
       case(link == "Land-Nebraska"):
         state = "Nebraska";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.NE').addClass('show');
         break;
       case(link =="Land-SouthDakota"):
         state = "South Dakota";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.SD').addClass('show');
         break;
       case(link == "Land-NorthDakota"):
         state = "North Dakota";
-        $('.marion').addClass('show');
+        $('.Marion').addClass('show');
         $('.ND').addClass('show');
         break;
       case(link == "Land-Montana"):
         state = "Montana";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.MT').addClass('show');
         break;
       case(link == "Land-Wyoming"):
         state = "Wyoming";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.WY').addClass('show');
         break;
       case(link == "Land-Colorado"):
         state = "Colorado";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.CO').addClass('show');
         break;
       case(link == "Land-NewMexico"):
         state = "New Mexico";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.NM').addClass('show');
         break;
       case(link == "Land-Arizona"):
         state = "Arizona";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.AZ').addClass('show');
         break;
       case(link == "Land-Utah"):
         state = "Utah";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.UT').addClass('show');
         break;
       case(link == "Land-Idaho"):
         state = "Idaho";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.ID').addClass('show');
         break;
       case(link == "Land-Washington"):
         state = "Washington";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.WA').addClass('show');
         break;
       case(link == "Land-Oregona"):
         state = "Oregon";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.OR').addClass('show');
         break;
       case(link == "Land-Nevada"):
         state = "Nevada";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.NV').addClass('show');
         break;
       case(link == "Land-California"):
         state = "California";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.CA').addClass('show');
         break;
       case(link == "Land-Alaska"):
         state = "Alaska";
-        $('.longview').addClass('show');
+        $('.Longview').addClass('show');
         $('.AK').addClass('show');
         break;
       case(link == "Land-Hawaii"):
         state = "Hawaii";
-        $('.rockford').addClass('show');
+        $('.Rockford').addClass('show');
         $('.HI').addClass('show');
         break;
       }
@@ -354,47 +354,47 @@
             break;
           case(link == "Land-NorthCarolina_1_"):
             state = "North Carolina";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.NC').removeClass('show');
             break;
           case(link == "Land-SouthCarolina"):
             state = "South Carolina";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.SC').removeClass('show');
             break;
           case(link == "Land-Georgia"):
             state = "Georgia";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.GA').removeClass('show');
             break;
           case(link == "Land-Florida"):
             state = "Florida";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.FL').removeClass('show');
             break;
           case(link == "Land-Alabama"):
             state = "Alabama";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.AL').removeClass('show');
             break;
           case(link == "Land-Mississippi"):
             state = "Mississippi";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.MS').removeClass('show');
             break;
           case(link == "Land-Tennessee"):
             state = "Tennessee";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.TN').removeClass('show');
             break;
           case(link == "Land-Kentucky"):
             state = "Kentucky";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.KY').removeClass('show');
             break;
           case(link == "Land-Ohio"):
             state = "Ohio";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.OH').removeClass('show');
             break;
           case(link == "Land-Michigan_1_"):
@@ -425,118 +425,118 @@
             break;
           case(link == "Land-Iowa"):
             state = "Iowa";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.IA').removeClass('show');
             break;
           case(link == "Land-Missouri"):
             state = "Missouri";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.MO').removeClass('show');
             break;
           case(link == "Land-Arkansas"):
             state = "Arkansas";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.AR').removeClass('show');
             break;
           case(link == "Land-Louisiana"):
             state = "Louisiana";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.LA').removeClass('show');
             break;
           case(link == "Land-Texas"):
             state = "Texas";
-            $('.llp').removeClass('show');
-            $('.mss').removeClass('show');
+            $('.Corpus').removeClass('show');
+            $('.Odessa').removeClass('show');
             $('.TX').removeClass('show');
             break;
           case(link == "Land-Oklahoma"):
             state = "Oklahoma";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.OK').removeClass('show');
             break;
           case(link == "Land-Kansas"):
             state = "Kansas";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.KS').removeClass('show');
             break;
           case(link == "Land-Nebraska"):
             state = "Nebraska";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.NE').removeClass('show');
             break;
           case(link =="Land-SouthDakota"):
             state = "South Dakota";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.SD').removeClass('show');
             break;
           case(link == "Land-NorthDakota"):
             state = "North Dakota";
-            $('.marion').removeClass('show');
+            $('.Marion').removeClass('show');
             $('.ND').removeClass('show');
             break;
           case(link == "Land-Montana"):
             state = "Montana";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.MT').removeClass('show');
             break;
           case(link == "Land-Wyoming"):
             state = "Wyoming";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.WY').removeClass('show');
             break;
           case(link == "Land-Colorado"):
             state = "Colorado";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.CO').removeClass('show');
             break;
           case(link == "Land-NewMexico"):
             state = "New Mexico";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.NM').removeClass('show');
             break;
           case(link == "Land-Arizona"):
             state = "Arizona";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.AZ').removeClass('show');
             break;
           case(link == "Land-Utah"):
             state = "Utah";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.UT').removeClass('show');
             break;
           case(link == "Land-Idaho"):
             state = "Idaho";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.ID').removeClass('show');
             break;
           case(link == "Land-Washington"):
             state = "Washington";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.WA').removeClass('show');
             break;
           case(link == "Land-Oregona"):
             state = "Oregon";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.OR').removeClass('show');
             break;
           case(link == "Land-Nevada"):
             state = "Nevada";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.NV').removeClass('show');
             break;
           case(link == "Land-California"):
             state = "California";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.CA').removeClass('show');
             break;
           case(link == "Land-Alaska"):
             state = "Alaska";
-            $('.longview').removeClass('show');
+            $('.Longview').removeClass('show');
             $('.AK').removeClass('show');
             break;
           case(link == "Land-Hawaii"):
             state = "Hawaii";
-            $('.rockford').removeClass('show');
+            $('.Rockford').removeClass('show');
             $('.HI').removeClass('show');
             break;
           }
