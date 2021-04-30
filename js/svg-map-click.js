@@ -148,7 +148,7 @@
         break;
       case(link == "Land-Illinois"):
         state = "Illinois";
-        $('.Lomabard').addClass('show');
+        $('.Lombard').addClass('show');
         $('.IL').addClass('show');
         $('.Edmonds').addClass('show');
         break;
