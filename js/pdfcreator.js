@@ -20,8 +20,8 @@ function pdfCreator() {
   var docDefinition = {
 
     info: {
-      title: 'POLICY TO PREVENT GLOBAL WARMING',
-      subject: 'POLICY TO PREVENT GLOBAL WARMING'
+      title: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING',
+      subject: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING'
     },
 
     pageMargins: [45, 105, 45, 60],
@@ -35,7 +35,7 @@ function pdfCreator() {
     },
 
     content: [{
-        text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
+        text: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
       },
       {
@@ -141,8 +141,8 @@ if(date.value ===""){
   var docDefinition = {
 
     info: {
-      title: 'POLICY TO PREVENT GLOBAL WARMING',
-      subject: 'POLICY TO PREVENT GLOBAL WARMING'
+      title: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING',
+      subject: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING'
     },
 
     pageMargins: [45, 105, 45, 60],
@@ -156,7 +156,7 @@ if(date.value ===""){
     },
 
     content: [{
-        text: 'POLICY TO PREVENT GLOBAL WARMING\n\n',
+        text: 'INVESTMENT POLICY TO PREVENT GLOBAL WARMING\n\n',
         style: 'header'
       },
       {
