@@ -15,6 +15,13 @@ function pdfCreator() {
   } else if (document.getElementById('type3').checked) {
     orgTypeValue = document.getElementById('type3').value;
   };
+  var date = document.getElementById('date');
+  var startDate;
+  if(date.value ===""){
+    startDate = new Intl.DateTimeFormat('en-GB').format()
+  } else{
+    startDate = date.value;
+  };
 
 
   var docDefinition = {
@@ -106,13 +113,16 @@ function pdfCreator() {
       },
       subsmall: {
         fontSize: 8
+      },
+      date:{
+        alignment:'right'
       }
     }
   };
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 }
 
-function pdfMake() {
+function pdfOpen() {
   var orgName = document.getElementById('orgName');
   var orgPhone = document.getElementById('orgPhone');
   var orgEmail = document.getElementById('orgEmail');
