@@ -365,7 +365,7 @@ background-color: #fff;
 
 .col-dotted-border {
   outline: 1px dashed #888c8f;
-  padding: 1em 0.75em 1em 0.75em;
+  padding: 1em 0.85em 1em 0.85em;
   outline-offset: -0.5em;
 }
 
