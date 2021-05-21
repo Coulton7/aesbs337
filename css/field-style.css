@@ -874,8 +874,16 @@ div.user-picture>img {
   max-width: 25%;
 }
 
+.img-33{
+  max-width: 33%;
+}
+
 .img-50 {
   max-width: 50%;
+}
+
+.img-66{
+  max-width: 66%;
 }
 
 .img-75 {
