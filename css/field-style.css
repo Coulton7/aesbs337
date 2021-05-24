@@ -1446,6 +1446,22 @@ div.user-picture>img {
   overflow-wrap: break-word;
 }
 
+.alignself-flex-end{
+  align-self: flex-end;
+}
+
+.alignself-flex-start{
+  align-self: flex-start;
+}
+
+.alignself-baseline{
+  align-self: baseline;
+}
+
+.alignself-center{
+  align-self: center;
+}
+
 .chosen-container {
   font-size: inherit;
 }
