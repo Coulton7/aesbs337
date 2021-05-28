@@ -39,7 +39,7 @@
       interval: 600,
       step: 1,
       interval: 2000,
-      w992: {
+      w1024: {
         rows: 2,
         columns: 6
       },
