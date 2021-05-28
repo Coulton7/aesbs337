@@ -1,6 +1,6 @@
 (function($) {
 
-    $(document).ready(function() {
+     $(function() {
       $('#ri-grid').gridrotator({
         rows: 3,
         columns: 4,
@@ -30,7 +30,6 @@
           columns: 7
         },
       });
-    });
 
     $('#six-grid').gridrotator({
       rows: 2,
