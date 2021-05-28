@@ -6,7 +6,6 @@
         columns: 4,
         animType: 'slideBottom',
         animSpeed: 1000,
-        interval: 600,
         step: 1,
         interval: 2000,
         w1024: {
@@ -36,7 +35,6 @@
       columns: 6,
       animType: 'slideBottom',
       animSpeed: 1000,
-      interval: 600,
       step: 1,
       interval: 2000,
       w1024: {
