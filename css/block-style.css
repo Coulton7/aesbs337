@@ -301,6 +301,11 @@ blockquote {
   padding: 10px 5px 10px 5px;
 }
 
+.blue-background-np{
+  background-color: #002a5b;
+  color: #ffffff;
+}
+
 .blue-background .block-title {
   color: #ffffff;
 }
@@ -310,6 +315,13 @@ blockquote {
   background: #004a8c;
   padding-left: 10px 5px;
 }
+
+
+.light-blue-background-np{
+  color: #ffffff;
+  background-color: #004a8c;
+}
+
 
 .red-background {
   background: #DD1E25;
