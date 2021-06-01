@@ -13,6 +13,8 @@
       .not('[href="#prod"]')
       .not('[href="#cli"]')
       .not('[href="#carousel-fade"]')
+      .not('[href="#pauseButton"]')
+      .not('[href="#playButton"]')
       .click(function(event) {
         // On-page links
         if (
