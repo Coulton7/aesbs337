@@ -29,13 +29,13 @@
   });
 
   $('#pauseButton').click(function(){
-    $myCarousel.carousel('pause');
+    $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
     $('#playButton').removeClass('display-none;');
   });
 
   $('#playButton').click(function(){
-    $myCarousel.carousel('cycle');
+    $('#carousel-fade').carousel('cycle');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none;');
   });
