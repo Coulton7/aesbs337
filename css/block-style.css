@@ -365,6 +365,26 @@ padding: 1em 0.5em 1em 0.5em;
 background-color: #fff;
 }
 
+.blue-bottom-iceberg-background{
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
+  padding: 0;
+  color: #ffffff
+}
+
+.blue-top-iceberg-background{
+  background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #ffffff 50%);
+  padding: 0;
+  color: #535454
+}
+
+.blue-top-iceberg-background a{
+  color: #dd1e25;
+}
+
+.blue-top-iceberg-background a:hover{
+  color: #fa010a;
+}
+
 .well {
   background-color: #e5e5e7;
   border-radius: 0;
