@@ -385,6 +385,22 @@ background-color: #fff;
   color: #ffffff;
 }
 
+.blue-top-grey-bottom-background a{
+  color: #ffffff;
+}
+
+.blue-top-grey-bottom-background a:hover{
+  color: #e7e7e7;
+}
+
+.grey-top-blue-bottom-background a{
+  color: #ffffff;
+}
+
+.grey-top-blue-bottom-background a:hover{
+  color: #e7e7e7;
+}
+
 .blue-top-iceberg-background a{
   color: #dd1e25;
 }
