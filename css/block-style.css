@@ -375,6 +375,16 @@ background-color: #fff;
   color: #535454
 }
 
+.blue-top-grey-bottom-background{
+  background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #888C8F 50%);
+  color: #ffffff;
+}
+
+.grey-top-blue-bottom-background{
+  background-image: linear-gradient(to bottom, #888C8F, #888C8F 50%, #002A5B 50%);
+  color: #ffffff;
+}
+
 .blue-top-iceberg-background a{
   color: #dd1e25;
 }
