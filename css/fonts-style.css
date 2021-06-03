@@ -55,6 +55,10 @@ a.standard-text:hover{
   color: #002a5b;
 }
 
+.lightblue-text{
+  color: #0073ab;
+}
+
 .green-text{
   color: #006400;
 }
@@ -136,6 +140,14 @@ a.off-white-text{
 
 a.off-white-text:hover{
     color: #ffffff;
+}
+
+a.lightblue-text{
+  color: #0073ab;
+}
+
+a.lightblue-text:hover{
+  color: #338FBC;
 }
 
 a.blue-text{
