@@ -272,6 +272,7 @@ html {
   background: #ffffff;
   position: absolute;
   bottom: 0;
+  z-index: 10;
 }
 
 .socialmedia ul {
