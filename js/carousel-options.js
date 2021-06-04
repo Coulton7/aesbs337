@@ -25,6 +25,7 @@
     var $animatingElems = $(e.relatedTarget).find(
       "[data-animation ^= 'animated']"
     );
+    pause: "false"
     doAnimations($animatingElems);
   });
 
