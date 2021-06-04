@@ -118,6 +118,14 @@ a:hover {
   border-bottom: none;
 }
 
+.blue-background a {
+  color: #ffffff;
+}
+
+.blue-background a:hover {
+  color: #e5e5e5;
+}
+
 a.no-dash{
   border-bottom: none;
 }
