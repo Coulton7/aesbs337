@@ -335,6 +335,7 @@ ul.resource-cats a, ul.about-us-cats a {
   transition: opacity, .3s;
   height: 100%;
   width: 100%;
+  z-index: 10;
 }
 
 /*Adds the red overlay while also hding it*/
