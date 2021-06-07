@@ -74,7 +74,7 @@ $(document).ready(function() {
   });
 
   var t;
-  var start = $('#carousel-fade .carousel-innter').find('active').attr('data-interval');
+  var start = $('#carousel-fade').find('.active').attr('data-interval');
   t = setTimeout("$('#carousel-fade').carousel({interval: 6000});", start);
 
   $('#carousel-fade').on('slid.bs.carousel'), function(){
