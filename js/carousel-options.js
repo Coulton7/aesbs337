@@ -69,7 +69,7 @@ $(document).ready(function() {
   $('#playButton').click(function(){
     $('#carousel-fade').carousel('next');
     $('#pauseButton').removeClass('display-none');
-    $('#playButton').addClass('display-none;');
+    $('#playButton').addClass('display-none');
   });
 });
 
