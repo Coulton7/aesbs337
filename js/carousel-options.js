@@ -71,6 +71,23 @@ $(document).ready(function() {
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
   });
+
+  var t;
+  var start = $('#carousel-fade').find('active').attr('data-interval');
+  t = setTimeout("$('#carousel-fade').carousel({interval: 1000});", start-1000);
+
+  $('#carousel-fade').on('slid.bs.carousel'), function(){
+    clearTimeout(t);
+    var duration = $(this).find('.active').attr('data-interval');
+
+    $('#carousel-fade').carousel('pause');
+    t = setTimeout("$('#carousel-fade').carousel();", duration-1000);
+  }
+
+  $('.carousel indicators li').on('click', function(){
+    clearTimeout(t);
+  });
+
 });
 
 })(jQuery);
