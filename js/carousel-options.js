@@ -85,7 +85,7 @@ $(document).ready(function() {
     t = setTimeout("$('#carousel-fade').carousel();", duration-1000);
   }
 
-  $('.carousel indicators li').on('click', function(){
+  $('.carousel-indicators li').on('click', function(){
     clearTimeout(t);
   });
 
