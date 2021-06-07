@@ -75,14 +75,14 @@ $(document).ready(function() {
 
   var t;
   var start = $('#carousel-fade .carousel-innter').find('active').attr('data-interval');
-  t = setTimeout("$('#carousel-fade').carousel({interval: 8000});", start-1000);
+  t = setTimeout("$('#carousel-fade').carousel({interval: 8000});", start);
 
   $('#carousel-fade').on('slid.bs.carousel'), function(){
     clearTimeout(t);
     var duration = $(this).find('.active').attr('data-interval');
 
     $('#carousel-fade').carousel('pause');
-    t = setTimeout("$('#carousel-fade').carousel();", duration-1000);
+    t = setTimeout("$('#carousel-fade').carousel();", duration);
   }
 
   $('.carousel-indicators li').on('click', function(){
