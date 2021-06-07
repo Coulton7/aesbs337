@@ -63,11 +63,11 @@ $(document).ready(function() {
   $('#pauseButton').click(function(){
     $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
-    $('#playButton').removeClass('display-none;');
+    $('#playButton').removeClass('display-none');
   });
 
   $('#playButton').click(function(){
-    $('#carousel-fade').carousel('cycle');
+    $('#carousel-fade').carousel('next');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none;');
   });
