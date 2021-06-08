@@ -82,7 +82,7 @@ $(document).ready(function() {
     var duration = $(this).find('.active').attr('data-interval');
 
     $('#carousel-fade').carousel('pause');
-    t = setTimeout("$('#carousel-fade').carousel()", duration);
+    t = setTimeout("$('#carousel-fade').carousel();", duration);
   }
 
   $('.carousel-indicators li').on('click', function(){
