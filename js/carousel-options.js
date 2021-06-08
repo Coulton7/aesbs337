@@ -67,7 +67,6 @@ $(document).ready(function() {
   });
 
   $('#playButton').click(function(){
-    $('#carousel-fade').carousel('next');
     $('#carousel-fade').carousel('cycle');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
