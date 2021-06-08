@@ -61,7 +61,6 @@ window.onload = function() {
 
 $(document).ready(function() {
   $("#carousel-fade").carousel( { interval: 6000, pause: false } );
-
   $('#playButton').click(function(){
     $('#carousel-fade').carousel('cycle');
     $('#carousel-fade').carousel('next');
