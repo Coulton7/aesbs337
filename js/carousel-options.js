@@ -62,13 +62,11 @@ window.onload = function() {
 $(document).ready(function() {
   $("#carousel-fade").carousel( { interval: 6000, pause: false } );
   $('#pauseButton').click(function(){
-    $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
     $('#playButton').removeClass('display-none');
   });
 
   $('#playButton').click(function(){
-    $('#carousel-fade').carousel('cycle');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
   });
@@ -76,16 +74,21 @@ $(document).ready(function() {
   var t;
   var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
   t = setTimeout(function(){
-    $('#carousel-fade').carousel('next')
+    $('#carousel-fade').carousel('next');
   }, start);
 
   $('#carousel-fade').on('slid.bs.carousel', function(){
     clearTimeout(t);
     var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
 
-    $('#carousel-fade').carousel('pause');
-    t = setTimeout("$('#carousel-fade').carousel('next');", duration);
-  })
+    if($('#playButton').hasClass('display-none')){
+      $('#carousel-fade').carousel('pause');
+      t = setTimeout("$('#carousel-fade').carousel('next');", duration);
+    } else {
+      $('#carousel-fade').carousel('pause');
+    }
+
+  });
 
 });
 
