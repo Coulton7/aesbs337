@@ -60,7 +60,7 @@ window.onload = function() {
 };
 
 $(document).ready(function() {
-  $("#carousel-fade").carousel( { interval: 6000, pause: false } );
+  $("#carousel-fade").carousel( { interval: 10000, pause: false } );
   $('#playButton').click(function(){
     $('#carousel-fade').carousel('cycle');
     $('#carousel-fade').carousel('next');
