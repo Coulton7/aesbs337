@@ -92,6 +92,12 @@ $(document).ready(function() {
 
   });
 
+  $('#carousel-fade').on('slide.bs.carousel', function(){
+    if($('#pauseButton')hasClass('display-none')){
+      $('#carousel-fade').carousel('pause');
+    }
+  });
+
 });
 
 })(jQuery);
