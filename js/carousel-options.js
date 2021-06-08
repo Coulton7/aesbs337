@@ -75,7 +75,7 @@ $(document).ready(function() {
 
   var t;
   var start = $('#carousel-fade').find('.item.active').attr('data-interval');
-  t = setTimeout("$('#carousel-fade').carousel({interval: 6000});", start);
+  t = setTimeout("$('#carousel-fade').carousel({interval: 1000});", start);
 
   $('#carousel-fade').on('slid.bs.carousel', function(){
     clearTimeout(t);
