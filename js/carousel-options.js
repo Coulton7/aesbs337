@@ -74,12 +74,12 @@ $(document).ready(function() {
   });
 
   var t;
-  var start = $('#carousel-fade').find('.active').attr('data-interval');
+  var start = $('#carousel-fade').find('.item.active').attr('data-interval');
   t = setTimeout("$('#carousel-fade').carousel({interval: 6000});", start);
 
   $('#carousel-fade').on('slid.bs.carousel'), function(){
     clearTimeout(t);
-    var duration = $(this).find('.active').attr('data-interval');
+    var duration = $(this).find('.item.active').attr('data-interval');
 
     $('#carousel-fade').carousel('pause');
     t = setTimeout("$('#carousel-fade').carousel();", duration);
