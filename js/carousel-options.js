@@ -72,6 +72,20 @@ $(document).ready(function() {
     $('#playButton').addClass('display-none');
   });
 
+  var t;
+  var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
+  t = setTimeout(function(){
+    $('#carousel-fade').carousel('next')
+  }, start);
+
+  $('#carousel-fade').on('slid.bs.carousel', function(){
+    clearTimeout(t);
+    var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
+
+    $('#carousel-fade').carousel('pause');
+    t = setTimeout("$('#carousel-fade').carousel('next');", duration);
+    console.log(duration);
+  })
 
 });
 
