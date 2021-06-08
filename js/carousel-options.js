@@ -85,7 +85,6 @@ $(document).ready(function() {
 
     $('#carousel-fade').carousel('pause');
     t = setTimeout("$('#carousel-fade').carousel('next');", duration);
-    console.log(duration);
   })
 
 });
