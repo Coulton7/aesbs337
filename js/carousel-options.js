@@ -86,7 +86,7 @@ $(document).ready(function() {
     } else {
       $('#carousel-fade').carousel('pause');
     }
-  })
+  });
 
   $('#carousel-fade').on('slid.bs.carousel', function(){
     clearTimeout(t);
