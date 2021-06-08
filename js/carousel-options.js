@@ -60,6 +60,19 @@ window.onload = function() {
 };
 
 $(document).ready(function() {
+  $("#carousel-fade").carousel( { interval: 6000, pause: false } );
+  $('#pauseButton').click(function(){
+    $('#carousel-fade').carousel('pause');
+    $('#pauseButton').addClass('display-none');
+    $('#playButton').removeClass('display-none');
+  });
+
+  $('#playButton').click(function(){
+    $('#carousel-fade').carousel('cycle');
+    $('#pauseButton').removeClass('display-none');
+    $('#playButton').addClass('display-none');
+  });
+
   var t;
   var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
   t = setTimeout(function(){
@@ -73,18 +86,6 @@ $(document).ready(function() {
     $('#carousel-fade').carousel('pause');
     t = setTimeout("$('#carousel-fade').carousel('next');", duration);
   })
-  $("#carousel-fade").carousel( { interval: 6000, pause: false } );
-  $('#pauseButton').click(function(){
-    $('#carousel-fade').carousel('pause');
-    $('#pauseButton').addClass('display-none');
-    $('#playButton').removeClass('display-none');
-  });
-
-  $('#playButton').click(function(){
-    $('#carousel-fade').carousel('cycle');
-    $('#pauseButton').removeClass('display-none');
-    $('#playButton').addClass('display-none');
-  });
 
 });
 
