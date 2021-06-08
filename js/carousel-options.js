@@ -80,6 +80,8 @@ $(document).ready(function() {
   }, start);
 
   $('#carousel-fadre').on('slide.bs.carousel', function(){
+    
+    var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
     if($('#playButton').hasClass('display-none')){
       $('#carousel-fade').carousel('pause');
       t = setTimeout("$('#carousel-fade').carousel('next');", duration);
