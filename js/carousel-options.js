@@ -61,17 +61,17 @@ window.onload = function() {
 
 $(document).ready(function() {
   $("#carousel-fade").carousel( { interval: 6000, pause: false } );
-  $('#pauseButton').click(function(){
-    $('#carousel-fade').carousel('pause');
-    $('#pauseButton').addClass('display-none');
-    $('#playButton').removeClass('display-none');
-  });
 
   $('#playButton').click(function(){
     $('#carousel-fade').carousel('cycle');
     $('#carousel-fade').carousel('next');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
+  });
+  $('#pauseButton').click(function(){
+    $('#carousel-fade').carousel('pause');
+    $('#pauseButton').addClass('display-none');
+    $('#playButton').removeClass('display-none');
   });
 
   var t;
