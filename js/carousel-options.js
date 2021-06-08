@@ -60,6 +60,7 @@ window.onload = function() {
 };
 
 $(document).ready(function() {
+  $("#carousel-fade").carousel( { interval: 6000, pause: false } );
   $('#pauseButton').click(function(){
     $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
