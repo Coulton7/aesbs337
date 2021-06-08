@@ -83,8 +83,12 @@ $(document).ready(function() {
     clearTimeout(t);
     var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
 
-    $('#carousel-fade').carousel('pause');
-    t = setTimeout("$('#carousel-fade').carousel('next');", duration);
+    if($('#playButton').hasClass('display-none')){
+      $('#carousel-fade').carousel('pause');
+      t = setTimeout("$('#carousel-fade').carousel('next');", duration);
+    } else {
+      $('#carousel-fade').carousel('pause');
+    }
 
   });
 
