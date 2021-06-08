@@ -79,17 +79,6 @@ $(document).ready(function() {
     $('#carousel-fade').carousel('next');
   }, start);
 
-  $('#carousel-fadre').on('slide.bs.carousel', function(){
-    
-    var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
-    if($('#playButton').hasClass('display-none')){
-      $('#carousel-fade').carousel('pause');
-      t = setTimeout("$('#carousel-fade').carousel('next');", duration);
-    } else {
-      $('#carousel-fade').carousel('pause');
-    }
-  });
-
   $('#carousel-fade').on('slid.bs.carousel', function(){
     clearTimeout(t);
     var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
