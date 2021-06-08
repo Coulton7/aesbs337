@@ -67,8 +67,7 @@ $(document).ready(function() {
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
   });
-  $('#pauseButton').click(function(e){
-    e.preventDefault();
+  $('#pauseButton').click(function(){
     $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
     $('#playButton').removeClass('display-none');
