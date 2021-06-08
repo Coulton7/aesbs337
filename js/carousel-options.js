@@ -14,7 +14,7 @@
 
   var $myCarousel = $("#carousel-fade"),
     $firstAnimatingElems = $myCarousel
-    .find(".carousel-item:first")
+    .find(".item:first")
     .find("[data-animation ^= 'animated']");
 
   $myCarousel.carousel();
