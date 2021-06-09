@@ -68,13 +68,13 @@ $(document).ready(function() {
   }, start);
 
   $("#carousel-fade").carousel( { interval: 10000, pause: false } );
-  $('#playButton').click(function(){
+  $('#playButton').on('click', function(){
     $('#carousel-fade').carousel('cycle');
     $('#carousel-fade').carousel('next');
     $('#pauseButton').removeClass('display-none');
     $('#playButton').addClass('display-none');
   });
-  $('#pauseButton').click(function(){
+  $('#pauseButton').on('click', function(){
     clearTimeout(t);
     $('#carousel-fade').carousel('pause');
     $('#pauseButton').addClass('display-none');
