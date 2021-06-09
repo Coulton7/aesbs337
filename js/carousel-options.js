@@ -94,6 +94,7 @@ $(document).ready(function() {
 
   $('#carousel-fade').on('slide.bs.carousel', function(){
     if($('#pauseButton')hasClass('display-none')){
+      clearTimeout(t);
       $('#carousel-fade').carousel('pause');
     }
   });
