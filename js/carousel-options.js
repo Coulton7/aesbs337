@@ -60,6 +60,13 @@ window.onload = function() {
 };
 
 $(document).ready(function() {
+
+  var t;
+  var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
+  t = setTimeout(function(){
+    $('#carousel-fade').carousel('next');
+  }, start);
+
   $("#carousel-fade").carousel( { interval: 10000, pause: false } );
   $('#playButton').click(function(){
     $('#carousel-fade').carousel('cycle');
@@ -73,12 +80,6 @@ $(document).ready(function() {
     $('#pauseButton').addClass('display-none');
     $('#playButton').removeClass('display-none');
   });
-
-  var t;
-  var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
-  t = setTimeout(function(){
-    $('#carousel-fade').carousel('next');
-  }, start);
 
   $('#carousel-fade').on('slid.bs.carousel', function(){
     clearTimeout(t);
@@ -94,7 +95,7 @@ $(document).ready(function() {
   });
 
   $('#carousel-fade').on('slide.bs.carousel', function(){
-    if($('#pauseButton')hasClass('display-none')){
+    if($('#pauseButton').hasClass('display-none')){
       clearTimeout(t);
       $('#carousel-fade').carousel('pause');
     }
