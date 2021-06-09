@@ -1495,6 +1495,22 @@ div.user-picture>img {
   align-items: center;
 }
 
+.aligncontent-flex-end{
+  align-content: flex-end;
+}
+
+.aligncontent-flex-start{
+  align-content: flex-start;
+}
+
+.aligncontent-baseline{
+  align-content: baseline;
+}
+
+.aligncontent-center{
+  align-content: center;
+}
+
 .chosen-container {
   font-size: inherit;
 }
