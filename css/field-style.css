@@ -1908,6 +1908,7 @@ div.user-picture>img {
   }
   .footer-title{
     margin-top: 0em;
+    padding-left: 0;
   }
 }
 
@@ -1963,6 +1964,7 @@ div.user-picture>img {
   }
   .footer-title{
     margin-top: -1em;
+    padding-left: 1em;
   }
 }
 
