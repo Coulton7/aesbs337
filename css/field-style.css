@@ -1870,6 +1870,12 @@ div.user-picture>img {
     top: 0;
     left: 0;
   }
+  .noscroll .search-block.reliability{
+    position: relative;
+    width: 95% !important;
+    top: 0;
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
