@@ -48,7 +48,7 @@
         }
       });
 
-    $("#mobile-overlay").click(
+/*    $("#mobile-overlay").click(
     function mobileNavBtn(){
         document.getElementById('mobile-overlay').classList.toggle("change");
         var x = document.getElementById('myNav');
@@ -71,7 +71,7 @@
             $(y).removeClass('fixed-top');
         }
     });
-  });
+  });*/
 
   $(document).ready(function() {
     $('#prev').on('click', function() {
