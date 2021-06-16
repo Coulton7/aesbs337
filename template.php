@@ -16,6 +16,12 @@ function aesbs337_preprocess_page(&$vars) {
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.js');
 }
 
+function aesbs337_preprocess_search_result(&$variables) {
+  if (isset($variables['result']['node']->bundle_name)) {
+    $variables['info_split']['type'] = $variables['result']['node']->bundle_name;
+  }
+}
+
 function aesbs337_theme(){
 	$items=array();
 
