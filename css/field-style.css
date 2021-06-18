@@ -755,17 +755,6 @@ a.language-link.active {
   border-radius: 4px;
 }
 
-.btn-transparent-green-border{
-  background: transparent;
-  border-radius: 2px solid #03943e;
-  color:#535354;
-}
-
-.btn-transparent-green-border:hover{
-  background: #d7d7d7;
-  color: #000000;
-}
-
 .btn-transparent:hover{
   background: #d7d7d7;
   color: #535354;
