@@ -1863,6 +1863,10 @@ div.user-picture>img {
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22)
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
