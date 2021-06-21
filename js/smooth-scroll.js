@@ -13,6 +13,7 @@
       .not('[href="#prod"]')
       .not('[href="#cli"]')
       .not('[href="#carousel-fade"]')
+      .not('[href="#myCarousel"]')
       .click(function(event) {
         // On-page links
         if (
