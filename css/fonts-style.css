@@ -170,6 +170,14 @@ a.panel-outline {
     color: #ddd;
 }
 
+a.lightblue-white-text{
+  color: #338FBC;
+}
+
+a.lightblue-white-text{
+  color: #ffffff;
+}
+
 /*link text decoration and effects when clicked on or hover overed*/
 ::selection {
   background-color: #dd1e25;
