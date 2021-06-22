@@ -108,7 +108,7 @@ $(document).ready(function() {
   }
   next.children(':first-child').clone().appendTo($(this));
 
-  for (var i=1;i<2;i++) {
+  for (var i=1;i<4;i++) {
     next=next.next();
     if (!next.length) {
     	next = $(this).siblings(':first');
