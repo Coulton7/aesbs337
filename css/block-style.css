@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.full-width{
+  width: 100%;
+}
+
 .cust-portal {
   float: right;
   margin-right: 0.6em;
