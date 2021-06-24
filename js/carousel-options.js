@@ -136,7 +136,7 @@ $(document).ready(function() {
       }
     }
 
-    if (jQuery(window).width() < 768) {
+    else if (jQuery(window).width() < 768) {
       for (var x = 1; x < 1; x++) {
         next = next.next();
         if (!next.length) {
@@ -147,7 +147,7 @@ $(document).ready(function() {
       }
     }
 
-    if (jQuery(window).width() > 767) {
+    else if(jQuery(window).width() > 767) {
       for (var y = 1; y < 1;) {
         next = next.next();
         if (!next.length) {
