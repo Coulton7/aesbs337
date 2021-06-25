@@ -119,7 +119,7 @@ $(document).ready(function() {
   });
 
   $('.carousel .horizontal .item').each(function(){
-    var next = $(this).prev();
+    var next = $(this).next();
     if (!next.length) {
       next = $(this).siblings(':first');
     }
