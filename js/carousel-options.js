@@ -119,26 +119,26 @@ $(document).ready(function() {
   });
 
 $('.carousel .horizontal .item').each(function() {
-  var next = $(this).next();
+  var next = $(this).prev();
   if (!next.length) {
-    next = $(this).siblings(':first');
+    next = $(this).siblings(':last');
   }
   next.children(':first-child').clone().appendTo($(this));
 
   if (jQuery(window).width() > 992) {
     for (var i = 1; i < 2; i++) {
-      next = next.next();
+      next = next.prev();
       if (!next.length) {
-        next = $(this).siblings(':first');
+        next = $(this).siblings(':last');
       }
 
       next.children(':first-child').clone().appendTo($(this));
     }
   } else if (jQuery(window).width() > 768) {
     for (var x = 1; x < 1; x++) {
-      next = next.next();
+      next = next.prev();
       if (!next.length) {
-        next = $(this).siblings(':first');
+        next = $(this).siblings(':last');
       }
 
       next.children(':first-child').clone().appendTo($(this));
