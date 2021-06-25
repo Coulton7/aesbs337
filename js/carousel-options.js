@@ -123,40 +123,40 @@ $(document).ready(function() {
   direction: "right"
 });
 
-  $('.carousel .horizontal .item').each(function(){
-    var prev = $(this).prev();
-    if (!prev.length) {
-      prev = $(this).siblings(':first');
-    }
-    prev.children(':first-child').clone().appendTo($(this));
+$('.carousel .horizontal .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
 
-    if (jQuery(window).width() > 992) {
-      for (var i = 1; i < 2; i++) {
-        prev = prev.prev();
-        if (!prev.length) {
-          prev = $(this).siblings(':first');
-        }
-
-        prev.children(':first-child').clone().appendTo($(this));
+  if (jQuery(window).width() > 992) {
+    for (var i = 1; i < 2; i++) {
+      next = next.next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
       }
+
+      next.children(':first-child').clone().appendTo($(this));
     }
+  }
 
-    else if (jQuery(window).width() > 768) {
-      for (var x = 1; x < 1; x++) {
-        prev = prev.prev();
-        if (!prev.length) {
-          prev = $(this).siblings(':first');
-        }
-
-        prev.children(':first-child').clone().appendTo($(this));
+  else if (jQuery(window).width() > 768) {
+    for (var x = 1; x < 1; x++) {
+      next = next.next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
       }
+
+      next.children(':first-child').clone().appendTo($(this));
     }
+  }
 
-    else if(jQuery(window).width() < 767) {
+  else if(jQuery(window).width() < 767) {
 
-    }
+  }
 
-  });
+});
 
 });
 
