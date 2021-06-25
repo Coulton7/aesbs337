@@ -118,6 +118,11 @@ $(document).ready(function() {
     }
   });
 
+  $('#newsCarousel').carousel({
+  interval: 5000,
+  direction: "right"
+});
+
   $('.carousel .horizontal .item').each(function(){
     var prev = $(this).prev();
     if (!prev.length) {
