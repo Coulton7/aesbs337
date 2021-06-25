@@ -123,7 +123,7 @@ $(document).ready(function() {
   direction: "right"
 });
 
-$('.carousel .horizontal .item').each(function(){
+$('.carousel .horizontal .item').each(function() {
   var next = $(this).next();
   if (!next.length) {
     next = $(this).siblings(':first');
@@ -139,9 +139,7 @@ $('.carousel .horizontal .item').each(function(){
 
       next.children(':first-child').clone().appendTo($(this));
     }
-  }
-
-  else if (jQuery(window).width() > 768) {
+  } else if (jQuery(window).width() > 768) {
     for (var x = 1; x < 1; x++) {
       next = next.next();
       if (!next.length) {
@@ -150,9 +148,7 @@ $('.carousel .horizontal .item').each(function(){
 
       next.children(':first-child').clone().appendTo($(this));
     }
-  }
-
-  else if(jQuery(window).width() < 767) {
+  } else if (jQuery(window).width() < 767) {
 
   }
 
