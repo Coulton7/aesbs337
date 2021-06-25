@@ -119,36 +119,36 @@ $(document).ready(function() {
   });
 
   $('.carousel .horizontal .item').each(function(){
-    var prev = $(this).prev();
-    if (!prev.length) {
-      prev = $(this).siblings(':first');
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
     }
-    prev.children(':first-child').clone().appendTo($(this));
+    next.children(':first-child').clone().appendTo($(this));
 
     if (jQuery(window).width() > 992) {
       for (var i = 1; i < 2; i++) {
-        prev = prev.prev();
-        if (!prev.length) {
-          prev = $(this).siblings(':first');
+        next = next.prev();
+        if (!next.length) {
+          next = $(this).siblings(':first');
         }
 
-        prev.children(':first-child').clone().appendTo($(this));
+        next.children(':first-child').clone().appendTo($(this));
       }
     }
 
     else if (jQuery(window).width() > 768) {
       for (var x = 1; x < 1; x++) {
-        prev = prev.prev();
+        next = next.prev();
         if (!prev.length) {
-          prev = $(this).siblings(':first');
+          next = $(this).siblings(':first');
         }
 
-        prev.children(':first-child').clone().appendTo($(this));
+        next.children(':first-child').clone().appendTo($(this));
       }
     }
 
     else if(jQuery(window).width() < 767) {
-      
+
     }
 
   });
