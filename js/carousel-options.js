@@ -148,14 +148,7 @@ $(document).ready(function() {
     }
 
     else if(jQuery(window).width() < 767) {
-      for (var y = 1;) {
-        prev = prev.prev();
-        if (!prev.length) {
-          prev = $(this).siblings(':first');
-        }
-
-        prev.children(':first-child').clone().appendTo($(this));
-      }
+      
     }
 
   });
