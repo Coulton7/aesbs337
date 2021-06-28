@@ -317,7 +317,7 @@ blockquote {
 .light-blue-background{
   color: #ffffff;
   background: #004a8c;
-  padding-left: 10px 5px;
+  padding: 10px 5px;
 }
 
 .light-blue-background-np{
@@ -346,6 +346,10 @@ blockquote {
 .lightgrey-background {
   background: #E5E5E7;
   padding: 10px 5px 10px 5px;
+}
+
+.lightgrey-background-np{
+  background: #e5e5e7;
 }
 
 .grey-background{
