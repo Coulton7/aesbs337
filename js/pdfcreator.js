@@ -254,10 +254,12 @@ if(date.value ===""){
 
 }
 
-document.getElementById("downloadPDF").addEventListener("click", function(){
-  pdfCreator();
-});
+$(document).ready(function(){
+  document.getElementById("downloadPDF").addEventListener("click", function(){
+    pdfCreator();
+  });
 
-document.getElementById("savePDF").addEventListener("click", function(){
-  pdfOpen();
+  document.getElementById("savePDF").addEventListener("click", function(){
+    pdfOpen();
+  });
 });
