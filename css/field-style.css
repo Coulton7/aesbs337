@@ -54,6 +54,11 @@
   font-size: inherit;
 }
 
+.form-control.is-invalid{
+  border: 3px solid #dca7a7;
+  background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+}
+
 /*the font-size for the serach box to match the site*/
 .search-block .form-item {
   display: inline-block;
