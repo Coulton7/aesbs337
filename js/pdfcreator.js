@@ -91,6 +91,10 @@
         {
           text: ['', jobRole.value, '']
         },
+        {
+          text: ['', startDate],
+          style: ['date']
+        }
       ],
 
       styles: {
@@ -159,7 +163,7 @@
       pageMargins: [45, 105, 45, 60],
 
       footer: {
-        margin: [45, 0, 45, 0],
+        margin: [35, 0, 45, 0],
         text: [
           'This policy is copyright free and any, or all of it can be adopted at will by any organisation. Create your own by visiting, https://www.aesseal.com/en/resources/industry-guides/policy-prevent-global-warming'
         ],
@@ -202,9 +206,6 @@
         },
         {
           text: ['The Board of ', orgName.value, ' encourage employees and stakeholders to contact us by ', orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.\n\n']
-        },
-        {
-          text: ['\n\n']
         },
         {
           text: ['\n\n']
