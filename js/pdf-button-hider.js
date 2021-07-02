@@ -6,13 +6,12 @@
        if (orgName.value == "") {
          $(orgName).addClass("is-invalid");
          return false;
-       }
 
        } else {
         $('#createPDF').hide();
         $('#downloadPDF').show();
         $('#savePDF').show();
       }
-    })
+    });
   });
 })(jQuery);
