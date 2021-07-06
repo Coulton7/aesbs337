@@ -62,7 +62,7 @@
   $(document).ready(function() {
 
     $("#carousel-fade").carousel({
-      interval: 30000,
+      interval: 40000,
       pause: false
     });
 
