@@ -401,6 +401,11 @@ background-color: #fff;
   color: #FFFFFF;
 }
 
+.lightgrey-top-blue-bottom-background{
+  background-image: linear-gradient(to bottom, #e5e5e7, #e5e5e7 50%, #002a5b 50%);
+  color: #ffffff;
+}
+
 .blue-top-grey-bottom-background a{
   color: #ffffff;
 }
