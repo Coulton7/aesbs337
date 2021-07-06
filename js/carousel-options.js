@@ -61,47 +61,9 @@
 
   $(document).ready(function() {
 
-    var t;
-    var start = document.getElementsByClassName('item active')[0].getAttribute("data-interval");
-    t = setTimeout(function() {
-      $('#carousel-fade').carousel('next');
-    }, start);
-
     $("#carousel-fade").carousel({
-      interval: 10000,
+      interval: 30000,
       pause: false
-    });
-    $('#playButton').on('click', function() {
-      $('#carousel-fade').carousel('cycle');
-      $('#carousel-fade').carousel('next');
-      $('#pauseButton').removeClass('display-none');
-      $('#playButton').addClass('display-none');
-    });
-    $('#pauseButton').on('click', function() {
-      clearTimeout(t);
-      $('#carousel-fade').carousel('pause');
-      $('#pauseButton').addClass('display-none');
-      $('#playButton').removeClass('display-none');
-    });
-
-    $('#carousel-fade').on('slid.bs.carousel', function() {
-      clearTimeout(t);
-      var duration = document.getElementsByClassName("item active")[0].getAttribute("data-interval");
-
-      if ($('#playButton').hasClass('display-none')) {
-        $('#carousel-fade').carousel('pause');
-        t = setTimeout("$('#carousel-fade').carousel('next');", duration);
-      } else {
-        $('#carousel-fade').carousel('pause');
-      }
-
-    });
-
-    $('#carousel-fade').on('slide.bs.carousel', function() {
-      if ($('#pauseButton').hasClass('display-none')) {
-        clearTimeout(t);
-        $('#carousel-fade').carousel('pause');
-      }
     });
 
     $('.carousel .vertical .item').each(function() {
