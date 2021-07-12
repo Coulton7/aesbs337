@@ -109,7 +109,14 @@
           next.children(':first-child').clone().appendTo($(this));
         }
       } else if ($(window).width() < 767) {
+        for (var y = 1; y < 1;) {
+          next = next.prev();
+          if (!next.length) {
+            next = $(this).siblings(':last');
+          }
 
+          next.children(':first-child').clone().appendTo($(this));
+        }
       }
 
     });
