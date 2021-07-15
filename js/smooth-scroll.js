@@ -15,6 +15,9 @@
       .not('[href="#carousel-fade"]')
       .not('[href="#myCarousel"]')
       .not('[href="#newsCarousel"]')
+      .not('[href="#techCarousel"]')
+      .not('[href="#custCarousel"]')
+      .not('[href="#whyCarousel"]')
       .click(function(event) {
         // On-page links
         if (
