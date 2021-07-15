@@ -14,6 +14,7 @@
       .not('[href="#cli"]')
       .not('[href="#carousel-fade"]')
       .not('[href="#myCarousel"]')
+      .not('[href="#newsCarousel"]')
       .click(function(event) {
         // On-page links
         if (
