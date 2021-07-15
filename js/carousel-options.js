@@ -66,6 +66,17 @@
       pause: false
     });
 
+    $('div[data-ride="carousel"]').each(function() {
+      var $carousel = $(this);
+      var id = this.id;
+      var relatedIndicators = $('li[data-target="#' + id + '"]');
+      $carousel.on('slid.bs.carousel', function(e) {
+        var index = $carousel.find('.carousel-inner .item').index($carousel.find('.carousel-inner .active'));
+        relatedIndicators.removeClass('active');
+        relatedIndicators.filter('[data-slide-to="' + index + '"]').addClass('active');
+      });
+    });
+
     $('.carousel .vertical .item').each(function() {
       var next = $(this).next();
       if (!next.length) {
