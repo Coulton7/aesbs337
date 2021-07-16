@@ -61,11 +61,6 @@
 
   $(document).ready(function() {
 
-    $("#carousel-fade").carousel({
-      interval: 40000,
-      pause: false
-    });
-
     $('div[data-ride="carousel"]').each(function() {
       var $carousel = $(this);
       var id = this.id;
