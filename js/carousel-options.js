@@ -59,6 +59,37 @@
     carouselNormalization();
   };
 
+  function horizontalNormalization() {
+    var items = $('.media-carousel .item'),
+      heights = [],
+      tallest;
+
+    if (items.length) {
+      function horizontalHeights() {
+        items.each(function() {
+          heights.push($(this).height());
+        });
+        tallest = Math.max.apply(null, heights);
+        items.each(function() {
+          $(this).css('min-height', tallest + 'px');
+        });
+      }
+      horizontalHeights();
+
+      $(window).on('resize orientationchange', function() {
+        tallest = 0, heights.length = 0;
+        items.each(function() {
+          $(this).css('min-height', '0');
+        });
+        horizontalHeights();
+      });
+    }
+  }
+
+  window.onload = function() {
+    horizontalNormalization();
+  };
+
   $(document).ready(function() {
 
     $('div[data-ride="carousel"]').each(function() {
