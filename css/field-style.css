@@ -1921,9 +1921,14 @@ div.user-picture>img {
     top: 16%;
     transform: translate(0);
   }
+  
   .footer-title{
     margin-top: 0em;
     padding-left: 0;
+  }
+
+  .desktop-float-right{
+    float: none;
   }
 }
 
@@ -1977,9 +1982,14 @@ div.user-picture>img {
     font-size: 1.4em;
     line-height: 2em;
   }
+
   .footer-title{
     margin-top: -1em;
     padding-left: 1em;
+  }
+
+  .desktop-float-right{
+    float: none;
   }
 }
 
@@ -2025,6 +2035,9 @@ div.user-picture>img {
     font-size: 1.4em;
     line-height: 1.6em;
   }
+  .desktop-float-right{
+    float: right;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2035,5 +2048,9 @@ div.user-picture>img {
   .front .caption-container {
     top: 27%;
     width: 70%;
+  }
+
+  .desktop-float-right{
+    float: right;
   }
 }
