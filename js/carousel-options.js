@@ -128,7 +128,7 @@
       next.children(':first-child').clone().appendTo($(this));
 
       if ($(window).width() > 992) {
-        for (var i = 1; i < 2; i++) {
+        for (var i = 1; i < 3; i++) {
           next = next.next();
           if (!next.length) {
             next = $(this).siblings(':first');
@@ -137,7 +137,7 @@
           next.children(':first-child').clone().appendTo($(this));
         }
       } else if ($(window).width() > 768) {
-        for (var x = 1; x < 1; x++) {
+        for (var x = 1; x < 2; x++) {
           next = next.next();
           if (!next.length) {
             next = $(this).siblings(':first');
@@ -151,8 +151,6 @@
           if (!next.length) {
             next = $(this).siblings(':first');
           }
-
-          next.children(':first-child').clone().appendTo($(this));
         }
       }
 
