@@ -146,7 +146,7 @@
           next.children(':first-child').clone().appendTo($(this));
         }
       } else if ($(window).width() < 767) {
-        for (var y = 1; y < 1;) {
+        for (var y = 1; y >= 1;) {
           next = next.next();
           if (!next.length) {
             next = $(this).siblings(':first');
