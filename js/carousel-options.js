@@ -122,10 +122,6 @@
 
     $('.carousel .horizontal .item').each(function() {
       var next = $(this).next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
 
       if ($(window).width() > 992) {
         for (var i = 1; i < 3; i++) {
@@ -146,12 +142,7 @@
           next.children(':first-child').clone().appendTo($(this));
         }
       } else if ($(window).width() < 767) {
-        for (var y = 1; y >= 1;) {
-          next = next.next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
-          }
-        }
+
       }
 
     });
