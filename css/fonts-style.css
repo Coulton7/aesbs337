@@ -39,6 +39,10 @@ a.standard-text:hover{
   color: #dd1e25;
 }
 
+.black-text{
+  color: #000000;
+}
+
 .white-text {
   color: #ffffff;
 }
@@ -132,6 +136,14 @@ a.no-dash{
 
 a.no-dash:hover{
   border-bottom: none;
+}
+
+a.black-text{
+  color: #000000;
+}
+
+a.black-text:hover{
+  color: #262626;
 }
 
 a.white-text{
