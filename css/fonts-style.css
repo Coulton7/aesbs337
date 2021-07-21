@@ -248,6 +248,11 @@ a.linkedin-font-colour:hover{
     line-height: 67px;
   }
 
+  .carousel-caption{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 49px;
@@ -312,6 +317,11 @@ a.linkedin-font-colour:hover{
   .banner-title {
     font-size: 44px;
     line-height: 71px;
+  }
+
+  .carousel-caption{
+    font-size: 30px;
+    font-weight: 600;
   }
 
   h1 {
@@ -390,6 +400,11 @@ a.linkedin-font-colour:hover{
     line-height: 30px;
   }
 
+  .carousel-caption{
+    font-size: 36px;
+    font-weight: 600;
+  }
+
   h1 {
     font-size: 32px;
     line-height: 52px;
@@ -456,6 +471,11 @@ a.linkedin-font-colour:hover{
   .flex-caption {
     font-size: 1.2em;
     line-height: 36px;
+  }
+
+  .carousel-caption{
+    font-size: 36px;
+    font-weight: 600;
   }
 
   h1 {
