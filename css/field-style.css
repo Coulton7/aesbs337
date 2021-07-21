@@ -1872,6 +1872,11 @@ div.user-picture>img {
   overflow: hidden;
 }
 
+.mobile-col-padding{
+  padding-left: auto;
+  padding-right: auto;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
@@ -1921,7 +1926,7 @@ div.user-picture>img {
     top: 16%;
     transform: translate(0);
   }
-  
+
   .footer-title{
     margin-top: 0em;
     padding-left: 0;
@@ -1929,6 +1934,11 @@ div.user-picture>img {
 
   .desktop-float-right{
     float: none;
+  }
+
+  .mobile-col-padding{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -1990,6 +2000,11 @@ div.user-picture>img {
 
   .desktop-float-right{
     float: none;
+  }
+
+  .mobile-col-padding{
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
