@@ -1873,8 +1873,8 @@ div.user-picture>img {
 }
 
 .mobile-col-padding{
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media screen and (max-width: 370px) {
@@ -2003,8 +2003,8 @@ div.user-picture>img {
   }
 
   .mobile-col-padding{
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
