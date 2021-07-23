@@ -147,7 +147,7 @@
 
             next.children(':first-child').clone().appendTo($(this));
           }
-        } else if ($(window).width() > 768) {
+        } else if ($(window).width() > 767) {
           for (var x = 1; x < 2; x++) {
             next = next.next();
             if (!next.length) {
