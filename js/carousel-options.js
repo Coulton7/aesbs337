@@ -121,32 +121,34 @@
     });
 
     $('.carousel .horizontal .item').each(function() {
-      var next = $(this).next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-
-      if ($(window).width() > 992) {
-        for (var i = 1; i < 3; i++) {
-          next = next.next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
-          }
-
-          next.children(':first-child').clone().appendTo($(this));
+      if ($(window).width() > 767) {
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
         }
-      } else if ($(window).width() > 768) {
-        for (var x = 1; x < 2; x++) {
-          next = next.next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
+        next.children(':first-child').clone().appendTo($(this));
+
+        if ($(window).width() > 992) {
+          for (var i = 1; i < 3; i++) {
+            next = next.next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+
+            next.children(':first-child').clone().appendTo($(this));
           }
+        } else if ($(window).width() > 768) {
+          for (var x = 1; x < 2; x++) {
+            next = next.next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
 
-          next.children(':first-child').clone().appendTo($(this));
+            next.children(':first-child').clone().appendTo($(this));
+          }
+        } else if ($(window).width() < 767) {
+
         }
-      } else if ($(window).width() < 767) {
-
       }
 
     });
