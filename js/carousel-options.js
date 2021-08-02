@@ -94,7 +94,7 @@
 
     if ($(window).width() > 767) {
       $('.mob-carousel').carousel({
-        interval:5000,
+        interval: 5000,
       });
     } else {
       $('.mob-carousel').carousel({
@@ -131,34 +131,18 @@
     });
 
     $('.carousel .horizontal .item').each(function() {
-      if ($(window).width() > 767) {
-        var next = $(this).next();
+      var next = $(this).next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      for (var i = 1; i < 3; i++) {
+        next = next.next();
         if (!next.length) {
           next = $(this).siblings(':first');
         }
+
         next.children(':first-child').clone().appendTo($(this));
-
-        if ($(window).width() > 992) {
-          for (var i = 1; i < 3; i++) {
-            next = next.next();
-            if (!next.length) {
-              next = $(this).siblings(':first');
-            }
-
-            next.children(':first-child').clone().appendTo($(this));
-          }
-        } else if ($(window).width() > 767) {
-          for (var x = 1; x < 2; x++) {
-            next = next.next();
-            if (!next.length) {
-              next = $(this).siblings(':first');
-            }
-
-            next.children(':first-child').clone().appendTo($(this));
-          }
-        } else if ($(window).width() < 767) {
-
-        }
       }
 
     });
