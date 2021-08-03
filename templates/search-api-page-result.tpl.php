@@ -42,7 +42,7 @@
  */
 ?>
 <?php
-  $nid = $id;
+  $nid = $variables['result']['node']->nid;;
   $node = node_load($nid);
   $nodeType = $node->type;
 
@@ -92,7 +92,7 @@
 		<?php print $url ? l($title, $url['path'], $url['options']) : check_plain($title); ?>
 		</h3>
     <h6>
-      <?php print $result['type']; ?>
+      <?php print $contentType; ?>
     </h6>
 		<div class="search-snippet-info">
 				<?php if ($snippet): ?>
