@@ -90,6 +90,18 @@
     horizontalNormalization();
   };
 
+  $(window).on('resize', function(){
+    if ($(window).width() > 767) {
+      $('.mob-carousel').carousel({
+        interval: 5000,
+      });
+    } else {
+      $('.mob-carousel').carousel({
+        interval: false,
+      });
+    }
+  });
+
   $(document).ready(function() {
 
     if ($(window).width() > 767) {
