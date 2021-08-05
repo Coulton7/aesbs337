@@ -173,7 +173,7 @@
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
       if ($(window).width() < 767) {
-        var itemsToWrap = $('.mob-slide');
+        var itemsToWrap = $('.tab-pane.active .mob-slide');
         $.each($(itemsToWrap), function(index) {
           if (index == 0){
             $(this).addClass('item active');
