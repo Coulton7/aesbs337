@@ -98,7 +98,6 @@
       $('.mob-carousel').attr("data-ride", "carousel");
       $('.inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
-        var html = $(this).html();
         if (index == 0){
           $(this).addClass('item active');
         } else {
@@ -113,7 +112,6 @@
       $('.mob-carousel').removeAttr("data-ride", "carousel");
       $('.inner').removeClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
-        var html = $(this).html();
         if (index == 0){
           $(this).removeClass('item active');
         } else {
