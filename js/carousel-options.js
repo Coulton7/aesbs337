@@ -108,6 +108,21 @@
       $('.mob-carousel .carousel-inner').append($(elementTowrap));
       $(".mob-carousel").carousel("pause").removeData();
       $(".mob-carousel").carousel();
+    } else{
+      var itemsToWrap = $('.mob-slide');
+      $('.mob-carousel').removeClass('carousel');
+      $('.inner').removeClass('carousel-inner');
+      var elementTowrap = "";
+      $.each($(itemsToWrap), function(index) {
+        var html = $(this).html();
+        console.log(html);
+        if (index == 0){
+          $(this).removeClass('item active')
+        } else {
+          $(this).removeClass('item active')
+        }
+      });
+      $('.mob-carousel .carousel-inner').append($(elementTowrap));
     }
   });
 
