@@ -93,7 +93,7 @@
   $(window).on('load resize', function() {
     var itemsToWrap = $('.tab-pane.active .mob-slide');
     var elementTowrap = "";
-    if ($(window).width() < 767 && (!$('.media-carousel-block').hasClass("display-none"))) {
+    if ($(window).width() < 767) {
       $('.mob-carousel').addClass('carousel');
       $('.mob-carousel').attr("data-ride", "carousel");
       $('.inner').addClass('carousel-inner');
@@ -123,7 +123,7 @@
   });
 
   $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function(e) {
-    if ($(window).width() < 767 && (!$('.media-carousel-block').hasClass("display-none"))) {
+    if ($(window).width() < 767 || (!$('.sus-carousel-block').hasClass("display-none")) || (!$('.tech-carousel-block').hasClass("display-none")) || (!$('.cust-carousel-block').hasClass("display-none")) || (!$('.why-carousel-block').hasClass("display-none"))) {
       var itemsToWrap = $('.tab-pane.active .mob-slide');
       $.each($(itemsToWrap), function(index) {
         if (index == 0) {
