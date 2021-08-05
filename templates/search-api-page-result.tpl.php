@@ -80,9 +80,6 @@
     case 'page':
       $contentType = 'Web Page';
     break;
-    case '':
-      $contentType = 'Web Page';
-    break;
     default:
       $contentType = '';
     break;
