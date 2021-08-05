@@ -91,7 +91,7 @@
   };
 
   $(window).on('load resize', function() {
-    var itemsToWrap = $('.mob-slide');
+    var itemsToWrap = $('.tab-pane.active .mob-slide');
 		var elementTowrap = "";
     if ($(window).width() < 767) {
       $('.mob-carousel').addClass('carousel');
