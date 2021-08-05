@@ -98,7 +98,6 @@
       $('.inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         var html = $(this).html();
-        console.log(html);
         if (index == 0){
           $(this).addClass('item active');
         } else {
@@ -113,7 +112,6 @@
       $('.inner').removeClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         var html = $(this).html();
-        console.log(html);
         if (index == 0){
           $(this).removeClass('item active');
         } else {
