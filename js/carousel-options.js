@@ -90,7 +90,7 @@
     horizontalNormalization();
   };
 
-  $(window).on('load', 'resize', function() {
+  $(window).on('load resize', function() {
     if ($(window).width() < 767) {
       var itemsToWrap = $('.mob-slide');
       $('.mob-carousel').addClass('carousel');
