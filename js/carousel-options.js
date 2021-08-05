@@ -90,6 +90,27 @@
     horizontalNormalization();
   };
 
+  $(window).on('load resize', function() {
+    if ($(window).width() < 767) {
+      var itemsToWrap = $('.mob-slide');
+      $('.mob-carousel').addClass('carousel');
+      $('.inner').addClass('carousel-inner');
+      var elementTowrap = "";
+      $.each($(itemsToWrap), function(index) {
+        var html = $(this).html();
+        console.log(html);
+        if (index == 0){
+          $(this).addClass('item active')
+        } else {
+          $(this).addClass('item')
+        }
+      });
+      $('.mob-carousel .carousel-inner').append($(elementTowrap));
+      $(".mob-carousel").carousel("pause").removeData();
+      $(".mob-carousel").carousel();
+    }
+  });
+
   $(document).ready(function() {
 
     $('div[data-ride="carousel"]').each(function() {
