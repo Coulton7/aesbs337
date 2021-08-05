@@ -122,6 +122,19 @@
     }
   });
 
+  $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e){
+      if ($(window).width() < 767) {
+        var itemsToWrap = $('.tab-pane.active .mob-slide');
+        $.each($(itemsToWrap), function(index) {
+          if (index == 0){
+            $(this).addClass('item active');
+          } else {
+            $(this).addClass('item');
+          }
+        });
+      }
+    });
+
   $(document).ready(function() {
 
     $('div[data-ride="carousel"]').each(function() {
