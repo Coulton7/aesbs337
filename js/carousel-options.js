@@ -60,7 +60,7 @@
   };
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item').css('display')==='block',
+    var items = $('.media-carousel .item').css('display') === 'block',
       heights = [],
       tallest;
 
@@ -92,13 +92,13 @@
 
   $(window).on('load resize', function() {
     var itemsToWrap = $('.tab-pane.active .mob-slide');
-		var elementTowrap = "";
+    var elementTowrap = "";
     if ($(window).width() < 767) {
       $('.mob-carousel').addClass('carousel');
       $('.mob-carousel').attr("data-ride", "carousel");
       $('.inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
-        if (index == 0){
+        if (index == 0) {
           $(this).addClass('item active');
         } else {
           $(this).addClass('item');
@@ -107,12 +107,12 @@
       $('.mob-carousel .carousel-inner').append($(elementTowrap));
       $(".mob-carousel").carousel("pause").removeData();
       $(".mob-carousel").carousel();
-    } else{
+    } else {
       $('.mob-carousel').removeClass('carousel');
       $('.mob-carousel').removeAttr("data-ride", "carousel");
       $('.inner').removeClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
-        if (index == 0){
+        if (index == 0) {
           $(this).removeClass('item active');
         } else {
           $(this).removeClass('item active');
@@ -122,18 +122,18 @@
     }
   });
 
-  $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e){
-      if ($(window).width() < 767) {
-        var itemsToWrap = $('.tab-pane.active .mob-slide');
-        $.each($(itemsToWrap), function(index) {
-          if (index == 0){
-            $(this).addClass('item active');
-          } else {
-            $(this).addClass('item');
-          }
-        });
-      }
-    });
+  $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function(e) {
+    if ($(window).width() < 767) {
+      var itemsToWrap = $('.tab-pane.active .mob-slide');
+      $.each($(itemsToWrap), function(index) {
+        if (index == 0) {
+          $(this).addClass('item active');
+        } else {
+          $(this).addClass('item');
+        }
+      });
+    }
+  });
 
   $(document).ready(function() {
 
