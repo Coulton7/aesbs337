@@ -95,6 +95,7 @@
 		var elementTowrap = "";
     if ($(window).width() < 767) {
       $('.mob-carousel').addClass('carousel');
+      $('.mob-carousel').attr("data-ride", "carousel")
       $('.inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         var html = $(this).html();
@@ -109,6 +110,7 @@
       $(".mob-carousel").carousel();
     } else{
       $('.mob-carousel').removeClass('carousel');
+      $('.mob-carousel').removeAttr("data-ride", "carousel")
       $('.inner').removeClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         var html = $(this).html();
