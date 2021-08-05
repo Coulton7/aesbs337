@@ -60,7 +60,7 @@
   };
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item'),
+    var items = $('.media-carousel .item').css('display')==='block',
       heights = [],
       tallest;
 
