@@ -121,33 +121,33 @@
     }
   });
 
-  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-    var itemsToWrap = $('.media-tab.active .mob-slide');
-    var itemsToRemove = $('.mob-slide')
-      $.each($(itemsToRemove), function(){
-        if($(itemsToRemove).hasClass('item'||'item active')){
-          $(this).removeClass('item');
-          $(this).removeClass('active');
-        }
-      });
-    $('.mob-carousel').removeAttr("data-ride", "carousel");
-    $('.mob-carousel').carousel("pause").removeData();
-    if ($(window).width() < 767 ) {
-      $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
-      $('.media-tab.active .mob-carousel').addClass('carousel');
-      $('.media-tab.active .inner').addClass('carousel-inner');
-      $.each($(itemsToWrap), function(index) {
-        if (index == 0) {
-          $(this).addClass('item active');
-        } else {
-          $(this).addClass('item');
-        }
-      });
-      $(".media-tab.active .mob-carousel").carousel("pause").removeData();
-      $(".media-tab.active .mob-carousel").carousel();    }
-  });
-
   $(document).ready(function() {
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+      var itemsToWrap = $('.media-tab.active .mob-slide');
+      var itemsToRemove = $('.mob-slide')
+        $.each($(itemsToRemove), function(){
+          if($(itemsToRemove).hasClass('item'||'item active')){
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
+        });
+      $('.mob-carousel').removeAttr("data-ride", "carousel");
+      $('.mob-carousel').carousel("pause").removeData();
+      if ($(window).width() < 767 ) {
+        $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
+        $('.media-tab.active .mob-carousel').addClass('carousel');
+        $('.media-tab.active .inner').addClass('carousel-inner');
+        $.each($(itemsToWrap), function(index) {
+          if (index == 0) {
+            $(this).addClass('item active');
+          } else {
+            $(this).addClass('item');
+          }
+        });
+        $(".media-tab.active .mob-carousel").carousel("pause").removeData();
+        $(".media-tab.active .mob-carousel").carousel();    }
+    });
 
     $('div[data-ride="carousel"]').each(function() {
       var $carousel = $(this);
