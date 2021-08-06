@@ -136,7 +136,7 @@
       $('.mob-carousel').carousel("pause").removeData();
       if ($(window).width() < 767 ) {
         $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
-        $('.media-tab.active .mob-carousel').addClass('carousel');
+        $('.media-tab.active .mob-carousel').addClass('carousel carousel-fade');
         $('.media-tab.active .inner').addClass('carousel-inner');
         $.each($(itemsToWrap), function(index) {
           if (index == 0) {
