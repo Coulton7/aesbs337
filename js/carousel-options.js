@@ -94,7 +94,7 @@
     var itemsToWrap = $('.tab-pane.active .mob-slide');
     var elementTowrap = "";
     if ($(window).width() < 767) {
-      $('.media-tab.active .mob-carousel').addClass('carousel');
+      $('.media-tab.active .mob-carousel').addClass('carousel carousel-fade');
       $('.media-tab.active .inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         if (index == 0) {
@@ -107,7 +107,7 @@
       $(".media-tab.active .mob-carousel").carousel("pause").removeData();
       $(".media-tab.active .mob-carousel").carousel();
     } else {
-      $('.mob-carousel').removeClass('carousel');
+      $('.mob-carousel').removeClass('carousel carousel-fade');
       $('.mob-carousel').removeAttr("data-ride", "carousel");
       $('.inner').removeClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
