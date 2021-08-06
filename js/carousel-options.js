@@ -105,7 +105,9 @@
       });
       $(".media-tab.active .mob-carousel .carousel-inner").append($(elementTowrap));
       $(".media-tab.active .mob-carousel").carousel("pause").removeData();
-      $(".media-tab.active .mob-carousel").carousel();
+      $(".media-tab.active .mob-carousel").carousel({
+        interval: 7000,
+      });
     } else {
       $('.mob-carousel').removeClass('carousel carousel-fade');
       $('.mob-carousel').removeAttr("data-ride", "carousel");
@@ -146,7 +148,9 @@
           }
         });
         $(".media-tab.active .mob-carousel").carousel("pause").removeData();
-        $(".media-tab.active .mob-carousel").carousel();    }
+        $(".media-tab.active .mob-carousel").carousel({
+          interval: 7000,
+        });    }
     });
 
     $('div[data-ride="carousel"]').each(function() {
