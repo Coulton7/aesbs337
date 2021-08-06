@@ -94,9 +94,9 @@
     var itemsToWrap = $('.tab-pane.active .mob-slide');
     var elementTowrap = "";
     if ($(window).width() < 767) {
-      $('.mob-carousel').addClass('carousel');
-      $('.mob-carousel').attr("data-ride", "carousel");
-      $('.inner').addClass('carousel-inner');
+      $('.media-tab.active .mob-carousel').addClass('carousel');
+      $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
+      $('.media-tab.active .inner').addClass('carousel-inner');
       $.each($(itemsToWrap), function(index) {
         if (index == 0) {
           $(this).addClass('item active');
@@ -104,9 +104,9 @@
           $(this).addClass('item');
         }
       });
-      $('.mob-carousel .carousel-inner').append($(elementTowrap));
-      $(".mob-carousel").carousel("pause").removeData();
-      $(".mob-carousel").carousel();
+      $(".media-tab.active .mob-carousel .carousel-inner").append($(elementTowrap));
+      $(".media-tab.active .mob-carousel").carousel("pause").removeData();
+      $(".media-tab.active .mob-carousel").carousel();
     } else {
       $('.mob-carousel').removeClass('carousel');
       $('.mob-carousel').removeAttr("data-ride", "carousel");
@@ -122,9 +122,17 @@
     }
   });
 
-  $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function(e) {
-    if ($(window).width() < 767 || (!$('.sus-carousel-block').hasClass("display-none")) || (!$('.tech-carousel-block').hasClass("display-none")) || (!$('.cust-carousel-block').hasClass("display-none")) || (!$('.why-carousel-block').hasClass("display-none"))) {
-      var itemsToWrap = $('.tab-pane.active .mob-slide');
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+    var itemsToWrap = $('.media-tab.active .mob-slide');
+    var itemsToRemove = $('.mob-slide')
+      $.each($(itemsToRemove), function(){
+        if($(itemsToRemove).hasClass('item'||'item active')){
+          $(this).removeClass('item');
+          $(this).removeClass('active');
+        }
+      });
+    $('.mob-carousel').carousel("pause").removeData();
+    if ($(window).width() < 767 ) {
       $.each($(itemsToWrap), function(index) {
         if (index == 0) {
           $(this).addClass('item active');
@@ -132,7 +140,8 @@
           $(this).addClass('item');
         }
       });
-    }
+      $(".media-tab.active .mob-carousel").carousel("pause").removeData();
+      $(".media-tab.active .mob-carousel").carousel();    }
   });
 
   $(document).ready(function() {
