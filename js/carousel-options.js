@@ -130,6 +130,7 @@
           $(this).removeClass('active');
         }
       });
+    $('.mob-carousel').removeAttr("data-ride", "carousel");
     $('.mob-carousel').carousel("pause").removeData();
     if ($(window).width() < 767 ) {
       $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
