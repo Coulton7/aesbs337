@@ -124,7 +124,7 @@
 
   $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
     var itemsToWrap = $('.media-tab.active .mob-slide');
-    var itemsToRemove = $('.mob-slide')
+    var itemsToRemove = $('.mob-slide');
       $.each($(itemsToRemove), function(){
         if($(itemsToRemove).hasClass('item'||'item active')){
           $(this).removeClass('item');
