@@ -55,10 +55,6 @@
     }
   }
 
-  window.onload = function() {
-    carouselNormalization();
-  };
-
   function horizontalNormalization() {
     var items = $('.media-carousel .item').css('display') === 'block',
       heights = [],
@@ -87,6 +83,7 @@
   }
 
   window.onload = function() {
+    carouselNormalization();
     horizontalNormalization();
   };
 
