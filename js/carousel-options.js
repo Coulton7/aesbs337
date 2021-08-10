@@ -56,7 +56,7 @@
   }
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item').css('display') === 'block',
+    var items = $('.media-carousel .item div').css('display') === 'block',
       heights = [],
       tallest;
 
