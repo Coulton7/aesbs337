@@ -1464,6 +1464,15 @@ div.user-picture>img {
   overflow-wrap: break-word;
 }
 
+.flex-col{
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-grow-1{
+  flex: 1 0 auto;
+}
+
 .alignself-flex-end{
   align-self: flex-end;
 }
