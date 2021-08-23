@@ -17,4 +17,14 @@
   });
   $('.shadow-box-tabs .media-tab').height(tabDivHeight);
 
+  $(document).ready(function(){
+  $('a[data-toggle="tab"]').on('show.bs.tab', function(e){
+    sessionStorage.setItem('activeTab', $(e.target).attr('href'));
+  });
+  var activeTab = sessionStorage.getItem('activeTab');
+  if(activeTab){
+    $('#vacTabs a[href="' + activeTab + '"]').tab('show');
+  }
+});
+
 })(jQuery);
