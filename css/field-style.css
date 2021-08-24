@@ -1537,6 +1537,10 @@ div.user-picture>img {
   align-content: center;
 }
 
+.height-80{
+  height: 80%;
+}
+
 .chosen-container {
   font-size: inherit;
 }
