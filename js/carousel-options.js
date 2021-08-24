@@ -73,7 +73,7 @@
       horizontalHeights();
 
       $(window).on('resize orientationchange', function() {
-        if ($(window).width() > 992) {
+        if ($(window).width() > 991) {
           tallest = 0, heights.length = 0;
           items.each(function() {
             $(this).css('min-height', '0');
@@ -86,7 +86,7 @@
 
   window.onload = function() {
     carouselNormalization();
-    if ($(window).width() > 992) {
+    if ($(window).width() > 991) {
       horizontalNormalization();
     }
   };
