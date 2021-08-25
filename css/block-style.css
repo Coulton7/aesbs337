@@ -382,7 +382,15 @@ blockquote {
   background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
   padding: 30px 50px 30px 50px;
-  }
+}
+
+.chris-background{
+  background-image: url(https://static.aesseal.com/photo/service/CHRIS_REA_WORKSHOP_1.jpg);
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  background-position: right;
+}
 
 .blue-bottom-iceberg-background{
   background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
