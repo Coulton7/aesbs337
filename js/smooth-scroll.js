@@ -49,6 +49,11 @@
       .not('[href="#susNewsCarousel"]')
       .not('[href="#susCaseCarousel"]')
       .not('[href="#techNewsCarousel"]')
+      .not('[href="#techVidCarousel"]')
+      .not('[href="#techBrochCarousel"]')
+      .not('[href="#custNewsCarousel"]')
+      .not('[href="#custCaseCarousel"]')
+      .not('[href="#whyVidCarousel"]')
       .click(function(event) {
         // On-page links
         if (
