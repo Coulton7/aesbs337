@@ -1541,6 +1541,11 @@ div.user-picture>img {
   height: 80%;
 }
 
+.z-index-1{
+  position: relative;
+  z-index: 1;
+}
+
 .chosen-container {
   font-size: inherit;
 }
