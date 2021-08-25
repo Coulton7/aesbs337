@@ -389,7 +389,7 @@ blockquote {
   background-size: cover;
   background-repeat: none;
   width: 100%;
-  background-position: right;
+  background-position: right top;
 }
 
 .blue-bottom-iceberg-background{
