@@ -47,6 +47,7 @@
       .not('[href="#why-ind"]')
       .not('[href="#why-case"]')
       .not('[href="#susNewsCarousel"]')
+      .not('[href="#susCaseCarousel"]')
       .not('[href="#techNewsCarousel"]')
       .click(function(event) {
         // On-page links
