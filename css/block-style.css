@@ -371,9 +371,18 @@ blockquote {
 }
 
 .white-background {
-padding: 1em 0.5em 1em 0.5em;
-background-color: #fff;
+  padding: 1em 0.5em 1em 0.5em;
+  background-color: #fff;
 }
+
+.feature-background {
+  background: #888C8F;
+  color: #FFFFFF; !important;
+  background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+  background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
+  background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
+  padding: 30px 50px 30px 50px;
+  }
 
 .blue-bottom-iceberg-background{
   background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
