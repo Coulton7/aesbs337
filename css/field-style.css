@@ -1546,6 +1546,13 @@ div.user-picture>img {
   z-index: 1;
 }
 
+.isDisabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
 .chosen-container {
   font-size: inherit;
 }
