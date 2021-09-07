@@ -7,6 +7,11 @@
     }
   });
 
+  $(".dropdown-menu li a").click(function(){
+    $(this).parents(".blue-tabs").find('.dropdown-btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".blue-tabs").find('.dropdown-btn').val($(this).data('value'));
+  });
+
   $('.shadow-box-tabs .media-tab').hide();
   var tabDivHeight = 0;
   $('.shadow-box-tabs .media-tab').each(function () {
