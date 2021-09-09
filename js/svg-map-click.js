@@ -205,6 +205,7 @@
         $('.Marion').addClass('show');
         $('.KS').addClass('show');
         $('.Overland').addClass('show');
+        $('.Wichita').addClass('show');
         break;
       case(link == "Land-Nebraska"):
         state = "Nebraska";
@@ -518,6 +519,7 @@
             $('.Marion').removeClass('show');
             $('.KS').removeClass('show');
             $('.Overland').removeClass('show');
+            $('.Wichita').removeClass('show');
             break;
           case(link == "Land-Nebraska"):
             state = "Nebraska";
