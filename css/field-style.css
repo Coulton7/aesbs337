@@ -533,8 +533,8 @@ images*/
 .search-block .btn {
   margin: 0;
   display: inline;
-  border-radius: 3px;
-  padding: 5px 12px;
+  border-radius: 30px;
+  padding: 6px 17px;
   height: 34px;
   font-size: inherit;
   line-height: 5px;
