@@ -130,6 +130,10 @@ a:hover {
   color: #e5e5e5;
 }
 
+.btn-default:hover{
+  color: #535354;
+}
+
 a.no-dash{
   border-bottom: none;
 }
