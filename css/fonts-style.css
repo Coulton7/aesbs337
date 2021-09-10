@@ -130,7 +130,7 @@ a:hover {
   color: #e5e5e5;
 }
 
-.btn-default:hover{
+.blue-background a.btn-default:hover{
   color: #535354;
 }
 
