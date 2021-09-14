@@ -270,9 +270,15 @@ ul.resource-cats a, ul.about-us-cats a {
 .overlay-content {
   position: relative;
   top: 30%;
-  transform: translate(0%, -70%);
   width: 100%;
   text-align: left;
+  height: 60vh;
+}
+
+.sitemap-icon {
+  position: absolute;
+  bottom: 0%;
+  right: 4%;
 }
 
 .overlay-search {
@@ -2007,7 +2013,6 @@ div.user-picture>img {
 
   .overlay-content {
     top: 30%;
-    transform: translate(0%, -70%);
   }
 
   .change:after {
