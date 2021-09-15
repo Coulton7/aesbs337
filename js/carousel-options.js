@@ -28,6 +28,11 @@
     doAnimations($animatingElems);
   });
 
+  $('#carousel-fade').on('slid.bs.carousel', function (){
+    reset();
+    startTimer();
+  })
+
   function carouselNormalization() {
     var items = $('#carousel-fade .item'),
       heights = [],
