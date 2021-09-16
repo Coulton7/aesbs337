@@ -24,7 +24,7 @@ let timerInterval = null;
 function reset() {
   clearInterval(timerInterval);
   resetVars();
-  timer.setAttribute("stroke-dasharray", RESET_DASH_ARRAY);
+  /*timer.setAttribute("stroke-dasharray", RESET_DASH_ARRAY);*/
 }
 
 function start(withReset = false) {
@@ -46,7 +46,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    setCircleDasharray();
+    /*setCircleDasharray();*/
 
     if (timeLeft === 0) {
       timeIsUp();
@@ -100,9 +100,9 @@ function calculateTimeFraction() {
   return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
 }
 
-function setCircleDasharray() {
+/*function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
   timer.setAttribute("stroke-dasharray", circleDasharray);
-}
+}*/
