@@ -31,6 +31,7 @@
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
     startTimer();
+    removeDisabled(stopBtn);
   })
 
   function carouselNormalization() {
