@@ -112,7 +112,7 @@
 
   $(window).load(function() {
   setTimeout(function(){
-    $('#pillar-sliders')resize();
+    $('#pillar-sliders').resize();
   }, 1000);
   });
 
