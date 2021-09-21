@@ -112,7 +112,7 @@
 
   $(window).load(function() {
   setTimeout(function(){
-    $('#pillar-sliders').resize();
+    $('.optionset-4panel-products').resize();
   }, 1000);
   });
 
