@@ -110,4 +110,8 @@
     flexslider.vars.maxItems = gridSize;
   });
 
+  $(window).load(function() {
+    $('#pillar-sliders').resize();
+  });
+
 })(jQuery);
