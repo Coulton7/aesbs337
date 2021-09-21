@@ -111,7 +111,10 @@
   });
 
   $(window).load(function() {
-    $('#pillar-sliders').resize();
+  setTimeout(function(){
+      var slider = $('#pillar-sliders').data('flexslider');
+      slider.resize();
+  }, 1000);
   });
 
 })(jQuery);
