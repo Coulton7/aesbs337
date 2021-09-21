@@ -112,8 +112,7 @@
 
   $(window).load(function() {
   setTimeout(function(){
-      var slider = $('#pillar-sliders').data('flexslider');
-      slider.resize();
+    $('#pillar-sliders')resize();
   }, 1000);
   });
 
