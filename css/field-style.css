@@ -539,7 +539,7 @@ images*/
 .search-block .btn {
   margin: 0;
   display: inline;
-  border-radius: 4px;
+  border-radius: 30px;
   padding: 6px 16px;
   height: 34px;
   font-size: inherit;
@@ -675,7 +675,8 @@ a.language-link.active {
 
 /*Adds sperator to the bottom of the row class*/
 .search-block .btn {
-  border-radius: 4px;
+  border-radius: 30px;
+  border: 2px solid transparent;
   padding: 6px 12px;
   height: 34px;
   display: inline;
@@ -685,16 +686,17 @@ a.language-link.active {
 
 /*For the search button*/
 .btn-default {
-  border: 1px solid #e5e5e7;
+  border: 2px solid #e5e5e7;
   background: #ffffff;
   background-color: transparent;
   color: #535354;
+  border-radius: 30px;
   white-space: normal;
 }
 
 /*Default button colour*/
 .btn-default:hover, .btn-default:focus {
-  border: 1px solid #e5e5e7;
+  border: 2px solid #e5e5e7;
   background: #e5e5e7;
   color: #535354;
   white-space: normal;
@@ -705,6 +707,7 @@ a.language-link.active {
   background: #ffffff;
   background-color: #e5e5e5;
   color: #535354;
+  border-radius: 30px;
   white-space: normal;
 }
 
@@ -716,26 +719,21 @@ a.language-link.active {
   white-space: normal;
 }
 
-/*Default button colour hover effect*/
 .btn-blue {
   list-style-type: none;
   display: inline-block;
   background: #002A5B;
   color: #ffffff !important;
-  border: none !important;
-  border-radius: 0;
+  border: 2px solid transparent;
+  border-radius: 30px;
   white-space: normal;
 }
 
-/*Blue button command for html*/
 .btn-blue:hover, .btn-blue:focus {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff;
   white-space: normal;
 }
 
@@ -745,7 +743,7 @@ a.language-link.active {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
   white-space: normal;
 }
 
@@ -754,17 +752,14 @@ a.language-link.active {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff;
   white-space: normal;
 }
 
 .btn-transparent{
   background: transparent;
   border: 2px solid #ffffff;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 
 .btn-transparent:hover{
