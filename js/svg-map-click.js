@@ -299,6 +299,9 @@
         $('.HI').addClass('show');
         $('.Meadow').addClass('show');
         break;
+      default:
+        state = "US State";
+        $('Rockford').addClass('show');
       }
 
       allRegions.removeClass("on");
@@ -614,6 +617,9 @@
             $('.HI').removeClass('show');
             $('.Meadow').removeClass('show');
             break;
+          default:
+            state = "US State";
+            $('Rockford').removeClass('show');
           }
         });
     });
