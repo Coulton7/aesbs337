@@ -547,11 +547,11 @@ background-image: linear-gradient(135deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%)
 background-attachment: fixed;
 }
 
-.grey-flex-gradient a{
+.grey-flex-gradient a {
   color: #ffffff;
 }
 
-.grey-flex-gradient a:hover{
+.grey-flex-gradient a:hover {
   color: #e7e7e7;
 }
 
