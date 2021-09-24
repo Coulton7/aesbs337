@@ -643,6 +643,7 @@
           default:
             state = "US State";
             $('Rockford').removeClass('show');
+            break;
           }
         });
     });
