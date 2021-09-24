@@ -313,6 +313,7 @@
       default:
         state = "US State";
         $('Rockford').addClass('show');
+        break;
       }
 
       allRegions.removeClass("on");
