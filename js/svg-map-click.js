@@ -357,7 +357,7 @@
           $('.ui-dialog-content').scrollTop(0);
         },
         width: "70%",
-        height: ($(window).height()-200),
+        height: ($(window).height()-400),
         modal: true,
         positon: { my:"top", at:"center", of:window},
         title: "Regional sales & contact Details for "+ state,
