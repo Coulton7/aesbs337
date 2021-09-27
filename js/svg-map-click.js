@@ -30,11 +30,11 @@
         $('.Fairfield').addClass('show');
         $('.NY').addClass('show');
         break;
-        case(link == "Land-NewYork_2"):
-          state = "New York";
-          $('.Fairfield').addClass('show');
-          $('.NY').addClass('show');
-          break;
+      case(link == "Land-NewYork_2"):
+        state = "New York";
+        $('.Fairfield').addClass('show');
+        $('.NY').addClass('show');
+        break;
       case(link == "Land-Mass"):
         state = "Massachusetts";
         $('.Fairfield').addClass('show');
