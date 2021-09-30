@@ -575,43 +575,8 @@ images*/
   line-height: normal;
 }
 
-/*search page resultls button*/
-#edit-submit-news {
-  height: 34px;
-  color: #ffffff;
-  background-color: #dd1e25;
-  border-color: #dd1e25;
-  font-size: inherit;
-  padding: 5px 12px;
-  margin-top: 0;
-}
-
-/*new search*/
-#edit-submit-news:hover {
-  background-color: #fa010a;
-  outline: none;
-  color: #ffffff;
-}
-
-/*news search*/
-#edit-submit-case-studies {
-  height: 34px;
-  color: #ffffff;
-  background-color: #dd1e25;
-  border-color: #dd1e25;
-  font-size: inherit;
-  padding: 5px 12px;
-}
-
 .inline .field-label {
   float: left;
-}
-
-/*case study search button*/
-#edit-submit-case-studies:hover {
-  background-color: #fa010a;
-  outline: none;
-  color: #ffffff;
 }
 
 /*case study search button*/
