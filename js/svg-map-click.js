@@ -126,7 +126,7 @@
         state = "Mississippi";
         $('.Rockford').addClass('show');
         $('.MS').addClass('show');
-        $('.Sherwoord').addClass('show');
+        $('.Sherwood').addClass('show');
         $('.Chickasaw').addClass('show');
         $('.dist-title').removeClass('display-none');
         break;
@@ -135,7 +135,7 @@
         $('.Rockford').addClass('show');
         $('.Kingsport').addClass('show');
         $('.TN').addClass('show');
-        $('.Sherwoord').addClass('show');
+        $('.Sherwood').addClass('show');
         $('.Birmingham').addClass('show');
         $('.dist-title').removeClass('display-none');
          $('.emp-sep').addClass('display-none');
@@ -208,7 +208,7 @@
         state = "Arkansas";
         $('.Rockford').addClass('show');
         $('.AR').addClass('show');
-        $('.Sherwoord').addClass('show');
+        $('.Sherwood').addClass('show');
         $('.dist-title').removeClass('display-none');
         $('.emp-sep').addClass('display-none');
         break;
@@ -216,7 +216,7 @@
         state = "Louisiana";
         $('.Rockford').addClass('show');
         $('.LA').addClass('show');
-        $('.Sherwoord').addClass('show');
+        $('.Sherwood').addClass('show');
         $('.dist-title').removeClass('display-none');
         break;
       case(link == "Land-Texas"):
@@ -499,7 +499,7 @@
             state = "Mississippi";
             $('.Rockford').removeClass('show');
             $('.MS').removeClass('show');
-            $('.Sherwoord').removeClass('show');
+            $('.Sherwood').removeClass('show');
             $('.Chickasaw').removeClass('show');
             $('.dist-title').addClass('display-none');
             break;
@@ -508,7 +508,7 @@
             $('.Rockford').removeClass('show');
             $('.Kingsport').removeClass('show');
             $('.TN').removeClass('show');
-            $('.Sherwoord').removeClass('show');
+            $('.Sherwood').removeClass('show');
             $('.Birmingham').removeClass('show');
             $('.dist-title').addClass('display-none');
             $('.emp-sep').removeClass('display-none');
@@ -583,7 +583,7 @@
             state = "Arkansas";
             $('.Rockford').removeClass('show');
             $('.AR').removeClass('show');
-            $('.Sherwoord').removeClass('show');
+            $('.Sherwood').removeClass('show');
             $('.dist-title').addClass('display-none');
             $('.emp-sep').removeClass('display-none');
             break;
@@ -591,7 +591,7 @@
             state = "Louisiana";
             $('.Rockford').removeClass('show');
             $('.LA').removeClass('show');
-            $('.Sherwoord').removeClass('show');
+            $('.Sherwood').removeClass('show');
             $('.dist-title').addClass('display-none');
             break;
           case(link == "Land-Texas"):
