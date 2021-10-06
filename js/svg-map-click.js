@@ -464,6 +464,13 @@
             $('.Willow').removeClass('show');
             $('.dist-title').addClass('display-none');
             break;
+          case(link == "Land-Virginia_2_"):
+            state = "Virginia";
+            $('.Fairfield').removeClass('show');
+            $('.VA').removeClass('show');
+            $('.Willow').removeClass('show');
+            $('.dist-title').addClass('display-none');
+            break;
           case(link == "Land-NorthCarolina_1_"):
             state = "North Carolina";
             $('.Rockford').removeClass('show');
@@ -535,6 +542,13 @@
             $('.dist-title').addClass('display-none');
             break;
           case(link == "Land-Michigan_2_"):
+            state = "Michigan";
+            $('.Fairfield').removeClass('show');
+            $('.MI').addClass('show');
+            $('Pontiac').addClass('show');
+            $('.dist-title').addClass('display-none');
+            break;
+          case(link == "Land-Michigan_3_"):
             state = "Michigan";
             $('.Fairfield').removeClass('show');
             $('.MI').addClass('show');
