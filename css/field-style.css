@@ -1957,6 +1957,10 @@ div.user-picture>img {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .iceberg-larger-bottomsea {
+    margin-bottom: -7.5em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2022,6 +2026,10 @@ div.user-picture>img {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .iceberg-larger-bottomsea {
+    margin-bottom: -7.5em;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2069,6 +2077,10 @@ div.user-picture>img {
   .desktop-float-right{
     float: right;
   }
+
+  .iceberg-larger-bottomsea {
+    margin-bottom: -9.5em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2083,5 +2095,15 @@ div.user-picture>img {
 
   .desktop-float-right{
     float: right;
+  }
+
+  .iceberg-larger-bottomsea {
+    margin-bottom: -11.5em;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .iceberg-larger-bottomsea {
+    margin-bottom: -13.5em;
   }
 }
