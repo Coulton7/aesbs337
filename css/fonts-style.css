@@ -142,6 +142,14 @@ a.no-dash:hover{
   border-bottom: none;
 }
 
+a.red-text {
+  color: #dd1e25;
+}
+
+a.red-text:hover {
+  color: #fa010a;
+}
+
 a.black-text{
   color: #000000;
 }
