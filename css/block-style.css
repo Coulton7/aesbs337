@@ -667,6 +667,11 @@ background-attachment: fixed;
   padding-top: 10px;
 }
 
+.iceberg-bottom-big-sea {
+  padding-top: 1.5em;
+  padding-bottom: 10em;
+}
+
 .iceberg-cta-upper{
   padding-top: 4em;
 }
