@@ -1066,7 +1066,7 @@ div.user-picture>img {
 /*Added to unique masonry social styling*/
 .social-body {
   background: #ffffff;
-  padding: 5px 15px 12px;
+  padding: 1em;
 }
 
 /*used on all masonry now to pad text and color background*/
