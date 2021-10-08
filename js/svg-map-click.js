@@ -385,6 +385,7 @@
         width: "70%",
         height: ($(window).height()-250),
         modal: true,
+        position: {my:"bottom", at:"bottom", of: screen},
         title: "Regional sales & contact Details for "+ state,
         draggable: false,
         resizable: false,
