@@ -383,7 +383,7 @@
           $('.ui-dialog-content').scrollTop(0);
         },
         width: "70%",
-        height: ($(window).height()-100),
+        height: ($(window).height()-250),
         modal: true,
         title: "Regional sales & contact Details for "+ state,
         draggable: false,
