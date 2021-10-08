@@ -637,6 +637,10 @@ background-attachment: fixed;
   z-index: 10;
 }
 
+.iceberg-footer-banner {
+  margin-bottom: -4.5em;
+}
+
 .footer-banner{
   margin-bottom: -6em;
   z-index: 10;
