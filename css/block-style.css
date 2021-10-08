@@ -747,6 +747,11 @@ background-attachment: fixed;
   margin: 0px auto;
 }
 
+.youtube-block iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 370px) {
   .search-block {
     position: absolute;
