@@ -2,7 +2,10 @@
   $(document).ready(function() {
     var bootstrapButton = $.fn.button.noConflict();
     $.fn.bootstrapBtn = bootstrapButton;
-
+    var dialogWidth = "70%";
+    if ($(window).width() < 767 ) {
+      dialogWidth = "100%";
+    };
     var allRegions = $("#Lands > *");
 
     allRegions.on("click", function() {
@@ -382,7 +385,7 @@
           $('.ui-dialog-title').addClass('h2').addClass('text-center');
           $('.ui-dialog-content').scrollTop(0);
         },
-        width: "70%",
+        width: dialogWidth,
         height: ($(window).height()-250),
         modal: true,
         position: {my:"bottom", at:"bottom", of: window},
