@@ -94,13 +94,13 @@
         $('.Willow').addClass('show');
         $('.dist-title').removeClass('display-none');
         break;
-        case(link == "Land-Virginia_2_"):
-          state = "Virginia";
-          $('.Fairfield').addClass('show');
-          $('.VA').addClass('show');
-          $('.Willow').addClass('show');
-          $('.dist-title').removeClass('display-none');
-          break;
+      case(link == "Land-Virginia_2_"):
+        state = "Virginia";
+        $('.Fairfield').addClass('show');
+        $('.VA').addClass('show');
+        $('.Willow').addClass('show');
+        $('.dist-title').removeClass('display-none');
+        break;
       case(link == "Land-NorthCarolina_1_"):
         state = "North Carolina";
         $('.Rockford').addClass('show');
