@@ -399,7 +399,7 @@
         $('body').removeClass("noscroll");
 
 
-        switch(true){
+        switch(true) {
 
           case(link == "Land-Maine"):
             state = "Maine";
