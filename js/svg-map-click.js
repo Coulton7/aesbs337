@@ -148,7 +148,7 @@
         $('.Sherwood').addClass('show');
         $('.Birmingham').addClass('show');
         $('.dist-title').removeClass('display-none');
-         $('.emp-sep').addClass('display-none');
+        $('.emp-sep').addClass('display-none');
         break;
       case(link == "Land-Kentucky"):
         state = "Kentucky";
