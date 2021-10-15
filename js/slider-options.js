@@ -14,8 +14,13 @@
     $('.flexslider').flexslider({
       controlNav: false,
       directionNav: false
-
     });
+
+    $('caption-slider').flexslider({
+      controlNav: false,
+      directionNav: false,
+      slideshowSpeed: 5000,
+    })
 
     $('.controlNav').flexslider({
       controlNav: true,

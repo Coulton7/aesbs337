@@ -16,7 +16,7 @@ let stopBtn = document.querySelector(".stop");
 
 let timer = document.querySelector("#base-timer-path-remaining");
 
-const TIME_LIMIT = 40;
+const TIME_LIMIT = 10;
 let timePassed = -1;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
