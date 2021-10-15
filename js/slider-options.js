@@ -20,7 +20,7 @@
       controlNav: false,
       directionNav: false,
       slideshowSpeed: 5000,
-    })
+    });
 
     $('.controlNav').flexslider({
       controlNav: true,
