@@ -92,6 +92,10 @@ h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.text-shadow{
+  text-shadow: 1px 1px 1px #000;
+}
+
 /*sets the color of the text and margin for all header tags above*/
 a {
   color: #dd1e25;
