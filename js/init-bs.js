@@ -3,6 +3,9 @@
     $('[data-toggle="tooltip"]').tooltip({
       trigger: 'hover'
     });
+    $('[rel="tooltip"]').on('click', function () {
+      $(this).tooltip('hide')
+    });
   });
 })(jQuery);
 
