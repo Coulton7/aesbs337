@@ -4,7 +4,7 @@
       trigger: 'hover'
     });
     $('[rel="tooltip"]').on('click', function () {
-      $(this).tooltip('hide')
+      $(this).tooltip('hide');
     });
   });
 })(jQuery);
