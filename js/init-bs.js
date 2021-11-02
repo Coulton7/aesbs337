@@ -3,7 +3,7 @@
     $('[data-toggle="tooltip"]').tooltip({
       trigger: 'hover'
     });
-    $('[rel="tooltip"]').on('click', function () {
+    $('[data-toggle="tooltip"]').on('click', function () {
       $(this).tooltip('hide');
     });
   });
