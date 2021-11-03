@@ -640,6 +640,7 @@ background-attachment: fixed;
 .iceberg-footer-banner {
   margin-bottom: -4.5em;
   display: inline-block;
+  width: 100%;
 }
 
 .footer-banner{
