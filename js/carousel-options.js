@@ -28,11 +28,27 @@
     doAnimations($animatingElems);
   });
 
+var isOnDiv = false;
+  document.querySelectorAll(".media-carousel-block").forEach(i => {
+      i.addEventListener("mouseover", function(  ) {isOnDiv=true;});
+  });
+
+  document.querySelectorAll(".media-carousel-block").forEach(i =>{
+    i.addEventListener("mouseout", function(  ) {isOnDiv=false;});
+  });
+
   $('#carousel-fade').on('slid.bs.carousel', function (){
     reset();
-    startTimer();
-    removeDisabled(stopBtn);
-  })
+    if(isOnDiv == true){
+      setDisabled(stopBtn);
+      removeDisabled(startBtn);
+      clearInterval(timerInterval);
+    } else {
+      setDisabled(startBtn);
+      removeDisabled(stopBtn);
+      startTimer();
+    }
+  });
 
   function carouselNormalization() {
     var items = $('#carousel-fade .item'),
