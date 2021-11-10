@@ -13,7 +13,7 @@ const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 //All buttons
 let startBtn = document.querySelector(".start");
 let stopBtn = document.querySelector(".stop");
-
+let mediaCarousel = document.querySelector(".media-carousel-block");
 let timer = document.querySelector("#base-timer-path-remaining");
 
 const TIME_LIMIT = 10;
@@ -59,6 +59,12 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
+mediaCarousel.addEventListener("mouseover", function(){
+  stop();
+});
+mediaCarousel.addEventListener("mouseleave", function(){
+  start();
+});
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
