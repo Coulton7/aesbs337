@@ -13,7 +13,7 @@ const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
 //All buttons
 let startBtn = document.querySelector(".start");
 let stopBtn = document.querySelector(".stop");
-let mediaCarousel = document.querySelector(".media-carousel-block");
+const mediaCarousel = document.querySelectorAll(".media-carousel-block");
 let timer = document.querySelector("#base-timer-path-remaining");
 
 const TIME_LIMIT = 10;
@@ -59,12 +59,20 @@ window.addEventListener("DOMContentLoaded", () => {
   startTimer();
 });
 
-mediaCarousel.addEventListener("mouseover", function(){
-  stop();
-});
-mediaCarousel.addEventListener("mouseleave", function(){
-  start();
-});
+for (let i=0; i<mediaCarousel.length; i++) {
+  mediaCarousel[i].addEventListener("mouseleave", function(){
+    setDisabled(startBtn);
+    removeDisabled(stopBtn);
+    startTimer();
+  });
+
+  mediaCarousel[i].addEventListener("mouseenter", function(){
+    setDisabled(stopBtn);
+    removeDisabled(startBtn);
+    clearInterval(timerInterval);
+  });
+}
+
 //---------------------------------------------
 //HELPER METHODS
 //---------------------------------------------
