@@ -169,6 +169,10 @@ blockquote {
   display: none;
 }
 
+.display-none-important{
+  display: none!important;
+}
+
 .flex {
   display: flex;
 }
