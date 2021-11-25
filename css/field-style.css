@@ -1519,6 +1519,10 @@ div.user-picture>img {
   z-index: 2;
 }
 
+.position-rel {
+  position: relative;
+}
+
 .isDisabled{
   pointer-events: none;
   cursor: not-allowed;
