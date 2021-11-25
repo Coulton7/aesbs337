@@ -85,6 +85,13 @@ h1 {
   text-align: left;
 }
 
+.carousel-title {
+  font-size: 3.5em;
+  line-height: 1em;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+}
+
 h2, h3, h4, h5, h6 {
   margin: 10.5px 0;
   color: #002a5b;
