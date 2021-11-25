@@ -629,7 +629,7 @@ background-attachment: fixed;
   background-image: url(/sites/all/themes/aesbs337/images/graphics/water-background.jpg);
   background-repeat: no-repeat;
   border: 5px solid #ffffff;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .iceberg-sea {
