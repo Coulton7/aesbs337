@@ -174,14 +174,14 @@
         state = "Michigan";
         $('.Fairfield').addClass('show');
         $('.MI').addClass('show');
-        $('Pontiac').addClass('show');
+        $('.Pontiac').addClass('show');
         $('.dist-title').removeClass('display-none');
         break;
       case(link == "Land-Michigan_3_"):
         state = "Michigan";
         $('.Fairfield').addClass('show');
         $('.MI').addClass('show');
-        $('Pontiac').addClass('show');
+        $('.Pontiac').addClass('show');
         $('.dist-title').removeClass('display-none');
         break;
       case(link == "Land-Indiana"):
@@ -563,14 +563,14 @@
             state = "Michigan";
             $('.Fairfield').removeClass('show');
             $('.MI').removeClass('show');
-            $('Pontiac').removeClass('show');
+            $('.Pontiac').removeClass('show');
             $('.dist-title').addClass('display-none');
             break;
           case(link == "Land-Michigan_3_"):
             state = "Michigan";
             $('.Fairfield').removeClass('show');
             $('.MI').removeClass('show');
-            $('Pontiac').removeClass('show');
+            $('.Pontiac').removeClass('show');
             $('.dist-title').addClass('display-none');
             break;
           case(link == "Land-Indiana"):
