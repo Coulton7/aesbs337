@@ -264,6 +264,13 @@ a.linkedin-font-colour:hover{
     line-height: 67px;
   }
 
+  .carousel-title {
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
   .slide-caption{
     font-size: 30px;
     font-weight: 600;
@@ -335,6 +342,13 @@ a.linkedin-font-colour:hover{
   .banner-title {
     font-size: 44px;
     line-height: 71px;
+  }
+
+  .carousel-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
   .slide-caption{
