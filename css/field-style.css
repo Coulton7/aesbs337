@@ -1994,6 +1994,11 @@ div.user-picture>img {
   .iceberg-larger-bottomsea {
     margin-bottom: -7.5em;
   }
+
+  .mobile-row-deeper {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }
 
 @media screen and (min-width: 768px) {
