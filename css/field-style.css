@@ -1874,6 +1874,10 @@ div.user-picture>img {
   overflow: hidden;
 }
 
+.blend-mode-multiply{
+  mix-blend-mode: multiply;
+}
+
 .mobile-col-padding{
   padding-left: 0;
   padding-right: 0;
