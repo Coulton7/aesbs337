@@ -723,6 +723,26 @@ a.language-link.active {
   white-space: normal;
 }
 
+.btn-lightgrey{
+  background: #e5e5e7;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-lightgrey:hover{
+  background: #cececf;
+}
+
+.btn-white{
+  background: #ffffff;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-white:hover{
+  background: #e7e7e7;
+}
+
 .btn-transparent{
   background: transparent;
   border: 2px solid #ffffff;
