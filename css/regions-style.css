@@ -31,6 +31,43 @@ html {
   background-color: #e5e5e7;
 }
 
+#autocollapse.collapsed .navbar-header {
+  float: none;
+}
+
+#autocollapse.collapsed .navbar-toggle {
+  display: block;
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
+}
+
+#autocollapse.collapsed .navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse {
+  display: none !important;
+}
+
+#autocollapse.collapsed .navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+#autocollapse.collapsed .navbar-nav {
+  float: none !important;
+}
+
+#autocollapse.collapsed .navbar-nav>li {
+  float: none;
+  text-align: center;
+}
+
+#autocollapse.collapsed .navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
