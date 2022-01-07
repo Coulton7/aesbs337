@@ -337,7 +337,7 @@ blockquote {
 .light-blue-background{
   color: #ffffff;
   background: #004a8c;
-  padding: 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .light-blue-background-np{
@@ -354,7 +354,7 @@ blockquote {
 .darkgrey-background {
   background: #888C8F;
   color: #FFFFFF;
-  padding: 10px 5px 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .midgrey-background {
@@ -365,7 +365,7 @@ blockquote {
 
 .lightgrey-background {
   background: #E5E5E7;
-  padding: 10px 5px 10px 5px;
+  padding: 1em 0.5em 1em 0.5em;
 }
 
 .lightgrey-background-np{
