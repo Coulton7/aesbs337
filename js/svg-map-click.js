@@ -238,7 +238,7 @@
         break;
       case(link == "Land-NewMexico"):
         state = "New Mexico";
-        $('.Rockford').addClass('show');
+        $('.Odessa').addClass('show');
         $('.NM').addClass('show');
         break;
       case(link == "Land-Arizona"):
@@ -542,7 +542,7 @@
             break;
           case(link == "Land-NewMexico"):
             state = "New Mexico";
-            $('.Rockford').removeClass('show');
+            $('.Odessa').removeClass('show');
             $('.NM').removeClass('show');
             break;
           case(link == "Land-Arizona"):
