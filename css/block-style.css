@@ -393,7 +393,7 @@ blockquote {
 
 .feature-background {
   background: #888C8F;
-  color: #FFFFFF; !important;
+  color: #FFFFFF;
   background: -moz-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: -webkit-radial-gradient(center, ellipse cover, #888C8F 0%, #000000 80%);
   background: radial-gradient(ellipse at center, #888C8F 0%, #000000 80%);
