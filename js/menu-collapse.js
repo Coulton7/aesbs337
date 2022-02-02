@@ -12,7 +12,7 @@
   }
 
   function menuItemOverlay() {
-    var overlayBtn = document.querySelector('.overlay-btn').getBoundingClientRect();
+    var overlayBtn = document.querySelector('#overlay-btn').getBoundingClientRect();
     var overlayBtnLeft = overlayBtn.left;
     var overlayBtnRight = overlayBtn.right;
 
