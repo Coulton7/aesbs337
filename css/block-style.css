@@ -72,7 +72,6 @@
   margin-top: 20px;
 }
 
-/*margin for blocks*/
 .block-margin-bottom {
   margin-bottom: 1em;
 }
@@ -81,12 +80,10 @@
   float: left;
 }
 
-/*Float for the solutions - industries section*/
 .float-right {
   float: right;
 }
 
-/*Float for the solutions - industries section*/
 .float-bottom {
   vertical-align: bottom;
 }
@@ -99,7 +96,10 @@
   vertical-align: middle;
 }
 
-/*blockquote styling to add quotation mark images*/
+.float-sub {
+  vertical-align: sub;
+}
+
 .blockquote {
   margin: 0 5em 0 5em;
   color: #002A5B;
