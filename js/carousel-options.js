@@ -173,7 +173,8 @@ var isOnDiv = false;
         $(".media-tab.active .mob-carousel").carousel("pause").removeData();
         $(".media-tab.active .mob-carousel").carousel({
           interval: 7000,
-        });    }
+        });
+      }
     });
 
     $('div[data-ride="carousel"]').each(function() {
