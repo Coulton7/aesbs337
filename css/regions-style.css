@@ -72,6 +72,10 @@ html {
   padding-bottom: 10px;
 }
 
+#autocollapse.collapsed .overlay-btn {
+  display: none;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
