@@ -20,7 +20,7 @@
     let menuItemLeft = menuItem.left;
     let menuItemRight = menuItem.right;
 
-    if ((menuItemRight > overlayBtnLeft) && (menuItemRight < overlayBtnRight)) {
+    if ((menuItemRight > overlayBtnLeft)) {
       $('#overlay-btn').addClass('display-none-important');
     }
     else {
