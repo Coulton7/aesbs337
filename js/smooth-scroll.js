@@ -17,7 +17,7 @@
       .not('[href="#newsCarousel"]')
       .not('[href="#techCarousel"]')
       .not('[href="#custCarousel"]')
-      .not('[href="#whyCarousel"]')
+      .not('[href="#prodCarousel"]')
       .not('[href="#sus-main"]')
       .not('[href="#sus-news"]')
       .not('[href="#sus-policies"]')
