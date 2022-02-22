@@ -39,12 +39,16 @@
       .not('[href="#cust-video"]')
       .not('[href="#cust-ind"]')
       .not('[href="#cust-case"]')
-      .not('[href="#why-main"]')
-      .not('[href="#why-news"]')
-      .not('[href="#why-broch"]')
+      .not('[href="#prod-main"]')
+      .not('[href="#prod-cat"]')
+      .not('[href="#prod-res"]')
       .not('[href="#susNewsCarousel"]')
       .not('[href="#susCaseCarousel"]')
       .not('[href="#techNewsCarousel"]')
+      .not('[href="#susVideo"]')
+      .not('[href="#susCase"]')
+      .not('[href="#prodCat]"')
+      .not('[href="#prodRes"]')
       .click(function(event) {
         // On-page links
         if (
