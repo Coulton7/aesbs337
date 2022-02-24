@@ -550,17 +550,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 }
 
 .grey-flex-gradient {
-height: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background: #6A6D6D;
-background-image: -moz-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
-background-image: -webkit-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
-background-image: linear-gradient(135deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
--ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
-background-attachment: fixed;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #6A6D6D;
+  background-image: -moz-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  background-image: -webkit-linear-gradient(-45deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  background-image: linear-gradient(135deg, #888C8F 0%, #6A6D6D 41%, #888C8F 100%);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
+  background-attachment: fixed;
 }
 
 .grey-flex-gradient a {
