@@ -1476,6 +1476,10 @@ div.user-picture>img {
   justify-content: center;
 }
 
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
 .alignitems-flex-end{
   align-items: flex-end;
 }
