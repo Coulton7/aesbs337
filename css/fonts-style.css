@@ -264,6 +264,18 @@ a.linkedin-font-colour:hover{
   color: #006ba2;
 }
 
+.font-size-1em {
+  font-size: 1em;
+}
+
+.font-size-2em {
+  font-size: 2em;
+}
+
+.font-size-3em {
+  font-size: 3em;
+}
+
 /* xs < 768 Below is all to do with text size and spacing*/
 @media screen and (max-width: 767px) {
   .banner-title {
