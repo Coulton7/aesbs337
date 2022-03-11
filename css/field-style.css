@@ -1952,6 +1952,10 @@ div.user-picture>img {
   aspect-ratio: 16/9;
 }
 
+.aspect-ratio-97-32 {
+  aspect-ratio: 97/32;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
