@@ -16,7 +16,7 @@
     let overlayBtnLeft = overlayBtn.left;
     let overlayBtnRight = overlayBtn.right;
 
-    let menuItem = document.querySelector('.menu li.desktop-last').getBoundingClientRect();
+    let menuItem = document.querySelector('.desktop-last').getBoundingClientRect();
     let menuItemLeft = menuItem.left;
     let menuItemRight = menuItem.right;
 
