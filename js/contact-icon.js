@@ -1,8 +1,7 @@
 (function($) {
 
   $.fn.contactIcon = function() {
-
-    var contact_icon = jQuery(".contact_icon");
+    var contact_icon = $(".contact_icon");
     var contactIcon = -1;
     var runCount = 0;
 
@@ -16,13 +15,39 @@
         runCount++;
       } else {
         contact_icon.eq(contactIcon % contact_icon.length)
-          .show(0);
+        .show(0);
       }
     }
     showNextIcon();
   };
-})(jQuery);
 
-jQuery(document).ready(function() {
-  jQuery('.socialmedia').contactIcon();
-});
+  $.fn.frontIcon = function() {
+    var front_icon = $(".front-icon");
+    var frontIcon = -1;
+    var frontRunCount = 0;
+
+    function frontShowNextIcon() {
+      if (frontRunCount < 101) {
+        ++frontIcon;
+        front_icon.eq(frontIcon % front_icon.length)
+          .show(0)
+          .delay(1800)
+          .hide(0, frontShowNextIcon);
+        frontRunCount++;
+      } else {
+        front_icon.eq(frontIcon % front_icon.length)
+        .show(0);
+      }
+    }
+    frontShowNextIcon();
+  };
+
+  $(document).ready(function() {
+    if ($('.socialmedia').is(':visible')) {
+      $('.socialmedia').contactIcon();
+    }
+     if ($('.social-media').is(':visible')) {
+      $('.social-media').frontIcon();
+    }
+  });
+})(jQuery);
