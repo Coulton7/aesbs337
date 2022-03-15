@@ -32,6 +32,6 @@
 
   $(document).ready(function(){
     $('.preface').fadeText();
-    $('wavelower').frontFadeText();
+    $('.wavelower').frontFadeText();
   });
 })(jQuery);
