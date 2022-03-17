@@ -16,7 +16,7 @@
       directionNav: false
     });
 
-    $('caption-slider').flexslider({
+    $('.caption-slider').flexslider({
       controlNav: false,
       directionNav: false,
       slideshowSpeed: 5000,
