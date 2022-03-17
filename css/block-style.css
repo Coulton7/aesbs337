@@ -768,9 +768,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   margin: 0px auto;
 }
 
+.youtube-block {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.youtube-block iframe:not(.cookieconsent-optin-marketing) ~ .cookieconsent-optout-marketing{
+  bottom: 45%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 .youtube-block iframe {
   display: block;
   margin: 0 auto;
+  background-color: rgba(0,0,0,0.65);
 }
 
 @media screen and (max-width: 370px) {
