@@ -106,6 +106,12 @@
       directionNav: false
     });
 
+
+    $('#directionnav').flexslider({
+      animation: "slide",
+      controlNav: false
+    });
+
   });
 
   $window.resize(function(){
