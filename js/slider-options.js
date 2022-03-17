@@ -109,7 +109,8 @@
 
     $('#directionnav').flexslider({
       animation: "slide",
-      controlNav: false
+      controlNav: false,
+      directionNav: true
     });
 
   });
