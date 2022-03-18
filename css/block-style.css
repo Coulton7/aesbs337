@@ -377,6 +377,10 @@ blockquote {
   padding: 10px 15px;
 }
 
+.grey-region-background {
+  background-color: #efefef;
+}
+
 .off-white-background{
   background-color: #f4f4f4;
   padding: 10px 5px 10px 5px;
