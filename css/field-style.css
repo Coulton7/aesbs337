@@ -1948,18 +1948,22 @@ div.user-picture>img {
 }
 
 .green-table thead{
-    background: #24943A;
-    border-bottom: 0px solid #444444;
+  background: #24943A;
+  border-bottom: 0px solid #444444;
 }
 
 .green-table thead th {
-    font-weight: bold;
-    color: #F0F0F0;
-    border-left: 4px solid #24943A;
+  font-weight: bold;
+  color: #F0F0F0;
+  border-left: 4px solid #24943A;
 }
 
 .green-table thead th:first-child {
   border-left: none;
+}
+
+.green-table input {
+  background-color: #D4EED1;
 }
 
 .aspect-ratio-3-2 {
