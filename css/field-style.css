@@ -1936,6 +1936,32 @@ div.user-picture>img {
   color: #dd1e25;
 }
 
+.green-table {
+  border: 7px solid #24943A;
+  background-color: #D4EED1;
+  width: 100%;
+}
+
+.green-table td, .green-table th {
+  border: 4px solid #24943A;
+  padding: 4px 4px;
+}
+
+.green-table thead{
+    background: #24943A;
+    border-bottom: 0px solid #444444;
+}
+
+.green-table thead th {
+    font-weight: bold;
+    color: #F0F0F0;
+    border-left: 4px solid #24943A;
+}
+
+.green-table thead th:first-child {
+  border-left: none;
+}
+
 .aspect-ratio-3-2 {
   aspect-ratio: 3/2;
 }
