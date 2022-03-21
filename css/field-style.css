@@ -559,7 +559,7 @@ images*/
   font-size: 18px;
 }
 
-.search-block .btn:hover {
+.search-block .btn:hover, .search-block .btn:focus {
   background-color: #fa010a;
   outline: none;
   color: #ffffff;
@@ -729,7 +729,7 @@ a.language-link.active {
   border-radius: 30px;
 }
 
-.btn-lightgrey:hover {
+.btn-lightgrey:hover, .btn-lightgrey:focus {
   background: #cececf;
 }
 
@@ -739,7 +739,7 @@ a.language-link.active {
   border-radius: 30px;
 }
 
-.btn-white:hover {
+.btn-white:hover, .btn-white:focus {
   background: #b2b2b2;
 }
 
@@ -749,7 +749,7 @@ a.language-link.active {
   border-radius: 30px;
 }
 
-.btn-transparent:hover {
+.btn-transparent:hover, .btn-transparent:focus {
   background: #d7d7d7;
   color: #535354;
 }
