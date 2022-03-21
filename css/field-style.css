@@ -1965,6 +1965,8 @@ div.user-picture>img {
 .green-table input {
   background-color: #D4EED1;
   width: -webkit-fill-available;
+  width: -moz-fill-available;
+  width: fill-available;
 }
 
 .aspect-ratio-3-2 {
