@@ -4,7 +4,7 @@
         cost = 294.06,
         costYear = pumps * cost,
         fiveYear = costYear * 5,
-        powerCon = 2803,
+        powerCon = 2803.2,
         powerConY= powerCon * pumps;
 
       document.getElementById('lipSealCost').innerHTML = costYear.toLocaleString("en-GB", {style:"currency", currency:"gbp"});
