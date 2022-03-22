@@ -98,7 +98,8 @@
 
     $('.directionNav').flexslider({
       controlNav: false,
-      directionNav: true
+      directionNav: true,
+      slideshowSpeed: 7000
     });
 
     $('.base-slider').flexslider({
