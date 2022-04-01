@@ -32,8 +32,8 @@
         ++mobEnviroLogo;
         mob_enviro_Logo.eq(mobEnviroLogo % mob_enviro_Logo.length)
           .show(0)
-          .delay(1800)
-          .hide(0, frontShowNextIcon);
+          .delay(5000)
+          .hide(0, mobShowNextLogo);
         mobRunCount++;
       } else {
         mob_enviro_Logo.eq(mobEnviroLogo % mob_enviro_Logo.length)
