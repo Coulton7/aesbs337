@@ -50,7 +50,7 @@
     }
 
     if($('.mob-envirologo-container').is(':visible')) {
-      ('.mob-envirologo-container').enviroLogo();
+      ('.mob-envirologo-container').mobEnviroLogo();
     }
   });
 })(jQuery);
