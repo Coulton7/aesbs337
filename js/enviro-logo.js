@@ -21,8 +21,36 @@
     }
     showNextLogo();
   };
-})(jQuery);
 
-jQuery(document).ready(function() {
-  jQuery('.envirologo-container').enviroLogo();
-});
+  $.fn.mobEnviroLogo = function() {
+    var mob_enviro_Logo = $(".mob-enviro-logo");
+    var mobEnviroLogo = -1;
+    var mobRunCount = 0;
+
+    function mobShowNextLogo() {
+      if (mobRunCount < 101) {
+        ++mobEnviroLogo;
+        mob_enviro_Logo.eq(mobEnviroLogo % mob_enviro_Logo.length)
+          .show(0)
+          .delay(1800)
+          .hide(0, frontShowNextIcon);
+        mobRunCount++;
+      } else {
+        mob_enviro_Logo.eq(mobEnviroLogo % mob_enviro_Logo.length)
+        .show(0);
+      }
+    }
+    mobShowNextLogo();
+  };
+
+
+  $(document).ready(function() {
+    if($('.envirologo-container').is(':visible')) {
+      ('.envirologo-container').enviroLogo();
+    }
+
+    if($('.mob-envirologo-container').is(':visible')) {
+      ('.mob-envirologo-container').enviroLogo();
+    }
+  });
+})(jQuery);
