@@ -1,8 +1,8 @@
-.full-height{
+.full-height {
   height: 100%;
 }
 
-.full-width{
+.full-width {
   width: 100%;
 }
 
@@ -42,7 +42,7 @@
   height: 100%
 }
 
-.search-block .form-control{
+.search-block .form-control {
   background-color: #000;
   color: #ffffff;
 }
@@ -109,11 +109,11 @@
   padding: 1.7em
 }
 
-.blockquote.white-text{
+.blockquote.white-text {
   color: #ffffff;
 }
 
-.footer-blockquote{
+.footer-blockquote {
   color: #ffffff;
   margin: 0;
   background-image: url(/sites/all/themes/aesbs337/images/graphics/leading-quote-mark.png);
@@ -123,7 +123,7 @@
   padding: 1.7em
 }
 
-blockquote::before{
+blockquote::before {
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
   margin-right: -0.75em;
   z-index: -1;
@@ -132,7 +132,7 @@ blockquote::before{
   top: -1.9em;
 }
 
-blockquote::after{
+blockquote::after {
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
   position: absolute;
   margin-left: -0.5em;
@@ -161,7 +161,7 @@ blockquote {
   display: inline-block;
 }
 
-.display-block{
+.display-block {
   display: block;
 }
 
@@ -169,15 +169,15 @@ blockquote {
   display: none;
 }
 
-.display-none-important{
-  display: none!important;
+.display-none-important {
+  display: none !important;
 }
 
 .flex {
   display: flex;
 }
 
-.positon-relative{
+.positon-relative {
   position: relative;
 }
 
@@ -199,11 +199,11 @@ blockquote {
   align-self: flex-end;
 }
 
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
 
-.flex-grow-full-width{
+.flex-grow-full-width {
   flex-grow: 2;
 }
 
@@ -302,8 +302,8 @@ blockquote {
   color: #ffffff
 }
 
-.transparent-background, #transparent-background{
-  background: transparent!important;
+.transparent-background, #transparent-background {
+  background: transparent !important;
 }
 
 /*red radial text within background*/
@@ -325,7 +325,7 @@ blockquote {
   padding: 1em 0.5em 1em 0.5em;
 }
 
-.blue-background-np{
+.blue-background-np {
   background-color: #002a5b;
   color: #ffffff;
 }
@@ -334,13 +334,13 @@ blockquote {
   color: #ffffff;
 }
 
-.light-blue-background{
+.light-blue-background {
   color: #ffffff;
   background: #004a8c;
   padding: 1em 0.5em 1em 0.5em;
 }
 
-.light-blue-background-np{
+.light-blue-background-np {
   color: #ffffff;
   background-color: #004a8c;
 }
@@ -368,11 +368,11 @@ blockquote {
   padding: 1em 0.5em 1em 0.5em;
 }
 
-.lightgrey-background-np{
+.lightgrey-background-np {
   background: #e5e5e7;
 }
 
-.grey-background{
+.grey-background {
   background: #828f90;
   padding: 10px 15px;
 }
@@ -381,13 +381,13 @@ blockquote {
   background-color: #efefef;
 }
 
-.off-white-background{
+.off-white-background {
   background-color: #f4f4f4;
   padding: 10px 5px 10px 5px;
 }
 
-.off-white-background:hover{
-  background-color: #f4f4f4!important;
+.off-white-background:hover {
+  background-color: #f4f4f4 !important;
 }
 
 .white-background {
@@ -422,7 +422,7 @@ blockquote {
   background-color: #03943e;
 }
 
-.testhouse-background{
+.testhouse-background {
   background-image: url(https://static.aesseal.com/photo/sustainability/Testhouse_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -430,78 +430,78 @@ blockquote {
   background-position: center;
 }
 
-.blue-bottom-iceberg-background{
+.blue-bottom-iceberg-background {
   background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
   color: #ffffff;
 }
 
-.blue-top-iceberg-background{
+.blue-top-iceberg-background {
   background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #ffffff 50%);
   color: #535454;
 }
 
-.blue-top-grey-bottom-background{
+.blue-top-grey-bottom-background {
   background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #888C8F 50%);
   color: #ffffff;
 }
 
-.grey-top-blue-bottom-background{
+.grey-top-blue-bottom-background {
   background-image: linear-gradient(to bottom, #888C8F, #888C8F 50%, #002A5B 50%);
   color: #ffffff;
 }
 
-.grey-top-white-bottom-background{
+.grey-top-white-bottom-background {
   background-image: linear-gradient(to bottom, #888C8F, #888C8F 50%, #ffffff 50%);
   color: #535454;
 }
 
-.grey-bottom-white-top-background{
+.grey-bottom-white-top-background {
   background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #888C8F 50%);
   color: #FFFFFF;
 }
 
-.lightgrey-top-blue-bottom-background{
+.lightgrey-top-blue-bottom-background {
   background-image: linear-gradient(to bottom, #e5e5e7, #e5e5e7 50%, #002a5b 50%);
   color: #ffffff;
 }
 
-.fade-white-top-blue-bottom-background{
-  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 1%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(0,42,91,1) 50%, rgba(0,42,91,1) 100%);
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
-  background: linear-gradient(to bottom,  rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#002a5b',GradientType=0 );
+.fade-white-top-blue-bottom-background {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 50%, rgba(0, 42, 91, 1) 50%, rgba(0, 42, 91, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 50%, rgba(0, 42, 91, 1) 50%, rgba(0, 42, 91, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 50%, rgba(0, 42, 91, 1) 50%, rgba(0, 42, 91, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#002a5b', GradientType=0);
 }
 
-.blue-top-grey-bottom-background a{
+.blue-top-grey-bottom-background a {
   color: #ffffff;
 }
 
-.blue-top-grey-bottom-background a:hover{
+.blue-top-grey-bottom-background a:hover {
   color: #e7e7e7;
 }
 
-.grey-top-blue-bottom-background a{
+.grey-top-blue-bottom-background a {
   color: #ffffff;
 }
 
-.grey-top-blue-bottom-background a:hover{
+.grey-top-blue-bottom-background a:hover {
   color: #e7e7e7;
 }
 
-.blue-top-iceberg-background a{
+.blue-top-iceberg-background a {
   color: #dd1e25;
 }
 
-.blue-top-iceberg-background a:hover{
+.blue-top-iceberg-background a:hover {
   color: #fa010a;
 }
 
-.dark-glass-background{
-  background-color: rgba(0,0,0,0.8);
+.dark-glass-background {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.shadow-background{
-  box-shadow:0 2px 7px rgb(0 0 0 / 25%), 0 5px 5px rgb(0 0 0 / 22%);
+.shadow-background {
+  box-shadow: 0 2px 7px rgb(0 0 0 / 25%), 0 5px 5px rgb(0 0 0 / 22%);
 }
 
 .well {
@@ -546,13 +546,18 @@ blockquote {
   padding-bottom: 5em;
 }
 
-.blue-vertical-gradient{
+.blue-vertical-gradient {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00428e+0,003675+70,002a5b+100 */
-background: #00428e; /* Old browsers */
-background: -moz-linear-gradient(top,  #00428e 0%, #003675 70%, #002a5b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #00428e 0%,#003675 70%,#002a5b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #00428e 0%,#003675 70%,#002a5b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', endColorstr='#002a5b',GradientType=0 ); /* IE6-9 */
+  background: #00428e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #00428e 0%, #003675 70%, #002a5b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #00428e 0%, #003675 70%, #002a5b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #00428e 0%, #003675 70%, #002a5b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00428e', endColorstr='#002a5b', GradientType=0);
+  /* IE6-9 */
 }
 
 .blue-gradient {
@@ -655,7 +660,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   margin-top: -9em;
 }
 
-.iceberg-bottomsea{
+.iceberg-bottomsea {
   margin-bottom: -9.5em;
   z-index: 10;
 }
@@ -666,7 +671,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   width: 100%;
 }
 
-.footer-banner{
+.footer-banner {
   margin-bottom: -6em;
   z-index: 10;
 }
@@ -713,21 +718,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   padding-bottom: 13em;
 }
 
-.iceberg-cta-upper{
+.iceberg-cta-upper {
   padding-top: 4em;
 }
 
-.iceberg-cta-lower{
+.iceberg-cta-lower {
   padding-bottom: 3em;
 }
 
-.iceberg-blocktitle{
+.iceberg-blocktitle {
   float: left;
   width: 100%;
   text-align: center;
 }
 
-.block-productenquiry{
+.block-productenquiry {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -749,7 +754,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   display: block;
 }
 
-.blur-backdrop{
+.blur-backdrop {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }
@@ -773,12 +778,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 }
 
 .youtube-block {
-    display: block;
-    margin: 0 auto;
-    position: relative;
+  display: block;
+  margin: 0 auto;
+  position: relative;
 }
 
-.youtube-block iframe:not(.cookieconsent-optin-marketing) ~ .cookieconsent-optout-marketing{
+.youtube-block iframe:not(.cookieconsent-optin-marketing)~.cookieconsent-optout-marketing {
   bottom: 45%;
   position: absolute;
   text-align: center;
@@ -788,7 +793,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 .youtube-block iframe {
   display: block;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.65);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 @media screen and (max-width: 370px) {
@@ -802,8 +807,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   .front .search-block {
     top: 15.2em;
   }
+
   .mobile-fade-white-top-blue-bottom-background {
-    background-image:linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 35%,rgba(0,42,91,1) 35%,rgba(0,42,91,1) 100%)
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 35%, rgba(0, 42, 91, 1) 35%, rgba(0, 42, 91, 1) 100%)
   }
 }
 
@@ -833,17 +839,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
     margin: 0 3em 0 3em;
   }
 
-  .iceberg-bottomsea{
+  .iceberg-bottomsea {
     margin-bottom: -9.5em;
     z-index: 10;
   }
+
   .mobile-fade-white-top-blue-bottom-background {
-    background-image:linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 31%,rgba(0,42,91,1) 31%,rgba(0,42,91,1) 100%)
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 31%, rgba(0, 42, 91, 1) 31%, rgba(0, 42, 91, 1) 100%)
   }
 
-  .footer-banner{
+  .footer-banner {
     margin-bottom: 0em;
     z-index: 10;
+  }
+
+  .block-productenquiry {
+    background-size: 100%;
   }
 }
 
@@ -856,14 +867,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
     margin: 0 5em 0 5em;
   }
 
-  .iceberg-bottomsea{
+  .iceberg-bottomsea {
     margin-bottom: -7.5em;
     z-index: 10;
   }
 
-  .footer-banner{
+  .footer-banner {
     margin-bottom: -6em;
     z-index: 10;
+  }
+
+  .block-productenquiry {
+    background-size: 60%;
   }
 }
 
@@ -895,7 +910,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
   .mobile-stream {
     display: none;
   }
-  .iceberg-bottomsea{
+
+  .iceberg-bottomsea {
     margin-bottom: -7.5em;
     z-index: 10;
   }
@@ -910,7 +926,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
     margin-top: -4.1em;
     position: relative;
   }
-  .iceberg-bottomsea{
+
+  .iceberg-bottomsea {
     margin-bottom: -7.5em;
     z-index: 10;
   }
