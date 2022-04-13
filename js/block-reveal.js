@@ -14,8 +14,8 @@
       return vars;
     }
 
-    var salesString = getUrlVars()["sc"];
-    if(salesString=='ml'){
+    var salesString = getUrlVars()["s"];
+    if(salesString=='m'){
       document.getElementById('sales-ml').style.display = 'block';
     }
   });
