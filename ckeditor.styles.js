@@ -203,21 +203,21 @@ if (typeof(CKEDITOR) !== 'undefined') {
         name: 'Table Striped rows',
         element: 'table',
         attributes: {
-          'class': 'table-striped'
+          'class': 'table-responsive table-striped'
         }
       },
       {
         name: 'Table Bordered',
         element: 'table',
         attributes: {
-          'class': 'table-bordered'
+          'class': 'table-responsive table-bordered'
         }
       },
       {
         name: 'Table Bordered and Striped',
         element: 'table',
         attributes: {
-          'class': 'table-bordered table-striped'
+          'class': 'table-responsive table-bordered table-striped'
         }
       },
 
