@@ -20,7 +20,6 @@ Probably best to just put it in sites/all/themes/aesseal-classic/js and then add
 	  		//  		$.getJSON('../sites/all/themes/aesbs337/js/ba-simple-proxy.php?url=http://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=eb430742-5ec5-4dd5-a2b3-e0dabcfe7c7d',
 	  		$.getJSON('/sites/all/themes/aesbs337/js/ba-simple-proxy.php?url=https://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=58e45a37-44c9-4b50-bc17-28281538a59a',
 	  		function(json) { //Parse the json we just got
-	  			console.log(json); //Get rid of this when it's working, it throws the entire JSON string into the log.
 
 	  			//Next we go through all the fields we want to progressively profile by name and set their value to the corresponding JSON entry.
 		        $('input[name="field_email_address[und][0][value]"]').val(json.contents.properties.email.value);
