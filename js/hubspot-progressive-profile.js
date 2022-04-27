@@ -14,7 +14,6 @@ Probably best to just put it in sites/all/themes/aesseal-classic/js and then add
 	$(document).ready(function () {
 		if ($('.entityform').length){
 	  		var hubspotutk = document.cookie("hubspotutk");
-	  		console.log(hubspotutk); //disable this once you know it's all working. it basically spits the cookie detail into the browser log.
 
 	  		// We get our customer info using a php script called simple proxy, read about it here: https://github.com/cowboy/php-simple-proxy/
 	  		// It lets us fetch JSON data via javascript without cross domain errors
