@@ -678,7 +678,6 @@ a.language-link.active {
   white-space: normal;
 }
 
-/*Default button colour*/
 .btn-midgrey:hover, .btn-midgrey:focus {
   border: 1px solid #e5e5e7;
   background: #d7d7d7;
