@@ -673,7 +673,7 @@ a.language-link.active {
   border: 1px solid #e5e5e7;
   background: #ffffff;
   background-color: #e5e5e5;
-  color: #535354;
+  color: #535354!important;
   border-radius: 30px;
   white-space: normal;
 }
