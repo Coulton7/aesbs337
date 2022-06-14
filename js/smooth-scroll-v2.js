@@ -15,6 +15,7 @@
       .not('[href="#carousel-fade"]')
       .not('[href="#myCarousel"]')
       .not('[href="#newsCarousel"]')
+      .not('[href="#susCarousel"]')
       .not('[href="#techCarousel"]')
       .not('[href="#custCarousel"]')
       .not('[href="#prodCarousel"]')
