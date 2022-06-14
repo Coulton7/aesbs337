@@ -11,7 +11,7 @@
         ++enviroLogo;
         enviro_logo.eq(enviroLogo % enviro_logo.length)
           .show(0)
-          .delay(5000)
+          .delay(8000)
           .hide(0, showNextLogo);
         runCount++;
       } else {
@@ -32,7 +32,7 @@
         ++mobEnviroLogo;
         mob_enviro_Logo.eq(mobEnviroLogo % mob_enviro_Logo.length)
           .show(0)
-          .delay(5000)
+          .delay(8000)
           .hide(0, mobShowNextLogo);
         mobRunCount++;
       } else {
