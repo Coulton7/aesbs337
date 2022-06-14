@@ -133,15 +133,15 @@ a:hover {
   border-bottom: none;
 }
 
-.blue-background a {
+.blue-background a, .black-background a {
   color: #ffffff;
 }
 
-.blue-background a:hover {
+.blue-background a:hover, .black-background a:hover {
   color: #e5e5e5;
 }
 
-.blue-background a.btn-default:hover{
+.blue-background a.btn-default:hover, .black-background a.btn-default:hover{
   color: #535354;
 }
 
