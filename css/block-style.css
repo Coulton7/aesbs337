@@ -325,6 +325,11 @@ blockquote {
   padding: 1em 0.5em 1em 0.5em;
 }
 
+.black-background {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .blue-background-np {
   background-color: #002a5b;
   color: #ffffff;
