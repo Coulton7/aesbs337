@@ -1375,7 +1375,7 @@ div.user-picture>img {
   margin-top: 4em;
 }
 
-.absolute-center {
+.absolute-bottom-center {
   position: absolute;
   z-index: 1;
   bottom: 0;
