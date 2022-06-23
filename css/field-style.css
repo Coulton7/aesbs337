@@ -428,9 +428,6 @@ ul.resource-cats a, ul.about-us-cats a {
   font-weight: 900;
 }
 
-/*Sets the image to appear on the masonry*/
-/*Below is the code to have the grid rotator effect on the masonry
-images*/
 .image-link {
   opacity: 1;
   transition: color 0.5s ease;
