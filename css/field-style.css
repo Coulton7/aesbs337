@@ -1605,6 +1605,21 @@ div.user-picture>img {
   font-size: inherit;
 }
 
+.animate-title {
+  padding-left: 3em;
+  transition: all .4s ease-in-out;
+}
+
+.animate-title:hover {
+  padding-left: 4em;
+}
+
+.panel-icon {
+  position: absolute;
+  left: 1em;
+  top: 33%;
+}
+
 a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
     transform: rotate(-180deg);
 }
