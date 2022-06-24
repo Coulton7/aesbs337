@@ -1618,6 +1618,7 @@ div.user-picture>img {
   position: absolute;
   left: 1em;
   top: 33%;
+  transition: all .4s ease-in-out;
 }
 
 a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
