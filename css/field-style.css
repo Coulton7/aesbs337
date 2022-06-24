@@ -1617,7 +1617,7 @@ div.user-picture>img {
 .panel-icon {
   position: absolute;
   left: 1em;
-  top: 33%;
+  top: 20%;
   transition: all .4s ease-in-out;
 }
 
