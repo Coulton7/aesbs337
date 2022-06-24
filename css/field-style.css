@@ -1587,8 +1587,26 @@ div.user-picture>img {
   font-size: inherit;
 }
 
+.borderless-panel {
+  border: none;
+}
+
 .panel-heading {
   height: 100%;
+}
+
+.blue-panel {
+  background-color: #002a5b;
+  background-image: none;
+  color:#ffffff
+}
+
+.panel-title {
+  font-size: inherit;
+}
+
+a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
+    transform: rotate(-180deg);
 }
 
 .widget-flex {
