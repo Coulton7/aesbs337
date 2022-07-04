@@ -1,4 +1,4 @@
-(function($){
+(function($) {
   $(document).ready(function() {
 
     function getUrlVars()
@@ -15,8 +15,21 @@
     }
 
     var salesString = getUrlVars()["s"];
-    if(salesString=='m'){
-      document.getElementById('sales-ml').style.display = 'block';
-    }
+
+      switch(true){
+
+      case(salesString == "ml"):
+        document.getElementById('sales-ml').style.display='block';
+        break;
+      case(salesString == "sj"):
+        document.getElementById('sales-sj').style.display='block';
+        break;
+      case(salesString == "rs"):
+        document.getElementById('sales-rs').style.display='block';
+        break;
+      default:
+        document.getElementById('sales').style.display="block";
+        break;
+    });
   });
 })(jQuery);
