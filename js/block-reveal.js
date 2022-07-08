@@ -16,7 +16,7 @@
 
     var salesString = getUrlVars()["s"];
 
-      switch(true) {
+      switch(salesString) {
 
       case(salesString == "ml"):
         document.getElementById('sales-ml').style.display='block';
