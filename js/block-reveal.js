@@ -30,6 +30,6 @@
       default:
         document.getElementById('sales').style.display="block";
         break;
-    });
+    }
   });
 })(jQuery);
