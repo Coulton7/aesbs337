@@ -15,21 +15,19 @@
     }
 
     var salesString = getUrlVars()["s"];
+    if(salesString == 'ml') {
+      document.getElementById('sales-ml').style.display = 'block';
+      document.getElementById('sales').style.display = 'none';
+    }
+    else if(salesString == 'sj') {
+      document.getElementById('sales-sj').style.display = 'block';
+      document.getElementById('sales').style.display = 'none';
+    }
+    else if(salesString == 'rs') {
+      document.getElementById('sales-rs').style.display = 'block';
+      document.getElementById('sales').style.display = 'none';
+    }
 
-      switch(salesString) {
-
-      case(salesString == "ml"):
-        document.getElementById('sales-ml').style.display='block';
-        break;
-      case(salesString == "sj"):
-        document.getElementById('sales-sj').style.display='block';
-        break;
-      case(salesString == "rs"):
-        document.getElementById('sales-rs').style.display='block';
-        break;
-      default:
-        document.getElementById('sales').style.display="block";
-        break;
     }
   });
 })(jQuery);
