@@ -1,7 +1,7 @@
 (function($) {
   $(document).ready(function() {
 
-    function getUrlTag()
+    function getUrlVars()
     {
       var option = [], tag;
       var tags = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -14,7 +14,7 @@
       return option;
     }
 
-    var salesString = getUrlTag()["s"];
+    var salesString = getUrlVars()["s"];
     if(salesString == 'ml') {
       document.getElementById('sales-ml').style.display = 'block';
       document.getElementById('sales').style.display = 'none';
