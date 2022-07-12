@@ -1,20 +1,20 @@
 (function($) {
   $(document).ready(function() {
 
-    function getUrlVars()
+    function getUrlTag()
     {
-      var vars = [], hash;
-      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-      for(var i = 0; i < hashes.length; i++)
+      var option = [], tag;
+      var tags = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+      for(var i = 0; i < tags.length; i++)
       {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
+        tag = tags[i].split('=');
+        option.push(tag[0]);
+        option[tag[0]] = tag[1];
       }
-      return vars;
+      return option;
     }
 
-    var salesString = getUrlVars()["s"];
+    var salesString = getUrlTag()["s"];
     if(salesString == 'ml') {
       document.getElementById('sales-ml').style.display = 'block';
       document.getElementById('sales').style.display = 'none';
