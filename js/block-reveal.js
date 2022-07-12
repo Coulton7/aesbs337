@@ -27,7 +27,5 @@
       document.getElementById('sales-rs').style.display = 'block';
       document.getElementById('sales').style.display = 'none';
     }
-
-    }
   });
 })(jQuery);
