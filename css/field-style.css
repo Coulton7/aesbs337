@@ -2033,6 +2033,11 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   display: none;
 }
 
+.comment-wrapper .title {
+  visibility: hidden;
+  display: none;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
