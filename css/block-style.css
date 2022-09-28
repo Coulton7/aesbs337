@@ -732,7 +732,7 @@ blockquote {
   text-align: center;
 }
 
-.block-productenquiry, .block-solutionsenquiry {
+.block-productenquiry{
   width: 100%;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -740,7 +740,11 @@ blockquote {
   position: relative;
 }
 
-.block-productenquiry::before, .block-solutionsenquiry::before {
+.block-solutionsenquiry {
+  background-size: cover;
+}
+
+.block-productenquiry::before {
   content: " ";
   height: 100%;
   position: absolute;
@@ -853,9 +857,13 @@ blockquote {
     z-index: 10;
   }
 
-  .block-productenquiry, .block-solutionsenquiry {
+  .block-productenquiry {
     background-size: 100%;
   }
+
+   .block-solutionsenquiry{
+     background-size: cover;
+   }
 }
 
 @media screen and (min-width: 768px) {
@@ -877,8 +885,12 @@ blockquote {
     z-index: 10;
   }
 
-  .block-productenquiry, .block-solutionsenquiry {
+  .block-productenquiry {
     background-size: 60%;
+  }
+
+  .block-solutionsenquiry{
+    background-size: cover;
   }
 }
 
