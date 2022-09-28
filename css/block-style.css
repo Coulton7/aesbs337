@@ -763,6 +763,12 @@ blockquote {
   -webkit-backdrop-filter: blur(3px);
 }
 
+.white-backdrop {
+  backdrop-filter: blur(10px)
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 /* above is the background variations that can be provided to certain blocks*/
 /*RRSSB*/
 .rrssb {
