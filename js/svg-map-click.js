@@ -297,7 +297,7 @@
       $('body').addClass("noscroll");
       $('.location-pop-up').dialog({
         open: function(event, ui) {
-          $('.ui-dialog-titlebar-close').removeClass("ui-button-icon-primary ui-icon ui-icon-closethick").html('<span class="close-dialog">x</span>');
+          $('.ui-dialog-titlebar-close').removeClass("ui-button-icon-primary ui-icon ui-icon-closethick").html('<span class="close-dialog"><i class="fas fa-bars"></i></span>');
           $('.ui-dialog-title').addClass('h2').addClass('text-center');
           $('.ui-dialog-content').scrollTop(0);
         },
