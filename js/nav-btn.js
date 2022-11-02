@@ -1,10 +1,10 @@
 (function($){
-    $(document).ready(function() {
+  $(document).ready(function() {
+    var x = document.getElementById('myNav');
+    var y = document.getElementById('main-nav');
     $("#overlay-btn").click(
-    function navBtn() {
+      function navBtn() {
         document.getElementById('overlay-btn').classList.toggle("change");
-        var x = document.getElementById('myNav');
-        var y = document.getElementById('main-nav');
         if (x.style.height === "100%") {
             x.style.height = "0%";
             $('.main').removeClass('active');
@@ -15,6 +15,12 @@
             $(y).addClass('fixed-top');
         } else {
             x.style.height = "100%";
+            if($('#prodForm').hasClass('in')) {
+              $('#prodForm').modal('hide');
+            }
+            if($('#location-details').dialog('isOpen') === true) {
+              $('#location-details').dialog('close');
+            }
             $('.main').addClass('active');
             $("body").addClass('noscroll');
             $('#overlay-btn').removeClass('overlay-btn');
@@ -22,14 +28,12 @@
             $('.navigation_col').addClass('overlay-menu');
             $(y).removeClass('fixed-top');
         }
-    });
+      });
 
-    $("#footer-overlay-btn").click(
-      function footerNavbtn(){
-        document.getElementById('footer-overlay-btn').classList.toggle("change");
-        var x = document.getElementById('myNav');
-        var y = document.getElementById('main-nav');
-        if (x.style.height === "100%"){
+      $("#footer-overlay-btn").click(
+        function footerNavbtn(){
+          document.getElementById('footer-overlay-btn').classList.toggle("change");
+          if (x.style.height === "100%"){
           x.style.height = "0%";
           $('.main').removeClass('active');
           $("body").removeClass('noscroll');
@@ -39,6 +43,12 @@
           $(y).addClass('fixed-top');
         } else {
           x.style.height = "100%";
+          if($('#prodForm').hasClass('in')) {
+            $('#prodForm').modal('hide');
+          }
+          if($('#location-details').dialog('isOpen') === true) {
+            $('#location-details').dialog('close');
+          }
           $('.main').addClass('active');
           $("body").addClass('noscroll');
           $('#overlay-btn').removeClass('overlay-btn');
