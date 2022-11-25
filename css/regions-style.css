@@ -249,7 +249,7 @@ html {
 /*alters the background for the navbar*/
 .fit-menu {
   float: right;
-  display: inline-block;
+  display: block;
   height: inherit;
 }
 
