@@ -35,7 +35,7 @@
 
 .search-block {
   width: 25em;
-  display: inline-block;
+  display: block;
   padding-right: 0;
   float: left !important;
   margin-left: 1.25em;
@@ -908,7 +908,7 @@ blockquote {
 
   .region-right {
     float: right;
-    display: inline-block;
+    display: block;
     margin-bottom: -12px;
   }
 
