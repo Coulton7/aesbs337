@@ -42,11 +42,11 @@
   border: 1px solid #66afe9;
 }
 
-.blue-background a.chosen-single:hover, , .contact-form a.chosen-single:hover {
+.blue-background a.chosen-single:hover, .contact-form a.chosen-single:hover {
   color: #535454;
   border: 1px solid #66afe9;
   outline: 0;
-  webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
 }
 
@@ -311,7 +311,7 @@ ul.resource-cats a, ul.about-us-cats a {
 }
 
 .change:after {
-  display: inline-block;
+  display: block;
   content: "\00d7";
   color: #ffffff;
   position: fixed;
