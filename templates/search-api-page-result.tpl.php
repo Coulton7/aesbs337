@@ -65,6 +65,9 @@
     case 'bearing_protection':
       $contentType = 'Product';
     break;
+    case'seal_support_systems';
+      $contentType = 'Product';
+    break;
     case 'productbrochure':
       $contentType = 'Product Brochure';
     break;
