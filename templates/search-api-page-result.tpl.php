@@ -68,6 +68,9 @@
     case'seal_support_systems';
       $contentType = 'Product';
     break;
+    case 'cartridge_mechanical_seals';
+      $contentType = 'Product';
+    break;
     case 'productbrochure':
       $contentType = 'Product Brochure';
     break;
