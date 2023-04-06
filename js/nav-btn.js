@@ -21,9 +21,6 @@
             if($('#resForm').hasClass('in')) {
               $('#resForm').modal('hide')
             }
-            if($('#location-details').dialog('isOpen') === true) {
-              $('#location-details').dialog('close');
-            }
             $('.main').addClass('active');
             $("body").addClass('noscroll');
             $('#overlay-btn').removeClass('overlay-btn');
@@ -48,9 +45,6 @@
           x.style.height = "100%";
           if($('#prodForm').hasClass('in')) {
             $('#prodForm').modal('hide');
-          }
-          if($('#location-details').dialog('isOpen') === true) {
-            $('#location-details').dialog('close');
           }
           $('.main').addClass('active');
           $("body").addClass('noscroll');
