@@ -124,7 +124,7 @@
       $(this).css('min-height', '0');
       $(this).css('max-height', 'none');
       $(this).css('height', 'auto');
-      heights.push($(this).heights());
+      heights.push($(this).height());
     });
     var max = Math.max.apply(Math, heights);
     $(selector).each(function(){
@@ -151,12 +151,6 @@
   setTimeout(function(){
     $('.optionset-4panel-products').resize();
   }, 1000);
-
-  quoteSliderHeight();
-  });
-
-  $(document).ready(function() {
-    quoteSliderHeight();
   });
 
 })(jQuery);
