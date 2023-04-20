@@ -116,17 +116,38 @@
 
   });
 
-  $window.resize(function(){
+  function quoteSliderHeight() {
+    $('.optionset-quote-slider').each(function(){
+      var slideHeight = 0;
+      $(this).find('.slides > li').each(function(){
+        slideHeight = $(this).height();
+        if (slideHeight < slideHeight) {
+          slideHeight = slideHeight
+        }
+      });
+      $(this).find('ul.slides').css({'height' : slideHeight})
+    })
+  }
+
+  $(window).resize(function(){
     var gridSize = getGridSize();
 
     flexslider.vars.minItems = gridSize;
     flexslider.vars.maxItems = gridSize;
+
+    quoteSliderHeight();
   });
 
   $(window).load(function() {
   setTimeout(function(){
     $('.optionset-4panel-products').resize();
   }, 1000);
+
+  quoteSliderHeight();
+  });
+
+  $(document).ready(function() {
+    quoteSliderHeight();
   });
 
 })(jQuery);
