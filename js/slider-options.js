@@ -128,7 +128,7 @@
     });
     var max = Math.max.apply(Math, heights);
     $(selector).each(function(){
-      $(this).css('height', max + px);
+      $(this).css('height', max + 'px');
     })
   }
 
