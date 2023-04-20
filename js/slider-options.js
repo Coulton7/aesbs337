@@ -116,18 +116,25 @@
 
   });
 
-  function quoteSliderHeight() {
-    $('.optionset-quote-slider').each(function(){
-      var slideHeight = 0;
-      $(this).find('.slides > li').each(function(){
-        slideHeight = $(this).height();
-        if (slideHeight < slideHeight) {
-          slideHeight = slideHeight
-        }
-      });
-      $(this).find('ul.slides').css({'height' : slideHeight})
+  function setEqualHeight(selector) {
+    var heights = new Array();
+
+    $(selector).each(function(){
+
+      $(this).css('min-height', '0');
+      $(this).css('max-height', 'none');
+      $(this).css('height', 'auto');
+      heights.push($(this).heights());
+    });
+    var max = Math.max.apply(Math, heights);
+    $(selector).each(function(){
+      $(this).css('height', max + px);
     })
   }
+
+  $(document).ready(function() {
+    setEqualHeight('.optionset-quote-slider .slides li');
+  })
 
   $(window).resize(function(){
     var gridSize = getGridSize();
@@ -135,7 +142,9 @@
     flexslider.vars.minItems = gridSize;
     flexslider.vars.maxItems = gridSize;
 
-    quoteSliderHeight();
+    setTimeout(function(){
+      setEqualHeight('.optionset-quote-slider .slides li');
+    }, 120);
   });
 
   $(window).load(function() {
