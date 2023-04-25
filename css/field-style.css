@@ -2073,6 +2073,10 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   margin-bottom: 0;
 }
 
+.legal-consent-container .hs-form-booleancheckbox-display input {
+  margin: 8px 0 0;
+}
+
 @media screen and (max-width: 370px) {
   .noscroll .search-block {
     position: relative;
