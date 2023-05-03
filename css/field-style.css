@@ -2052,7 +2052,7 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   display: none;
 }
 
-.hs-visible-form input {
+.hs-visible-form input, .hs-visible-form textarea {
   color: #535354;
   border-radius: 10px;
   width: 100%;
