@@ -172,12 +172,12 @@
         break;
       case(link == "Land-Iowa"):
         state = "Iowa";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.IA').addClass('show');
         break;
       case(link == "Land-Missouri"):
         state = "Missouri";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.MO').addClass('show');
         break;
       case(link == "Land-Arkansas"):
@@ -203,22 +203,22 @@
         break;
       case(link == "Land-Kansas"):
         state = "Kansas";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.KS').addClass('show');
         break;
       case(link == "Land-Nebraska"):
         state = "Nebraska";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.NE').addClass('show');
         break;
       case(link =="Land-SouthDakota"):
         state = "South Dakota";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.SD').addClass('show');
         break;
       case(link == "Land-NorthDakota"):
         state = "North Dakota";
-        $('.Marion').addClass('show');
+        $('.Cedar').addClass('show');
         $('.ND').addClass('show');
         break;
       case(link == "Land-Montana"):
@@ -476,12 +476,12 @@
             break;
           case(link == "Land-Iowa"):
             state = "Iowa";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.IA').removeClass('show');
             break;
           case(link == "Land-Missouri"):
             state = "Missouri";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.MO').removeClass('show');
             break;
           case(link == "Land-Arkansas"):
@@ -507,22 +507,22 @@
             break;
           case(link == "Land-Kansas"):
             state = "Kansas";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.KS').removeClass('show');
             break;
           case(link == "Land-Nebraska"):
             state = "Nebraska";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.NE').removeClass('show');
             break;
           case(link =="Land-SouthDakota"):
             state = "South Dakota";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.SD').removeClass('show');
             break;
           case(link == "Land-NorthDakota"):
             state = "North Dakota";
-            $('.Marion').removeClass('show');
+            $('.Cedar').removeClass('show');
             $('.ND').removeClass('show');
             break;
           case(link == "Land-Montana"):
