@@ -404,6 +404,15 @@ blockquote {
   padding: 30px 50px 30px 50px;
 }
 
+.blue-feature-background {
+  background: #888C8F;
+  color: #FFFFFF;
+  background: -moz-radial-gradient(center, ellipse cover, #004a8c 0%, #002a5b 80%);
+  background: -webkit-radial-gradient(center, ellipse cover, #004a8c 0%, #002a5b 80%);
+  background: radial-gradient(ellipse at center, #004a8c 0%, #002A5B 80%);
+  padding: 30px 50px 30px 50px;
+}
+
 .chris-background.lazy-back {
   background-image: none;
   background-color: #efefef;
