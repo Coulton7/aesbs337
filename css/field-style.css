@@ -2244,7 +2244,7 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .change:after {
-    top: 2em;
+    top: 2.5em;
   }
 
   ul.resource-cats a, ul.about-us-cats a {
