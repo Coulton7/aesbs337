@@ -1050,6 +1050,10 @@ div.user-picture>img {
   display: none;
 }
 
+.product_brochure {
+  display: none;
+}
+
 .product {
   float: right;
   display: inline;
