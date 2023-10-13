@@ -569,6 +569,10 @@ html {
     display: none;
   }
 
+  .collapsed .navbar-nav {
+    padding-left: 0;
+  }
+
   .navbar-nav {
     padding-left: 11em;
   }
