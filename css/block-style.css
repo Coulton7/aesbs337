@@ -896,7 +896,7 @@ blockquote {
   }
 
   .footer-banner {
-    margin-bottom: -6em;
+    margin-bottom: -3em;
     z-index: 10;
   }
 
@@ -927,6 +927,11 @@ blockquote {
 
   .region-left {
     text-align: left;
+  }
+
+  .footer-banner {
+    margin-bottom: -6em;
+    z-index: 10;
   }
 
   .iceberg-blocktitle {
